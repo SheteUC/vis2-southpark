@@ -1,0 +1,418 @@
+[
+  {
+    "character": "Cartman",
+    "totalLines": 9774,
+    "totalWords": 130037,
+    "episodeCount": 244,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 532.9
+  },
+  {
+    "character": "Stan",
+    "totalLines": 7680,
+    "totalWords": 68977,
+    "episodeCount": 243,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 283.9
+  },
+  {
+    "character": "Kyle",
+    "totalLines": 7099,
+    "totalWords": 63736,
+    "episodeCount": 241,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 264.5
+  },
+  {
+    "character": "Butters",
+    "totalLines": 2602,
+    "totalWords": 29420,
+    "episodeCount": 165,
+    "seasonCount": 17,
+    "avgWordsPerEpisode": 178.3
+  },
+  {
+    "character": "Randy",
+    "totalLines": 2467,
+    "totalWords": 31121,
+    "episodeCount": 129,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 241.2
+  },
+  {
+    "character": "Mr. Garrison",
+    "totalLines": 1002,
+    "totalWords": 15088,
+    "episodeCount": 112,
+    "seasonCount": 16,
+    "avgWordsPerEpisode": 134.7
+  },
+  {
+    "character": "Chef",
+    "totalLines": 917,
+    "totalWords": 11178,
+    "episodeCount": 56,
+    "seasonCount": 11,
+    "avgWordsPerEpisode": 199.6
+  },
+  {
+    "character": "Kenny",
+    "totalLines": 881,
+    "totalWords": 4168,
+    "episodeCount": 161,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 25.9
+  },
+  {
+    "character": "Sharon",
+    "totalLines": 862,
+    "totalWords": 8602,
+    "episodeCount": 94,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 91.5
+  },
+  {
+    "character": "Mr. Mackey",
+    "totalLines": 633,
+    "totalWords": 10690,
+    "episodeCount": 93,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 114.9
+  },
+  {
+    "character": "Gerald",
+    "totalLines": 626,
+    "totalWords": 6814,
+    "episodeCount": 86,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 79.2
+  },
+  {
+    "character": "Jimmy",
+    "totalLines": 597,
+    "totalWords": 8436,
+    "episodeCount": 62,
+    "seasonCount": 15,
+    "avgWordsPerEpisode": 136.1
+  },
+  {
+    "character": "Wendy",
+    "totalLines": 585,
+    "totalWords": 6087,
+    "episodeCount": 50,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 121.7
+  },
+  {
+    "character": "Liane",
+    "totalLines": 582,
+    "totalWords": 5129,
+    "episodeCount": 86,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 59.6
+  },
+  {
+    "character": "Sheila",
+    "totalLines": 566,
+    "totalWords": 5667,
+    "episodeCount": 86,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 65.9
+  },
+  {
+    "character": "Jimbo",
+    "totalLines": 556,
+    "totalWords": 6934,
+    "episodeCount": 64,
+    "seasonCount": 16,
+    "avgWordsPerEpisode": 108.3
+  },
+  {
+    "character": "Announcer",
+    "totalLines": 407,
+    "totalWords": 7491,
+    "episodeCount": 128,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 58.5
+  },
+  {
+    "character": "Stephen",
+    "totalLines": 357,
+    "totalWords": 4724,
+    "episodeCount": 53,
+    "seasonCount": 15,
+    "avgWordsPerEpisode": 89.1
+  },
+  {
+    "character": "Craig",
+    "totalLines": 326,
+    "totalWords": 3035,
+    "episodeCount": 73,
+    "seasonCount": 16,
+    "avgWordsPerEpisode": 41.6
+  },
+  {
+    "character": "Clyde",
+    "totalLines": 317,
+    "totalWords": 2537,
+    "episodeCount": 91,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 27.9
+  },
+  {
+    "character": "Jesus",
+    "totalLines": 312,
+    "totalWords": 3803,
+    "episodeCount": 24,
+    "seasonCount": 11,
+    "avgWordsPerEpisode": 158.5
+  },
+  {
+    "character": "Linda",
+    "totalLines": 290,
+    "totalWords": 2700,
+    "episodeCount": 49,
+    "seasonCount": 13,
+    "avgWordsPerEpisode": 55.1
+  },
+  {
+    "character": "Principal Victoria",
+    "totalLines": 289,
+    "totalWords": 3869,
+    "episodeCount": 55,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 70.3
+  },
+  {
+    "character": "Mrs. Garrison",
+    "totalLines": 282,
+    "totalWords": 4993,
+    "episodeCount": 21,
+    "seasonCount": 4,
+    "avgWordsPerEpisode": 237.8
+  },
+  {
+    "character": "Terrance",
+    "totalLines": 282,
+    "totalWords": 2407,
+    "episodeCount": 23,
+    "seasonCount": 13,
+    "avgWordsPerEpisode": 104.7
+  },
+  {
+    "character": "Token",
+    "totalLines": 278,
+    "totalWords": 2422,
+    "episodeCount": 48,
+    "seasonCount": 15,
+    "avgWordsPerEpisode": 50.5
+  },
+  {
+    "character": "Timmy",
+    "totalLines": 263,
+    "totalWords": 519,
+    "episodeCount": 28,
+    "seasonCount": 11,
+    "avgWordsPerEpisode": 18.5
+  },
+  {
+    "character": "Mayor",
+    "totalLines": 245,
+    "totalWords": 3350,
+    "episodeCount": 22,
+    "seasonCount": 5,
+    "avgWordsPerEpisode": 152.3
+  },
+  {
+    "character": "Tweek",
+    "totalLines": 233,
+    "totalWords": 1526,
+    "episodeCount": 21,
+    "seasonCount": 9,
+    "avgWordsPerEpisode": 72.7
+  },
+  {
+    "character": "Phillip",
+    "totalLines": 222,
+    "totalWords": 1856,
+    "episodeCount": 23,
+    "seasonCount": 14,
+    "avgWordsPerEpisode": 80.7
+  },
+  {
+    "character": "Bebe",
+    "totalLines": 221,
+    "totalWords": 2052,
+    "episodeCount": 33,
+    "seasonCount": 14,
+    "avgWordsPerEpisode": 62.2
+  },
+  {
+    "character": "Man",
+    "totalLines": 211,
+    "totalWords": 1828,
+    "episodeCount": 93,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 19.7
+  },
+  {
+    "character": "Woman",
+    "totalLines": 204,
+    "totalWords": 1885,
+    "episodeCount": 82,
+    "seasonCount": 18,
+    "avgWordsPerEpisode": 23.0
+  },
+  {
+    "character": "Satan",
+    "totalLines": 203,
+    "totalWords": 2851,
+    "episodeCount": 8,
+    "seasonCount": 7,
+    "avgWordsPerEpisode": 356.4
+  },
+  {
+    "character": "Ike",
+    "totalLines": 200,
+    "totalWords": 1154,
+    "episodeCount": 39,
+    "seasonCount": 16,
+    "avgWordsPerEpisode": 29.6
+  },
+  {
+    "character": "Michael",
+    "totalLines": 198,
+    "totalWords": 2995,
+    "episodeCount": 15,
+    "seasonCount": 9,
+    "avgWordsPerEpisode": 199.7
+  },
+  {
+    "character": "Shelly",
+    "totalLines": 196,
+    "totalWords": 1689,
+    "episodeCount": 27,
+    "seasonCount": 15,
+    "avgWordsPerEpisode": 62.6
+  },
+  {
+    "character": "Chris",
+    "totalLines": 193,
+    "totalWords": 2399,
+    "episodeCount": 23,
+    "seasonCount": 11,
+    "avgWordsPerEpisode": 104.3
+  },
+  {
+    "character": "Scott",
+    "totalLines": 192,
+    "totalWords": 2141,
+    "episodeCount": 10,
+    "seasonCount": 10,
+    "avgWordsPerEpisode": 214.1
+  },
+  {
+    "character": "Pip",
+    "totalLines": 189,
+    "totalWords": 1873,
+    "episodeCount": 15,
+    "seasonCount": 6,
+    "avgWordsPerEpisode": 124.9
+  },
+  {
+    "character": "Officer Barbrady",
+    "totalLines": 174,
+    "totalWords": 1736,
+    "episodeCount": 28,
+    "seasonCount": 10,
+    "avgWordsPerEpisode": 62.0
+  },
+  {
+    "character": "Ms. Choksondik",
+    "totalLines": 155,
+    "totalWords": 2420,
+    "episodeCount": 13,
+    "seasonCount": 3,
+    "avgWordsPerEpisode": 186.2
+  },
+  {
+    "character": "Narrator",
+    "totalLines": 151,
+    "totalWords": 4939,
+    "episodeCount": 24,
+    "seasonCount": 15,
+    "avgWordsPerEpisode": 205.8
+  },
+  {
+    "character": "Dr. Doctor",
+    "totalLines": 151,
+    "totalWords": 2446,
+    "episodeCount": 20,
+    "seasonCount": 11,
+    "avgWordsPerEpisode": 122.3
+  },
+  {
+    "character": "Barbrady",
+    "totalLines": 150,
+    "totalWords": 1501,
+    "episodeCount": 20,
+    "seasonCount": 9,
+    "avgWordsPerEpisode": 75.0
+  },
+  {
+    "character": "Stuart",
+    "totalLines": 148,
+    "totalWords": 1495,
+    "episodeCount": 29,
+    "seasonCount": 15,
+    "avgWordsPerEpisode": 51.6
+  },
+  {
+    "character": "Mephesto",
+    "totalLines": 141,
+    "totalWords": 1965,
+    "episodeCount": 10,
+    "seasonCount": 4,
+    "avgWordsPerEpisode": 196.5
+  },
+  {
+    "character": "Doctor",
+    "totalLines": 140,
+    "totalWords": 2565,
+    "episodeCount": 26,
+    "seasonCount": 13,
+    "avgWordsPerEpisode": 98.7
+  },
+  {
+    "character": "Kids",
+    "totalLines": 137,
+    "totalWords": 396,
+    "episodeCount": 38,
+    "seasonCount": 15,
+    "avgWordsPerEpisode": 10.4
+  },
+  {
+    "character": "General",
+    "totalLines": 129,
+    "totalWords": 1756,
+    "episodeCount": 10,
+    "seasonCount": 8,
+    "avgWordsPerEpisode": 175.6
+  },
+  {
+    "character": "Reporter",
+    "totalLines": 125,
+    "totalWords": 3949,
+    "episodeCount": 47,
+    "seasonCount": 16,
+    "avgWordsPerEpisode": 84.0
+  },
+  {
+    "character": "Man 2",
+    "totalLines": 123,
+    "totalWords": 890,
+    "episodeCount": 75,
+    "seasonCount": 16,
+    "avgWordsPerEpisode": 11.9
+  }
+]

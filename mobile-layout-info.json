@@ -1,0 +1,54 @@
+{
+  "viewport": {
+    "w": 500,
+    "h": 850
+  },
+  "heroPanel": {
+    "display": "grid",
+    "gridTemplateColumns": "169.922px 136.062px",
+    "width": 406,
+    "gap": "32px"
+  },
+  "heroSide": {
+    "display": "grid",
+    "gridTemplateColumns": "136.062px",
+    "width": 136.0625,
+    "gap": "16px"
+  },
+  "summaryGrid": {
+    "display": "grid",
+    "gridTemplateColumns": "89.5px 89.5px 89.5px 89.5px",
+    "width": 406,
+    "gap": "16px"
+  },
+  "bulletinGrid": {
+    "display": "block",
+    "gridTemplateColumns": "none",
+    "width": 402,
+    "gap": "normal"
+  },
+  "funFactsGrid": {
+    "display": "grid",
+    "gridTemplateColumns": "128px 114px 132px",
+    "width": 406,
+    "gap": "16px"
+  },
+  "storyGrid": {
+    "display": "grid",
+    "gridTemplateColumns": "261px 129px",
+    "width": 406,
+    "gap": "16px"
+  },
+  "controlPanel": {
+    "display": "grid",
+    "gridTemplateColumns": "110px 110px 110px",
+    "width": 406,
+    "gap": "16px"
+  },
+  "pageShell": {
+    "display": "grid",
+    "gridTemplateColumns": "406px",
+    "width": 358,
+    "gap": "32px"
+  }
+}

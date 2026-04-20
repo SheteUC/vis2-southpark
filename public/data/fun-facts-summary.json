@@ -1,0 +1,761 @@
+{
+  "dataset": {
+    "title": "South Park",
+    "datasetTitle": "South Park dialogue dataset",
+    "sourceCsv": "https://raw.githubusercontent.com/yaylinda/south-park-dialog/master/data.csv",
+    "sourceRepo": "https://github.com/yaylinda/south-park-dialog",
+    "externalSources": {
+      "wikipedia": "https://en.wikipedia.org/wiki/South_Park",
+      "comedyCentral": "http://www.comedycentral.com"
+    },
+    "description": "Level 2 character and text explorer built from public South Park dialogue transcripts.",
+    "datasetCoverageNote": "This dataset contains Seasons 1\u201318 and 257 episode transcripts.",
+    "seasonsInDataset": 18,
+    "episodesInDataset": 257,
+    "linesInDataset": 70879,
+    "wordsInDataset": 813662,
+    "majorCharacterCount": 52
+  },
+  "top_words_total": [
+    {
+      "character": "Cartman",
+      "totalLines": 9774,
+      "totalWords": 130037,
+      "episodeCount": 244,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 532.9
+    },
+    {
+      "character": "Stan",
+      "totalLines": 7680,
+      "totalWords": 68977,
+      "episodeCount": 243,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 283.9
+    },
+    {
+      "character": "Kyle",
+      "totalLines": 7099,
+      "totalWords": 63736,
+      "episodeCount": 241,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 264.5
+    },
+    {
+      "character": "Randy",
+      "totalLines": 2467,
+      "totalWords": 31121,
+      "episodeCount": 129,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 241.2
+    },
+    {
+      "character": "Butters",
+      "totalLines": 2602,
+      "totalWords": 29420,
+      "episodeCount": 165,
+      "seasonCount": 17,
+      "avgWordsPerEpisode": 178.3
+    },
+    {
+      "character": "Mr. Garrison",
+      "totalLines": 1002,
+      "totalWords": 15088,
+      "episodeCount": 112,
+      "seasonCount": 16,
+      "avgWordsPerEpisode": 134.7
+    },
+    {
+      "character": "Chef",
+      "totalLines": 917,
+      "totalWords": 11178,
+      "episodeCount": 56,
+      "seasonCount": 11,
+      "avgWordsPerEpisode": 199.6
+    },
+    {
+      "character": "Mr. Mackey",
+      "totalLines": 633,
+      "totalWords": 10690,
+      "episodeCount": 93,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 114.9
+    },
+    {
+      "character": "Sharon",
+      "totalLines": 862,
+      "totalWords": 8602,
+      "episodeCount": 94,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 91.5
+    },
+    {
+      "character": "Jimmy",
+      "totalLines": 597,
+      "totalWords": 8436,
+      "episodeCount": 62,
+      "seasonCount": 15,
+      "avgWordsPerEpisode": 136.1
+    }
+  ],
+  "top_lines_total": [
+    {
+      "character": "Cartman",
+      "totalLines": 9774,
+      "totalWords": 130037,
+      "episodeCount": 244,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 532.9
+    },
+    {
+      "character": "Stan",
+      "totalLines": 7680,
+      "totalWords": 68977,
+      "episodeCount": 243,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 283.9
+    },
+    {
+      "character": "Kyle",
+      "totalLines": 7099,
+      "totalWords": 63736,
+      "episodeCount": 241,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 264.5
+    },
+    {
+      "character": "Butters",
+      "totalLines": 2602,
+      "totalWords": 29420,
+      "episodeCount": 165,
+      "seasonCount": 17,
+      "avgWordsPerEpisode": 178.3
+    },
+    {
+      "character": "Randy",
+      "totalLines": 2467,
+      "totalWords": 31121,
+      "episodeCount": 129,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 241.2
+    },
+    {
+      "character": "Mr. Garrison",
+      "totalLines": 1002,
+      "totalWords": 15088,
+      "episodeCount": 112,
+      "seasonCount": 16,
+      "avgWordsPerEpisode": 134.7
+    },
+    {
+      "character": "Chef",
+      "totalLines": 917,
+      "totalWords": 11178,
+      "episodeCount": 56,
+      "seasonCount": 11,
+      "avgWordsPerEpisode": 199.6
+    },
+    {
+      "character": "Kenny",
+      "totalLines": 881,
+      "totalWords": 4168,
+      "episodeCount": 161,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 25.9
+    },
+    {
+      "character": "Sharon",
+      "totalLines": 862,
+      "totalWords": 8602,
+      "episodeCount": 94,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 91.5
+    },
+    {
+      "character": "Mr. Mackey",
+      "totalLines": 633,
+      "totalWords": 10690,
+      "episodeCount": 93,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 114.9
+    }
+  ],
+  "top_episode_presence": [
+    {
+      "character": "Cartman",
+      "totalLines": 9774,
+      "totalWords": 130037,
+      "episodeCount": 244,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 532.9
+    },
+    {
+      "character": "Stan",
+      "totalLines": 7680,
+      "totalWords": 68977,
+      "episodeCount": 243,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 283.9
+    },
+    {
+      "character": "Kyle",
+      "totalLines": 7099,
+      "totalWords": 63736,
+      "episodeCount": 241,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 264.5
+    },
+    {
+      "character": "Butters",
+      "totalLines": 2602,
+      "totalWords": 29420,
+      "episodeCount": 165,
+      "seasonCount": 17,
+      "avgWordsPerEpisode": 178.3
+    },
+    {
+      "character": "Kenny",
+      "totalLines": 881,
+      "totalWords": 4168,
+      "episodeCount": 161,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 25.9
+    },
+    {
+      "character": "Randy",
+      "totalLines": 2467,
+      "totalWords": 31121,
+      "episodeCount": 129,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 241.2
+    },
+    {
+      "character": "Announcer",
+      "totalLines": 407,
+      "totalWords": 7491,
+      "episodeCount": 128,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 58.5
+    },
+    {
+      "character": "Mr. Garrison",
+      "totalLines": 1002,
+      "totalWords": 15088,
+      "episodeCount": 112,
+      "seasonCount": 16,
+      "avgWordsPerEpisode": 134.7
+    },
+    {
+      "character": "Sharon",
+      "totalLines": 862,
+      "totalWords": 8602,
+      "episodeCount": 94,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 91.5
+    },
+    {
+      "character": "Mr. Mackey",
+      "totalLines": 633,
+      "totalWords": 10690,
+      "episodeCount": 93,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 114.9
+    }
+  ],
+  "highest_avg_words_per_episode": [
+    {
+      "character": "Cartman",
+      "totalLines": 9774,
+      "totalWords": 130037,
+      "episodeCount": 244,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 532.9
+    },
+    {
+      "character": "Satan",
+      "totalLines": 203,
+      "totalWords": 2851,
+      "episodeCount": 8,
+      "seasonCount": 7,
+      "avgWordsPerEpisode": 356.4
+    },
+    {
+      "character": "Stan",
+      "totalLines": 7680,
+      "totalWords": 68977,
+      "episodeCount": 243,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 283.9
+    },
+    {
+      "character": "Kyle",
+      "totalLines": 7099,
+      "totalWords": 63736,
+      "episodeCount": 241,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 264.5
+    },
+    {
+      "character": "Randy",
+      "totalLines": 2467,
+      "totalWords": 31121,
+      "episodeCount": 129,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 241.2
+    },
+    {
+      "character": "Mrs. Garrison",
+      "totalLines": 282,
+      "totalWords": 4993,
+      "episodeCount": 21,
+      "seasonCount": 4,
+      "avgWordsPerEpisode": 237.8
+    },
+    {
+      "character": "Scott",
+      "totalLines": 192,
+      "totalWords": 2141,
+      "episodeCount": 10,
+      "seasonCount": 10,
+      "avgWordsPerEpisode": 214.1
+    },
+    {
+      "character": "Narrator",
+      "totalLines": 151,
+      "totalWords": 4939,
+      "episodeCount": 24,
+      "seasonCount": 15,
+      "avgWordsPerEpisode": 205.8
+    },
+    {
+      "character": "Michael",
+      "totalLines": 198,
+      "totalWords": 2995,
+      "episodeCount": 15,
+      "seasonCount": 9,
+      "avgWordsPerEpisode": 199.7
+    },
+    {
+      "character": "Chef",
+      "totalLines": 917,
+      "totalWords": 11178,
+      "episodeCount": 56,
+      "seasonCount": 11,
+      "avgWordsPerEpisode": 199.6
+    }
+  ],
+  "quiet_ubiquitous": [
+    {
+      "character": "Man 2",
+      "totalLines": 123,
+      "totalWords": 890,
+      "episodeCount": 75,
+      "seasonCount": 16,
+      "avgWordsPerEpisode": 11.9
+    },
+    {
+      "character": "Man",
+      "totalLines": 211,
+      "totalWords": 1828,
+      "episodeCount": 93,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 19.7
+    },
+    {
+      "character": "Woman",
+      "totalLines": 204,
+      "totalWords": 1885,
+      "episodeCount": 82,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 23.0
+    },
+    {
+      "character": "Kenny",
+      "totalLines": 881,
+      "totalWords": 4168,
+      "episodeCount": 161,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 25.9
+    },
+    {
+      "character": "Clyde",
+      "totalLines": 317,
+      "totalWords": 2537,
+      "episodeCount": 91,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 27.9
+    },
+    {
+      "character": "Craig",
+      "totalLines": 326,
+      "totalWords": 3035,
+      "episodeCount": 73,
+      "seasonCount": 16,
+      "avgWordsPerEpisode": 41.6
+    },
+    {
+      "character": "Announcer",
+      "totalLines": 407,
+      "totalWords": 7491,
+      "episodeCount": 128,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 58.5
+    },
+    {
+      "character": "Liane",
+      "totalLines": 582,
+      "totalWords": 5129,
+      "episodeCount": 86,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 59.6
+    },
+    {
+      "character": "Sheila",
+      "totalLines": 566,
+      "totalWords": 5667,
+      "episodeCount": 86,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 65.9
+    },
+    {
+      "character": "Gerald",
+      "totalLines": 626,
+      "totalWords": 6814,
+      "episodeCount": 86,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 79.2
+    }
+  ],
+  "most_efficient_talkers": [
+    {
+      "character": "Cartman",
+      "totalLines": 9774,
+      "totalWords": 130037,
+      "episodeCount": 244,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 532.9
+    },
+    {
+      "character": "Stan",
+      "totalLines": 7680,
+      "totalWords": 68977,
+      "episodeCount": 243,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 283.9
+    },
+    {
+      "character": "Kyle",
+      "totalLines": 7099,
+      "totalWords": 63736,
+      "episodeCount": 241,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 264.5
+    },
+    {
+      "character": "Randy",
+      "totalLines": 2467,
+      "totalWords": 31121,
+      "episodeCount": 129,
+      "seasonCount": 18,
+      "avgWordsPerEpisode": 241.2
+    },
+    {
+      "character": "Mrs. Garrison",
+      "totalLines": 282,
+      "totalWords": 4993,
+      "episodeCount": 21,
+      "seasonCount": 4,
+      "avgWordsPerEpisode": 237.8
+    },
+    {
+      "character": "Narrator",
+      "totalLines": 151,
+      "totalWords": 4939,
+      "episodeCount": 24,
+      "seasonCount": 15,
+      "avgWordsPerEpisode": 205.8
+    },
+    {
+      "character": "Chef",
+      "totalLines": 917,
+      "totalWords": 11178,
+      "episodeCount": 56,
+      "seasonCount": 11,
+      "avgWordsPerEpisode": 199.6
+    },
+    {
+      "character": "Butters",
+      "totalLines": 2602,
+      "totalWords": 29420,
+      "episodeCount": 165,
+      "seasonCount": 17,
+      "avgWordsPerEpisode": 178.3
+    },
+    {
+      "character": "Jesus",
+      "totalLines": 312,
+      "totalWords": 3803,
+      "episodeCount": 24,
+      "seasonCount": 11,
+      "avgWordsPerEpisode": 158.5
+    },
+    {
+      "character": "Mayor",
+      "totalLines": 245,
+      "totalWords": 3350,
+      "episodeCount": 22,
+      "seasonCount": 5,
+      "avgWordsPerEpisode": 152.3
+    }
+  ],
+  "loudest_seasons": [
+    {
+      "season": 2,
+      "words": 63513,
+      "lines": 6416
+    },
+    {
+      "season": 4,
+      "words": 60445,
+      "lines": 5680
+    },
+    {
+      "season": 3,
+      "words": 58370,
+      "lines": 5798
+    },
+    {
+      "season": 6,
+      "words": 58178,
+      "lines": 5131
+    },
+    {
+      "season": 5,
+      "words": 48913,
+      "lines": 4414
+    },
+    {
+      "season": 7,
+      "words": 48777,
+      "lines": 4236
+    }
+  ],
+  "quietest_seasons": [
+    {
+      "season": 1,
+      "words": 40294,
+      "lines": 4170
+    },
+    {
+      "season": 10,
+      "words": 39983,
+      "lines": 3471
+    },
+    {
+      "season": 11,
+      "words": 39414,
+      "lines": 3478
+    },
+    {
+      "season": 12,
+      "words": 38065,
+      "lines": 3307
+    },
+    {
+      "season": 18,
+      "words": 32306,
+      "lines": 2522
+    },
+    {
+      "season": 17,
+      "words": 32170,
+      "lines": 2305
+    }
+  ],
+  "wordiest_episodes": [
+    {
+      "episodeKey": "06x16",
+      "words": 4267,
+      "lines": 311
+    },
+    {
+      "episodeKey": "03x08",
+      "words": 4131,
+      "lines": 359
+    },
+    {
+      "episodeKey": "04x02",
+      "words": 4009,
+      "lines": 373
+    },
+    {
+      "episodeKey": "04x10",
+      "words": 3970,
+      "lines": 350
+    },
+    {
+      "episodeKey": "02x12",
+      "words": 3965,
+      "lines": 444
+    },
+    {
+      "episodeKey": "05x05",
+      "words": 3949,
+      "lines": 335
+    },
+    {
+      "episodeKey": "06x04",
+      "words": 3918,
+      "lines": 382
+    },
+    {
+      "episodeKey": "04x09",
+      "words": 3909,
+      "lines": 360
+    },
+    {
+      "episodeKey": "02x16",
+      "words": 3886,
+      "lines": 410
+    },
+    {
+      "episodeKey": "05x11",
+      "words": 3863,
+      "lines": 326
+    },
+    {
+      "episodeKey": "02x06",
+      "words": 3851,
+      "lines": 329
+    },
+    {
+      "episodeKey": "06x01",
+      "words": 3820,
+      "lines": 355
+    }
+  ],
+  "phrase_leaders": [
+    {
+      "character": "Cartman",
+      "phrase": "you guys",
+      "count": 642
+    },
+    {
+      "character": "Stan",
+      "phrase": "you guys",
+      "count": 189
+    },
+    {
+      "character": "Kyle",
+      "phrase": "the hell",
+      "count": 136
+    },
+    {
+      "character": "Mr. Garrison",
+      "phrase": "mr hat",
+      "count": 95
+    },
+    {
+      "character": "Randy",
+      "phrase": "all right",
+      "count": 54
+    },
+    {
+      "character": "Butters",
+      "phrase": "i'm not",
+      "count": 43
+    },
+    {
+      "character": "Chef",
+      "phrase": "hello there",
+      "count": 37
+    },
+    {
+      "character": "Mr. Mackey",
+      "phrase": "need to",
+      "count": 34
+    },
+    {
+      "character": "Announcer",
+      "phrase": "south park",
+      "count": 32
+    },
+    {
+      "character": "Kenny",
+      "phrase": "you guys",
+      "count": 31
+    },
+    {
+      "character": "Craig",
+      "phrase": "you guys",
+      "count": 29
+    },
+    {
+      "character": "Mayor",
+      "phrase": "south park",
+      "count": 22
+    }
+  ],
+  "word_leaders": [
+    {
+      "character": "Cartman",
+      "word": "i'm",
+      "count": 1086
+    },
+    {
+      "character": "Stan",
+      "word": "dude",
+      "count": 854
+    },
+    {
+      "character": "Kyle",
+      "word": "dude",
+      "count": 605
+    },
+    {
+      "character": "Butters",
+      "word": "i'm",
+      "count": 310
+    },
+    {
+      "character": "Mr. Mackey",
+      "word": "m'kay",
+      "count": 294
+    },
+    {
+      "character": "Randy",
+      "word": "i'm",
+      "count": 252
+    },
+    {
+      "character": "Chef",
+      "word": "children",
+      "count": 243
+    },
+    {
+      "character": "Timmy",
+      "word": "timmih",
+      "count": 148
+    },
+    {
+      "character": "Sharon",
+      "word": "randy",
+      "count": 143
+    },
+    {
+      "character": "Sheila",
+      "word": "kyle",
+      "count": 129
+    },
+    {
+      "character": "Liane",
+      "word": "eric",
+      "count": 122
+    },
+    {
+      "character": "Mr. Garrison",
+      "word": "children",
+      "count": 119
+    }
+  ]
+}

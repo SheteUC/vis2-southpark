@@ -1,0 +1,114 @@
+{
+  "title": "South Park",
+  "subtitle": "A dialogue anatomy",
+  "description": "Level 1 narrative analysis of South Park dialogue across all available seasons.",
+  "sourceCsv": "https://raw.githubusercontent.com/yaylinda/south-park-dialog/master/data.csv",
+  "sourceRepo": "https://github.com/yaylinda/south-park-dialog",
+  "seasonsInDataset": 18,
+  "seasonRange": [
+    1,
+    18
+  ],
+  "episodesInDataset": 257,
+  "linesInDataset": 70876,
+  "wordsInDataset": 813625,
+  "totalSpeakers": 3948,
+  "oneEpisodeSpeakers": 3096,
+  "oneEpisodeShare": 0.7842,
+  "recurringThreshold": 8,
+  "coreThreshold": 12,
+  "recurringCount": 165,
+  "coreCount": 105,
+  "seasonSummary": [
+    {
+      "season": 1,
+      "episodes": 13,
+      "totalWords": 40294
+    },
+    {
+      "season": 2,
+      "episodes": 18,
+      "totalWords": 63513
+    },
+    {
+      "season": 3,
+      "episodes": 17,
+      "totalWords": 58370
+    },
+    {
+      "season": 4,
+      "episodes": 17,
+      "totalWords": 60445
+    },
+    {
+      "season": 5,
+      "episodes": 14,
+      "totalWords": 48913
+    },
+    {
+      "season": 6,
+      "episodes": 17,
+      "totalWords": 58178
+    },
+    {
+      "season": 7,
+      "episodes": 15,
+      "totalWords": 48777
+    },
+    {
+      "season": 8,
+      "episodes": 14,
+      "totalWords": 42688
+    },
+    {
+      "season": 9,
+      "episodes": 14,
+      "totalWords": 41312
+    },
+    {
+      "season": 10,
+      "episodes": 14,
+      "totalWords": 39983
+    },
+    {
+      "season": 11,
+      "episodes": 14,
+      "totalWords": 39414
+    },
+    {
+      "season": 12,
+      "episodes": 14,
+      "totalWords": 38065
+    },
+    {
+      "season": 13,
+      "episodes": 14,
+      "totalWords": 42972
+    },
+    {
+      "season": 14,
+      "episodes": 14,
+      "totalWords": 42141
+    },
+    {
+      "season": 15,
+      "episodes": 14,
+      "totalWords": 42282
+    },
+    {
+      "season": 16,
+      "episodes": 14,
+      "totalWords": 41802
+    },
+    {
+      "season": 17,
+      "episodes": 10,
+      "totalWords": 32170
+    },
+    {
+      "season": 18,
+      "episodes": 10,
+      "totalWords": 32306
+    }
+  ]
+}

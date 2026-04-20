@@ -1,0 +1,5698 @@
+[
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Stan",
+    "lines": 651,
+    "words": 4941,
+    "episodes": 13
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Cartman",
+    "lines": 624,
+    "words": 6261,
+    "episodes": 13
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Kyle",
+    "lines": 555,
+    "words": 4326,
+    "episodes": 13
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Chef",
+    "lines": 251,
+    "words": 3122,
+    "episodes": 13
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Mr. Garrison",
+    "lines": 212,
+    "words": 2911,
+    "episodes": 13
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Wendy",
+    "lines": 128,
+    "words": 1048,
+    "episodes": 6
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Jimbo",
+    "lines": 123,
+    "words": 1417,
+    "episodes": 7
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Jesus",
+    "lines": 62,
+    "words": 645,
+    "episodes": 6
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Liane",
+    "lines": 62,
+    "words": 584,
+    "episodes": 7
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Mayor",
+    "lines": 55,
+    "words": 676,
+    "episodes": 6
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Kenny",
+    "lines": 55,
+    "words": 374,
+    "episodes": 13
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Mephesto",
+    "lines": 54,
+    "words": 794,
+    "episodes": 3
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Terrance",
+    "lines": 41,
+    "words": 329,
+    "episodes": 4
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Sheila",
+    "lines": 39,
+    "words": 455,
+    "episodes": 2
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Officer Barbrady",
+    "lines": 37,
+    "words": 371,
+    "episodes": 10
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Pip",
+    "lines": 36,
+    "words": 333,
+    "episodes": 6
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Principal Victoria",
+    "lines": 24,
+    "words": 352,
+    "episodes": 3
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Phillip",
+    "lines": 23,
+    "words": 155,
+    "episodes": 3
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Mr. Mackey",
+    "lines": 22,
+    "words": 369,
+    "episodes": 3
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Randy",
+    "lines": 21,
+    "words": 247,
+    "episodes": 4
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Clyde",
+    "lines": 21,
+    "words": 108,
+    "episodes": 9
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Shelly",
+    "lines": 17,
+    "words": 108,
+    "episodes": 2
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Ike",
+    "lines": 16,
+    "words": 48,
+    "episodes": 3
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Satan",
+    "lines": 14,
+    "words": 153,
+    "episodes": 1
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Gerald",
+    "lines": 13,
+    "words": 113,
+    "episodes": 1
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Bebe",
+    "lines": 12,
+    "words": 98,
+    "episodes": 5
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Doctor",
+    "lines": 11,
+    "words": 160,
+    "episodes": 1
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Announcer",
+    "lines": 9,
+    "words": 103,
+    "episodes": 2
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Woman",
+    "lines": 9,
+    "words": 50,
+    "episodes": 5
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Sharon",
+    "lines": 7,
+    "words": 52,
+    "episodes": 2
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Man",
+    "lines": 6,
+    "words": 32,
+    "episodes": 3
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Kids",
+    "lines": 5,
+    "words": 7,
+    "episodes": 1
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Stuart",
+    "lines": 3,
+    "words": 64,
+    "episodes": 1
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Man 2",
+    "lines": 2,
+    "words": 9,
+    "episodes": 2
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Reporter",
+    "lines": 1,
+    "words": 33,
+    "episodes": 1
+  },
+  {
+    "season": 1,
+    "seasonEpisodeTotal": 13,
+    "character": "Narrator",
+    "lines": 1,
+    "words": 8,
+    "episodes": 1
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Stan",
+    "lines": 831,
+    "words": 6123,
+    "episodes": 17
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Kyle",
+    "lines": 824,
+    "words": 6076,
+    "episodes": 17
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Cartman",
+    "lines": 677,
+    "words": 6331,
+    "episodes": 18
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Chef",
+    "lines": 204,
+    "words": 2419,
+    "episodes": 10
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Mr. Garrison",
+    "lines": 154,
+    "words": 2385,
+    "episodes": 13
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Sharon",
+    "lines": 143,
+    "words": 1488,
+    "episodes": 7
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Jimbo",
+    "lines": 142,
+    "words": 2331,
+    "episodes": 7
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Terrance",
+    "lines": 117,
+    "words": 984,
+    "episodes": 5
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Sheila",
+    "lines": 114,
+    "words": 1234,
+    "episodes": 9
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Mr. Mackey",
+    "lines": 110,
+    "words": 1274,
+    "episodes": 7
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Phillip",
+    "lines": 95,
+    "words": 732,
+    "episodes": 5
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Barbrady",
+    "lines": 94,
+    "words": 1097,
+    "episodes": 7
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Mayor",
+    "lines": 88,
+    "words": 1325,
+    "episodes": 9
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Kenny",
+    "lines": 88,
+    "words": 463,
+    "episodes": 17
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Randy",
+    "lines": 82,
+    "words": 753,
+    "episodes": 7
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Liane",
+    "lines": 76,
+    "words": 697,
+    "episodes": 6
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Mephesto",
+    "lines": 71,
+    "words": 978,
+    "episodes": 4
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Dr. Doctor",
+    "lines": 66,
+    "words": 1065,
+    "episodes": 4
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Scott",
+    "lines": 59,
+    "words": 793,
+    "episodes": 1
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Gerald",
+    "lines": 54,
+    "words": 640,
+    "episodes": 5
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Officer Barbrady",
+    "lines": 48,
+    "words": 486,
+    "episodes": 4
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Tweek",
+    "lines": 46,
+    "words": 256,
+    "episodes": 1
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Jesus",
+    "lines": 42,
+    "words": 395,
+    "episodes": 1
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Wendy",
+    "lines": 38,
+    "words": 293,
+    "episodes": 3
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Announcer",
+    "lines": 36,
+    "words": 611,
+    "episodes": 9
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Stuart",
+    "lines": 35,
+    "words": 356,
+    "episodes": 4
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Principal Victoria",
+    "lines": 26,
+    "words": 329,
+    "episodes": 3
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Bebe",
+    "lines": 22,
+    "words": 162,
+    "episodes": 3
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Kids",
+    "lines": 20,
+    "words": 39,
+    "episodes": 4
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Woman",
+    "lines": 19,
+    "words": 207,
+    "episodes": 7
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Pip",
+    "lines": 19,
+    "words": 156,
+    "episodes": 2
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Man",
+    "lines": 15,
+    "words": 70,
+    "episodes": 8
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Ike",
+    "lines": 15,
+    "words": 47,
+    "episodes": 1
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Reporter",
+    "lines": 12,
+    "words": 327,
+    "episodes": 4
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Shelly",
+    "lines": 12,
+    "words": 50,
+    "episodes": 3
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Clyde",
+    "lines": 9,
+    "words": 40,
+    "episodes": 5
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Man 2",
+    "lines": 8,
+    "words": 29,
+    "episodes": 5
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Narrator",
+    "lines": 3,
+    "words": 105,
+    "episodes": 2
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Satan",
+    "lines": 2,
+    "words": 6,
+    "episodes": 1
+  },
+  {
+    "season": 2,
+    "seasonEpisodeTotal": 18,
+    "character": "Butters",
+    "lines": 2,
+    "words": 5,
+    "episodes": 2
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Cartman",
+    "lines": 739,
+    "words": 8061,
+    "episodes": 15
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Stan",
+    "lines": 645,
+    "words": 5258,
+    "episodes": 15
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Kyle",
+    "lines": 569,
+    "words": 4362,
+    "episodes": 16
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Randy",
+    "lines": 164,
+    "words": 1706,
+    "episodes": 8
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Gerald",
+    "lines": 144,
+    "words": 1410,
+    "episodes": 11
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Mr. Garrison",
+    "lines": 139,
+    "words": 2199,
+    "episodes": 14
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Kenny",
+    "lines": 132,
+    "words": 662,
+    "episodes": 15
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Jimbo",
+    "lines": 109,
+    "words": 1295,
+    "episodes": 9
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Shelly",
+    "lines": 83,
+    "words": 870,
+    "episodes": 2
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Mr. Mackey",
+    "lines": 77,
+    "words": 1076,
+    "episodes": 8
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Chef",
+    "lines": 74,
+    "words": 912,
+    "episodes": 6
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Sheila",
+    "lines": 73,
+    "words": 542,
+    "episodes": 8
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Mayor",
+    "lines": 69,
+    "words": 795,
+    "episodes": 4
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Jesus",
+    "lines": 61,
+    "words": 916,
+    "episodes": 3
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Liane",
+    "lines": 59,
+    "words": 510,
+    "episodes": 7
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Butters",
+    "lines": 47,
+    "words": 950,
+    "episodes": 3
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Craig",
+    "lines": 46,
+    "words": 247,
+    "episodes": 4
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Sharon",
+    "lines": 44,
+    "words": 453,
+    "episodes": 5
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Tweek",
+    "lines": 40,
+    "words": 135,
+    "episodes": 2
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Pip",
+    "lines": 35,
+    "words": 340,
+    "episodes": 3
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Man",
+    "lines": 30,
+    "words": 127,
+    "episodes": 10
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Kids",
+    "lines": 30,
+    "words": 65,
+    "episodes": 5
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Announcer",
+    "lines": 28,
+    "words": 448,
+    "episodes": 8
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Woman",
+    "lines": 26,
+    "words": 297,
+    "episodes": 9
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Barbrady",
+    "lines": 24,
+    "words": 165,
+    "episodes": 4
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Reporter",
+    "lines": 19,
+    "words": 602,
+    "episodes": 5
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Clyde",
+    "lines": 17,
+    "words": 131,
+    "episodes": 3
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Ike",
+    "lines": 17,
+    "words": 39,
+    "episodes": 3
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Satan",
+    "lines": 12,
+    "words": 187,
+    "episodes": 1
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Principal Victoria",
+    "lines": 10,
+    "words": 153,
+    "episodes": 2
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Man 2",
+    "lines": 9,
+    "words": 54,
+    "episodes": 8
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Stuart",
+    "lines": 8,
+    "words": 71,
+    "episodes": 2
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Wendy",
+    "lines": 7,
+    "words": 39,
+    "episodes": 2
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Dr. Doctor",
+    "lines": 6,
+    "words": 130,
+    "episodes": 1
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Mephesto",
+    "lines": 6,
+    "words": 113,
+    "episodes": 2
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Bebe",
+    "lines": 6,
+    "words": 91,
+    "episodes": 2
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Officer Barbrady",
+    "lines": 3,
+    "words": 29,
+    "episodes": 1
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Token",
+    "lines": 2,
+    "words": 7,
+    "episodes": 2
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Jimmy",
+    "lines": 2,
+    "words": 3,
+    "episodes": 1
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Narrator",
+    "lines": 1,
+    "words": 16,
+    "episodes": 1
+  },
+  {
+    "season": 3,
+    "seasonEpisodeTotal": 17,
+    "character": "Phillip",
+    "lines": 1,
+    "words": 4,
+    "episodes": 1
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Cartman",
+    "lines": 801,
+    "words": 9897,
+    "episodes": 16
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Stan",
+    "lines": 608,
+    "words": 5433,
+    "episodes": 16
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Kyle",
+    "lines": 501,
+    "words": 4168,
+    "episodes": 16
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Mr. Garrison",
+    "lines": 135,
+    "words": 2277,
+    "episodes": 8
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Kenny",
+    "lines": 129,
+    "words": 482,
+    "episodes": 15
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Timmy",
+    "lines": 123,
+    "words": 251,
+    "episodes": 9
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Satan",
+    "lines": 111,
+    "words": 1234,
+    "episodes": 2
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Chef",
+    "lines": 103,
+    "words": 1582,
+    "episodes": 6
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Pip",
+    "lines": 94,
+    "words": 991,
+    "episodes": 2
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Butters",
+    "lines": 87,
+    "words": 1074,
+    "episodes": 13
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Randy",
+    "lines": 81,
+    "words": 942,
+    "episodes": 8
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Chris",
+    "lines": 69,
+    "words": 731,
+    "episodes": 2
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Wendy",
+    "lines": 62,
+    "words": 757,
+    "episodes": 7
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Liane",
+    "lines": 62,
+    "words": 613,
+    "episodes": 11
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Ms. Choksondik",
+    "lines": 59,
+    "words": 908,
+    "episodes": 3
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Sharon",
+    "lines": 57,
+    "words": 564,
+    "episodes": 9
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Sheila",
+    "lines": 51,
+    "words": 440,
+    "episodes": 9
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Man",
+    "lines": 48,
+    "words": 515,
+    "episodes": 12
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Mr. Mackey",
+    "lines": 44,
+    "words": 565,
+    "episodes": 10
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Kids",
+    "lines": 41,
+    "words": 150,
+    "episodes": 7
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Principal Victoria",
+    "lines": 36,
+    "words": 343,
+    "episodes": 7
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Jimbo",
+    "lines": 33,
+    "words": 539,
+    "episodes": 2
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Gerald",
+    "lines": 30,
+    "words": 280,
+    "episodes": 9
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Linda",
+    "lines": 30,
+    "words": 196,
+    "episodes": 1
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Mayor",
+    "lines": 27,
+    "words": 504,
+    "episodes": 2
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Stuart",
+    "lines": 26,
+    "words": 326,
+    "episodes": 2
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Clyde",
+    "lines": 23,
+    "words": 178,
+    "episodes": 6
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Woman",
+    "lines": 21,
+    "words": 143,
+    "episodes": 7
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Bebe",
+    "lines": 20,
+    "words": 151,
+    "episodes": 6
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Announcer",
+    "lines": 19,
+    "words": 463,
+    "episodes": 7
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Ike",
+    "lines": 19,
+    "words": 84,
+    "episodes": 5
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Dr. Doctor",
+    "lines": 17,
+    "words": 241,
+    "episodes": 3
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Token",
+    "lines": 15,
+    "words": 99,
+    "episodes": 5
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Man 2",
+    "lines": 13,
+    "words": 49,
+    "episodes": 6
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Jesus",
+    "lines": 12,
+    "words": 198,
+    "episodes": 3
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Reporter",
+    "lines": 11,
+    "words": 333,
+    "episodes": 3
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Mephesto",
+    "lines": 10,
+    "words": 80,
+    "episodes": 1
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Craig",
+    "lines": 10,
+    "words": 75,
+    "episodes": 2
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Officer Barbrady",
+    "lines": 7,
+    "words": 88,
+    "episodes": 2
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Phillip",
+    "lines": 7,
+    "words": 60,
+    "episodes": 3
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Barbrady",
+    "lines": 5,
+    "words": 28,
+    "episodes": 1
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Terrance",
+    "lines": 5,
+    "words": 21,
+    "episodes": 3
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Narrator",
+    "lines": 4,
+    "words": 38,
+    "episodes": 1
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Shelly",
+    "lines": 2,
+    "words": 10,
+    "episodes": 1
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Tweek",
+    "lines": 1,
+    "words": 13,
+    "episodes": 1
+  },
+  {
+    "season": 4,
+    "seasonEpisodeTotal": 17,
+    "character": "Stephen",
+    "lines": 1,
+    "words": 4,
+    "episodes": 1
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Cartman",
+    "lines": 611,
+    "words": 8055,
+    "episodes": 14
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Stan",
+    "lines": 499,
+    "words": 3998,
+    "episodes": 14
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Kyle",
+    "lines": 479,
+    "words": 4777,
+    "episodes": 12
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Butters",
+    "lines": 174,
+    "words": 2137,
+    "episodes": 12
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Garrison",
+    "lines": 89,
+    "words": 1585,
+    "episodes": 10
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Ms. Choksondik",
+    "lines": 82,
+    "words": 1335,
+    "episodes": 8
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Scott",
+    "lines": 74,
+    "words": 711,
+    "episodes": 1
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Linda",
+    "lines": 69,
+    "words": 746,
+    "episodes": 3
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Token",
+    "lines": 65,
+    "words": 731,
+    "episodes": 2
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Chef",
+    "lines": 59,
+    "words": 780,
+    "episodes": 5
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Terrance",
+    "lines": 59,
+    "words": 577,
+    "episodes": 1
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Sheila",
+    "lines": 58,
+    "words": 670,
+    "episodes": 8
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Chris",
+    "lines": 54,
+    "words": 957,
+    "episodes": 2
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Randy",
+    "lines": 50,
+    "words": 498,
+    "episodes": 8
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimmy",
+    "lines": 48,
+    "words": 795,
+    "episodes": 2
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Mackey",
+    "lines": 47,
+    "words": 758,
+    "episodes": 5
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Kenny",
+    "lines": 47,
+    "words": 168,
+    "episodes": 11
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Timmy",
+    "lines": 45,
+    "words": 80,
+    "episodes": 5
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimbo",
+    "lines": 43,
+    "words": 376,
+    "episodes": 7
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Phillip",
+    "lines": 41,
+    "words": 412,
+    "episodes": 1
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Jesus",
+    "lines": 39,
+    "words": 531,
+    "episodes": 1
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Sharon",
+    "lines": 37,
+    "words": 369,
+    "episodes": 6
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Narrator",
+    "lines": 23,
+    "words": 863,
+    "episodes": 3
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Gerald",
+    "lines": 18,
+    "words": 225,
+    "episodes": 5
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Man",
+    "lines": 18,
+    "words": 92,
+    "episodes": 10
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Doctor",
+    "lines": 17,
+    "words": 260,
+    "episodes": 2
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Stuart",
+    "lines": 15,
+    "words": 121,
+    "episodes": 3
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Announcer",
+    "lines": 12,
+    "words": 238,
+    "episodes": 5
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Wendy",
+    "lines": 10,
+    "words": 100,
+    "episodes": 2
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Clyde",
+    "lines": 9,
+    "words": 71,
+    "episodes": 6
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Liane",
+    "lines": 9,
+    "words": 62,
+    "episodes": 3
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Reporter",
+    "lines": 8,
+    "words": 270,
+    "episodes": 5
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Principal Victoria",
+    "lines": 8,
+    "words": 118,
+    "episodes": 3
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Woman",
+    "lines": 8,
+    "words": 49,
+    "episodes": 5
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "General",
+    "lines": 7,
+    "words": 87,
+    "episodes": 1
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Stephen",
+    "lines": 6,
+    "words": 54,
+    "episodes": 2
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Kids",
+    "lines": 6,
+    "words": 6,
+    "episodes": 4
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Officer Barbrady",
+    "lines": 5,
+    "words": 42,
+    "episodes": 2
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Bebe",
+    "lines": 5,
+    "words": 41,
+    "episodes": 1
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Barbrady",
+    "lines": 5,
+    "words": 33,
+    "episodes": 1
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Man 2",
+    "lines": 4,
+    "words": 12,
+    "episodes": 4
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Tweek",
+    "lines": 3,
+    "words": 27,
+    "episodes": 2
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Craig",
+    "lines": 3,
+    "words": 20,
+    "episodes": 2
+  },
+  {
+    "season": 5,
+    "seasonEpisodeTotal": 14,
+    "character": "Ike",
+    "lines": 3,
+    "words": 6,
+    "episodes": 3
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Cartman",
+    "lines": 715,
+    "words": 8832,
+    "episodes": 17
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Stan",
+    "lines": 682,
+    "words": 6732,
+    "episodes": 17
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Kyle",
+    "lines": 472,
+    "words": 3683,
+    "episodes": 17
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Butters",
+    "lines": 378,
+    "words": 4305,
+    "episodes": 13
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Randy",
+    "lines": 175,
+    "words": 2277,
+    "episodes": 11
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Tweek",
+    "lines": 133,
+    "words": 1019,
+    "episodes": 7
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Sharon",
+    "lines": 96,
+    "words": 882,
+    "episodes": 9
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Chef",
+    "lines": 81,
+    "words": 1011,
+    "episodes": 6
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Mr. Garrison",
+    "lines": 63,
+    "words": 897,
+    "episodes": 4
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Bebe",
+    "lines": 53,
+    "words": 536,
+    "episodes": 1
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Sheila",
+    "lines": 48,
+    "words": 498,
+    "episodes": 6
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Chris",
+    "lines": 46,
+    "words": 378,
+    "episodes": 7
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Announcer",
+    "lines": 45,
+    "words": 879,
+    "episodes": 9
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Liane",
+    "lines": 45,
+    "words": 339,
+    "episodes": 9
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Gerald",
+    "lines": 43,
+    "words": 460,
+    "episodes": 9
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Clyde",
+    "lines": 40,
+    "words": 466,
+    "episodes": 4
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Linda",
+    "lines": 34,
+    "words": 384,
+    "episodes": 9
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Jimmy",
+    "lines": 31,
+    "words": 462,
+    "episodes": 4
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Stephen",
+    "lines": 28,
+    "words": 308,
+    "episodes": 4
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Mr. Mackey",
+    "lines": 22,
+    "words": 352,
+    "episodes": 4
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Wendy",
+    "lines": 22,
+    "words": 181,
+    "episodes": 1
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Craig",
+    "lines": 21,
+    "words": 142,
+    "episodes": 5
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Principal Victoria",
+    "lines": 18,
+    "words": 302,
+    "episodes": 1
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Jesus",
+    "lines": 17,
+    "words": 144,
+    "episodes": 1
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Woman",
+    "lines": 16,
+    "words": 129,
+    "episodes": 6
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Token",
+    "lines": 14,
+    "words": 203,
+    "episodes": 4
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Ms. Choksondik",
+    "lines": 14,
+    "words": 177,
+    "episodes": 2
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Jimbo",
+    "lines": 14,
+    "words": 87,
+    "episodes": 6
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Dr. Doctor",
+    "lines": 12,
+    "words": 179,
+    "episodes": 2
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Shelly",
+    "lines": 12,
+    "words": 128,
+    "episodes": 2
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Man 2",
+    "lines": 10,
+    "words": 64,
+    "episodes": 7
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Man",
+    "lines": 9,
+    "words": 148,
+    "episodes": 5
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Stuart",
+    "lines": 8,
+    "words": 88,
+    "episodes": 2
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Officer Barbrady",
+    "lines": 8,
+    "words": 71,
+    "episodes": 1
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Kenny",
+    "lines": 8,
+    "words": 35,
+    "episodes": 2
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "General",
+    "lines": 7,
+    "words": 153,
+    "episodes": 1
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Ike",
+    "lines": 6,
+    "words": 23,
+    "episodes": 2
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Narrator",
+    "lines": 5,
+    "words": 79,
+    "episodes": 1
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Doctor",
+    "lines": 5,
+    "words": 32,
+    "episodes": 1
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Timmy",
+    "lines": 5,
+    "words": 8,
+    "episodes": 2
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Terrance",
+    "lines": 4,
+    "words": 34,
+    "episodes": 2
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Pip",
+    "lines": 4,
+    "words": 31,
+    "episodes": 1
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Phillip",
+    "lines": 4,
+    "words": 20,
+    "episodes": 2
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Kids",
+    "lines": 3,
+    "words": 5,
+    "episodes": 2
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Reporter",
+    "lines": 2,
+    "words": 79,
+    "episodes": 1
+  },
+  {
+    "season": 6,
+    "seasonEpisodeTotal": 17,
+    "character": "Scott",
+    "lines": 1,
+    "words": 9,
+    "episodes": 1
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Cartman",
+    "lines": 659,
+    "words": 8834,
+    "episodes": 15
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Kyle",
+    "lines": 496,
+    "words": 4580,
+    "episodes": 15
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Stan",
+    "lines": 450,
+    "words": 4378,
+    "episodes": 15
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Butters",
+    "lines": 176,
+    "words": 1821,
+    "episodes": 11
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Randy",
+    "lines": 173,
+    "words": 1953,
+    "episodes": 9
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Jimmy",
+    "lines": 99,
+    "words": 1398,
+    "episodes": 3
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Mr. Garrison",
+    "lines": 84,
+    "words": 1135,
+    "episodes": 12
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Gerald",
+    "lines": 60,
+    "words": 652,
+    "episodes": 8
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Chef",
+    "lines": 60,
+    "words": 620,
+    "episodes": 4
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Kenny",
+    "lines": 52,
+    "words": 163,
+    "episodes": 12
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Officer Barbrady",
+    "lines": 47,
+    "words": 500,
+    "episodes": 2
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Sheila",
+    "lines": 38,
+    "words": 356,
+    "episodes": 6
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Mr. Mackey",
+    "lines": 29,
+    "words": 453,
+    "episodes": 5
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Sharon",
+    "lines": 26,
+    "words": 290,
+    "episodes": 6
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Timmy",
+    "lines": 26,
+    "words": 31,
+    "episodes": 2
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Linda",
+    "lines": 20,
+    "words": 268,
+    "episodes": 4
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Liane",
+    "lines": 19,
+    "words": 172,
+    "episodes": 6
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Jimbo",
+    "lines": 17,
+    "words": 176,
+    "episodes": 3
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Token",
+    "lines": 17,
+    "words": 125,
+    "episodes": 3
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Scott",
+    "lines": 13,
+    "words": 161,
+    "episodes": 1
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Stephen",
+    "lines": 13,
+    "words": 142,
+    "episodes": 2
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Principal Victoria",
+    "lines": 13,
+    "words": 128,
+    "episodes": 4
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Craig",
+    "lines": 13,
+    "words": 89,
+    "episodes": 2
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Stuart",
+    "lines": 12,
+    "words": 120,
+    "episodes": 2
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Announcer",
+    "lines": 11,
+    "words": 283,
+    "episodes": 5
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Reporter",
+    "lines": 9,
+    "words": 268,
+    "episodes": 3
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Chris",
+    "lines": 9,
+    "words": 97,
+    "episodes": 4
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Michael",
+    "lines": 8,
+    "words": 159,
+    "episodes": 1
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Man",
+    "lines": 8,
+    "words": 42,
+    "episodes": 5
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Ike",
+    "lines": 8,
+    "words": 22,
+    "episodes": 2
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Bebe",
+    "lines": 7,
+    "words": 84,
+    "episodes": 1
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Kids",
+    "lines": 6,
+    "words": 21,
+    "episodes": 2
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Doctor",
+    "lines": 5,
+    "words": 57,
+    "episodes": 1
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Woman",
+    "lines": 5,
+    "words": 48,
+    "episodes": 2
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Shelly",
+    "lines": 5,
+    "words": 23,
+    "episodes": 1
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Barbrady",
+    "lines": 4,
+    "words": 29,
+    "episodes": 1
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Wendy",
+    "lines": 3,
+    "words": 36,
+    "episodes": 1
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Clyde",
+    "lines": 3,
+    "words": 29,
+    "episodes": 3
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Narrator",
+    "lines": 2,
+    "words": 32,
+    "episodes": 1
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Man 2",
+    "lines": 2,
+    "words": 9,
+    "episodes": 2
+  },
+  {
+    "season": 7,
+    "seasonEpisodeTotal": 15,
+    "character": "Dr. Doctor",
+    "lines": 1,
+    "words": 24,
+    "episodes": 1
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Cartman",
+    "lines": 511,
+    "words": 6522,
+    "episodes": 14
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Stan",
+    "lines": 499,
+    "words": 4709,
+    "episodes": 14
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Kyle",
+    "lines": 364,
+    "words": 3814,
+    "episodes": 13
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Butters",
+    "lines": 202,
+    "words": 2626,
+    "episodes": 10
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Randy",
+    "lines": 105,
+    "words": 1378,
+    "episodes": 7
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimmy",
+    "lines": 86,
+    "words": 1338,
+    "episodes": 5
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Michael",
+    "lines": 57,
+    "words": 869,
+    "episodes": 3
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Kenny",
+    "lines": 39,
+    "words": 134,
+    "episodes": 8
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Narrator",
+    "lines": 37,
+    "words": 852,
+    "episodes": 1
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Sharon",
+    "lines": 37,
+    "words": 371,
+    "episodes": 5
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Linda",
+    "lines": 36,
+    "words": 378,
+    "episodes": 5
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Stephen",
+    "lines": 34,
+    "words": 449,
+    "episodes": 5
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Chef",
+    "lines": 31,
+    "words": 456,
+    "episodes": 3
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Liane",
+    "lines": 31,
+    "words": 260,
+    "episodes": 4
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Wendy",
+    "lines": 28,
+    "words": 246,
+    "episodes": 2
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Craig",
+    "lines": 28,
+    "words": 229,
+    "episodes": 5
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Timmy",
+    "lines": 27,
+    "words": 84,
+    "episodes": 2
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Bebe",
+    "lines": 22,
+    "words": 215,
+    "episodes": 3
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Dr. Doctor",
+    "lines": 20,
+    "words": 381,
+    "episodes": 4
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "General",
+    "lines": 20,
+    "words": 354,
+    "episodes": 1
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Announcer",
+    "lines": 19,
+    "words": 378,
+    "episodes": 9
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Token",
+    "lines": 19,
+    "words": 185,
+    "episodes": 4
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Clyde",
+    "lines": 17,
+    "words": 91,
+    "episodes": 7
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Mackey",
+    "lines": 12,
+    "words": 133,
+    "episodes": 2
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Gerald",
+    "lines": 11,
+    "words": 146,
+    "episodes": 4
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Shelly",
+    "lines": 10,
+    "words": 96,
+    "episodes": 3
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Woman",
+    "lines": 10,
+    "words": 68,
+    "episodes": 6
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Principal Victoria",
+    "lines": 7,
+    "words": 90,
+    "episodes": 2
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Man 2",
+    "lines": 6,
+    "words": 103,
+    "episodes": 4
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Sheila",
+    "lines": 6,
+    "words": 47,
+    "episodes": 5
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Garrison",
+    "lines": 5,
+    "words": 56,
+    "episodes": 3
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimbo",
+    "lines": 5,
+    "words": 55,
+    "episodes": 2
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Man",
+    "lines": 5,
+    "words": 30,
+    "episodes": 4
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Doctor",
+    "lines": 3,
+    "words": 56,
+    "episodes": 1
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Terrance",
+    "lines": 3,
+    "words": 12,
+    "episodes": 1
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Phillip",
+    "lines": 2,
+    "words": 8,
+    "episodes": 1
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Jesus",
+    "lines": 2,
+    "words": 7,
+    "episodes": 1
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Kids",
+    "lines": 2,
+    "words": 4,
+    "episodes": 2
+  },
+  {
+    "season": 8,
+    "seasonEpisodeTotal": 14,
+    "character": "Chris",
+    "lines": 1,
+    "words": 17,
+    "episodes": 1
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Cartman",
+    "lines": 457,
+    "words": 6854,
+    "episodes": 14
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Stan",
+    "lines": 441,
+    "words": 4024,
+    "episodes": 14
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Kyle",
+    "lines": 347,
+    "words": 3346,
+    "episodes": 14
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Randy",
+    "lines": 201,
+    "words": 2490,
+    "episodes": 7
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Butters",
+    "lines": 140,
+    "words": 1229,
+    "episodes": 9
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Mrs. Garrison",
+    "lines": 139,
+    "words": 2738,
+    "episodes": 9
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimmy",
+    "lines": 93,
+    "words": 1210,
+    "episodes": 5
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Gerald",
+    "lines": 43,
+    "words": 512,
+    "episodes": 4
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Stephen",
+    "lines": 42,
+    "words": 433,
+    "episodes": 4
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Announcer",
+    "lines": 40,
+    "words": 574,
+    "episodes": 8
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Sharon",
+    "lines": 38,
+    "words": 300,
+    "episodes": 5
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Linda",
+    "lines": 33,
+    "words": 205,
+    "episodes": 3
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Clyde",
+    "lines": 28,
+    "words": 231,
+    "episodes": 6
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Michael",
+    "lines": 25,
+    "words": 759,
+    "episodes": 2
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Kenny",
+    "lines": 25,
+    "words": 90,
+    "episodes": 8
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Sheila",
+    "lines": 24,
+    "words": 250,
+    "episodes": 5
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Token",
+    "lines": 24,
+    "words": 198,
+    "episodes": 5
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Doctor",
+    "lines": 19,
+    "words": 360,
+    "episodes": 4
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Bebe",
+    "lines": 19,
+    "words": 179,
+    "episodes": 2
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Man 2",
+    "lines": 19,
+    "words": 167,
+    "episodes": 7
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Craig",
+    "lines": 19,
+    "words": 154,
+    "episodes": 7
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Mackey",
+    "lines": 16,
+    "words": 364,
+    "episodes": 4
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Officer Barbrady",
+    "lines": 16,
+    "words": 120,
+    "episodes": 3
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Wendy",
+    "lines": 15,
+    "words": 150,
+    "episodes": 2
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Satan",
+    "lines": 15,
+    "words": 135,
+    "episodes": 1
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Liane",
+    "lines": 15,
+    "words": 77,
+    "episodes": 4
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Man",
+    "lines": 13,
+    "words": 101,
+    "episodes": 7
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Woman",
+    "lines": 9,
+    "words": 107,
+    "episodes": 4
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Reporter",
+    "lines": 8,
+    "words": 249,
+    "episodes": 3
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Chef",
+    "lines": 8,
+    "words": 40,
+    "episodes": 1
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "General",
+    "lines": 7,
+    "words": 83,
+    "episodes": 1
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Stuart",
+    "lines": 7,
+    "words": 72,
+    "episodes": 1
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Garrison",
+    "lines": 7,
+    "words": 50,
+    "episodes": 1
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimbo",
+    "lines": 6,
+    "words": 60,
+    "episodes": 2
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Ike",
+    "lines": 3,
+    "words": 33,
+    "episodes": 2
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Principal Victoria",
+    "lines": 3,
+    "words": 12,
+    "episodes": 3
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Timmy",
+    "lines": 3,
+    "words": 3,
+    "episodes": 2
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Shelly",
+    "lines": 2,
+    "words": 8,
+    "episodes": 2
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Kids",
+    "lines": 2,
+    "words": 2,
+    "episodes": 1
+  },
+  {
+    "season": 9,
+    "seasonEpisodeTotal": 14,
+    "character": "Tweek",
+    "lines": 1,
+    "words": 8,
+    "episodes": 1
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Cartman",
+    "lines": 574,
+    "words": 7601,
+    "episodes": 12
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Kyle",
+    "lines": 355,
+    "words": 3174,
+    "episodes": 13
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Stan",
+    "lines": 314,
+    "words": 2499,
+    "episodes": 11
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Randy",
+    "lines": 105,
+    "words": 1245,
+    "episodes": 9
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Butters",
+    "lines": 94,
+    "words": 630,
+    "episodes": 10
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Liane",
+    "lines": 75,
+    "words": 680,
+    "episodes": 4
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Mrs. Garrison",
+    "lines": 64,
+    "words": 1049,
+    "episodes": 6
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Gerald",
+    "lines": 52,
+    "words": 582,
+    "episodes": 3
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Chef",
+    "lines": 45,
+    "words": 229,
+    "episodes": 1
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Mackey",
+    "lines": 36,
+    "words": 949,
+    "episodes": 8
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Satan",
+    "lines": 33,
+    "words": 726,
+    "episodes": 1
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Announcer",
+    "lines": 27,
+    "words": 482,
+    "episodes": 7
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Sheila",
+    "lines": 27,
+    "words": 215,
+    "episodes": 4
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Ike",
+    "lines": 26,
+    "words": 97,
+    "episodes": 5
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Principal Victoria",
+    "lines": 19,
+    "words": 220,
+    "episodes": 4
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Kenny",
+    "lines": 19,
+    "words": 50,
+    "episodes": 7
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimbo",
+    "lines": 17,
+    "words": 163,
+    "episodes": 5
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Clyde",
+    "lines": 15,
+    "words": 97,
+    "episodes": 4
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Woman",
+    "lines": 15,
+    "words": 88,
+    "episodes": 8
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Man",
+    "lines": 14,
+    "words": 123,
+    "episodes": 6
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Sharon",
+    "lines": 10,
+    "words": 70,
+    "episodes": 3
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimmy",
+    "lines": 9,
+    "words": 60,
+    "episodes": 4
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Stephen",
+    "lines": 8,
+    "words": 212,
+    "episodes": 3
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Linda",
+    "lines": 6,
+    "words": 47,
+    "episodes": 3
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Dr. Doctor",
+    "lines": 5,
+    "words": 78,
+    "episodes": 1
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Terrance",
+    "lines": 5,
+    "words": 55,
+    "episodes": 1
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Man 2",
+    "lines": 5,
+    "words": 10,
+    "episodes": 5
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Phillip",
+    "lines": 4,
+    "words": 52,
+    "episodes": 1
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Craig",
+    "lines": 4,
+    "words": 42,
+    "episodes": 3
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Tweek",
+    "lines": 4,
+    "words": 21,
+    "episodes": 2
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Token",
+    "lines": 4,
+    "words": 11,
+    "episodes": 2
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Narrator",
+    "lines": 3,
+    "words": 97,
+    "episodes": 2
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Doctor",
+    "lines": 3,
+    "words": 36,
+    "episodes": 1
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Chris",
+    "lines": 3,
+    "words": 30,
+    "episodes": 2
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Reporter",
+    "lines": 1,
+    "words": 57,
+    "episodes": 1
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Jesus",
+    "lines": 1,
+    "words": 15,
+    "episodes": 1
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Michael",
+    "lines": 1,
+    "words": 5,
+    "episodes": 1
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Shelly",
+    "lines": 1,
+    "words": 4,
+    "episodes": 1
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Timmy",
+    "lines": 1,
+    "words": 1,
+    "episodes": 1
+  },
+  {
+    "season": 10,
+    "seasonEpisodeTotal": 14,
+    "character": "Wendy",
+    "lines": 1,
+    "words": 1,
+    "episodes": 1
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Cartman",
+    "lines": 456,
+    "words": 7024,
+    "episodes": 13
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Kyle",
+    "lines": 354,
+    "words": 3221,
+    "episodes": 13
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Stan",
+    "lines": 306,
+    "words": 2945,
+    "episodes": 13
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Randy",
+    "lines": 185,
+    "words": 2183,
+    "episodes": 5
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Butters",
+    "lines": 154,
+    "words": 1327,
+    "episodes": 12
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "General",
+    "lines": 75,
+    "words": 954,
+    "episodes": 3
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Mrs. Garrison",
+    "lines": 45,
+    "words": 750,
+    "episodes": 5
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Clyde",
+    "lines": 36,
+    "words": 268,
+    "episodes": 6
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Craig",
+    "lines": 33,
+    "words": 326,
+    "episodes": 6
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Stephen",
+    "lines": 32,
+    "words": 315,
+    "episodes": 4
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Gerald",
+    "lines": 30,
+    "words": 316,
+    "episodes": 5
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Wendy",
+    "lines": 29,
+    "words": 456,
+    "episodes": 1
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Sharon",
+    "lines": 27,
+    "words": 204,
+    "episodes": 5
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Jesus",
+    "lines": 25,
+    "words": 241,
+    "episodes": 3
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Token",
+    "lines": 24,
+    "words": 183,
+    "episodes": 5
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Bebe",
+    "lines": 20,
+    "words": 244,
+    "episodes": 3
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Liane",
+    "lines": 19,
+    "words": 183,
+    "episodes": 2
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Linda",
+    "lines": 16,
+    "words": 97,
+    "episodes": 6
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Kenny",
+    "lines": 15,
+    "words": 65,
+    "episodes": 5
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Sheila",
+    "lines": 13,
+    "words": 98,
+    "episodes": 4
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimbo",
+    "lines": 13,
+    "words": 93,
+    "episodes": 3
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Narrator",
+    "lines": 9,
+    "words": 267,
+    "episodes": 1
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Doctor",
+    "lines": 8,
+    "words": 173,
+    "episodes": 3
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Principal Victoria",
+    "lines": 8,
+    "words": 82,
+    "episodes": 3
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimmy",
+    "lines": 8,
+    "words": 71,
+    "episodes": 4
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Mackey",
+    "lines": 7,
+    "words": 78,
+    "episodes": 4
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Woman",
+    "lines": 6,
+    "words": 123,
+    "episodes": 3
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Announcer",
+    "lines": 6,
+    "words": 58,
+    "episodes": 4
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Chris",
+    "lines": 5,
+    "words": 57,
+    "episodes": 1
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Man 2",
+    "lines": 5,
+    "words": 30,
+    "episodes": 3
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Stuart",
+    "lines": 5,
+    "words": 29,
+    "episodes": 1
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Barbrady",
+    "lines": 5,
+    "words": 13,
+    "episodes": 1
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Dr. Doctor",
+    "lines": 3,
+    "words": 42,
+    "episodes": 1
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Man",
+    "lines": 3,
+    "words": 24,
+    "episodes": 2
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Reporter",
+    "lines": 2,
+    "words": 69,
+    "episodes": 1
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Scott",
+    "lines": 1,
+    "words": 7,
+    "episodes": 1
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Shelly",
+    "lines": 1,
+    "words": 3,
+    "episodes": 1
+  },
+  {
+    "season": 11,
+    "seasonEpisodeTotal": 14,
+    "character": "Kids",
+    "lines": 1,
+    "words": 2,
+    "episodes": 1
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Cartman",
+    "lines": 431,
+    "words": 5988,
+    "episodes": 13
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Stan",
+    "lines": 275,
+    "words": 2858,
+    "episodes": 14
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Kyle",
+    "lines": 266,
+    "words": 2440,
+    "episodes": 14
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Butters",
+    "lines": 204,
+    "words": 1947,
+    "episodes": 12
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Randy",
+    "lines": 156,
+    "words": 1813,
+    "episodes": 6
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Wendy",
+    "lines": 75,
+    "words": 606,
+    "episodes": 3
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Stephen",
+    "lines": 49,
+    "words": 563,
+    "episodes": 7
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Kenny",
+    "lines": 49,
+    "words": 238,
+    "episodes": 7
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Craig",
+    "lines": 47,
+    "words": 856,
+    "episodes": 6
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Sharon",
+    "lines": 47,
+    "words": 429,
+    "episodes": 4
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Gerald",
+    "lines": 46,
+    "words": 681,
+    "episodes": 5
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Mrs. Garrison",
+    "lines": 34,
+    "words": 456,
+    "episodes": 1
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Garrison",
+    "lines": 33,
+    "words": 408,
+    "episodes": 8
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Principal Victoria",
+    "lines": 32,
+    "words": 536,
+    "episodes": 4
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Shelly",
+    "lines": 25,
+    "words": 175,
+    "episodes": 3
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Mackey",
+    "lines": 22,
+    "words": 406,
+    "episodes": 8
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimmy",
+    "lines": 21,
+    "words": 276,
+    "episodes": 5
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Michael",
+    "lines": 21,
+    "words": 191,
+    "episodes": 2
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Liane",
+    "lines": 20,
+    "words": 127,
+    "episodes": 4
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Linda",
+    "lines": 18,
+    "words": 139,
+    "episodes": 5
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Sheila",
+    "lines": 18,
+    "words": 99,
+    "episodes": 5
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Doctor",
+    "lines": 14,
+    "words": 172,
+    "episodes": 2
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Bebe",
+    "lines": 13,
+    "words": 130,
+    "episodes": 2
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Woman",
+    "lines": 13,
+    "words": 109,
+    "episodes": 5
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Kids",
+    "lines": 12,
+    "words": 85,
+    "episodes": 2
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Clyde",
+    "lines": 11,
+    "words": 101,
+    "episodes": 4
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Terrance",
+    "lines": 11,
+    "words": 95,
+    "episodes": 1
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Reporter",
+    "lines": 10,
+    "words": 355,
+    "episodes": 4
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Announcer",
+    "lines": 9,
+    "words": 114,
+    "episodes": 5
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Phillip",
+    "lines": 9,
+    "words": 104,
+    "episodes": 1
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Scott",
+    "lines": 7,
+    "words": 71,
+    "episodes": 1
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "General",
+    "lines": 6,
+    "words": 71,
+    "episodes": 1
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Dr. Doctor",
+    "lines": 6,
+    "words": 66,
+    "episodes": 1
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Man 2",
+    "lines": 6,
+    "words": 34,
+    "episodes": 5
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Barbrady",
+    "lines": 4,
+    "words": 23,
+    "episodes": 1
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Ike",
+    "lines": 4,
+    "words": 12,
+    "episodes": 3
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Man",
+    "lines": 3,
+    "words": 28,
+    "episodes": 2
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Officer Barbrady",
+    "lines": 2,
+    "words": 20,
+    "episodes": 2
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimbo",
+    "lines": 2,
+    "words": 14,
+    "episodes": 2
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Chris",
+    "lines": 1,
+    "words": 31,
+    "episodes": 1
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Narrator",
+    "lines": 1,
+    "words": 25,
+    "episodes": 1
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Chef",
+    "lines": 1,
+    "words": 7,
+    "episodes": 1
+  },
+  {
+    "season": 12,
+    "seasonEpisodeTotal": 14,
+    "character": "Token",
+    "lines": 1,
+    "words": 4,
+    "episodes": 1
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Cartman",
+    "lines": 457,
+    "words": 8664,
+    "episodes": 13
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Stan",
+    "lines": 307,
+    "words": 3101,
+    "episodes": 14
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Kyle",
+    "lines": 237,
+    "words": 2405,
+    "episodes": 13
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Butters",
+    "lines": 207,
+    "words": 2730,
+    "episodes": 11
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Randy",
+    "lines": 157,
+    "words": 2337,
+    "episodes": 6
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimmy",
+    "lines": 76,
+    "words": 825,
+    "episodes": 8
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Kenny",
+    "lines": 56,
+    "words": 319,
+    "episodes": 6
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Wendy",
+    "lines": 36,
+    "words": 492,
+    "episodes": 5
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Ike",
+    "lines": 33,
+    "words": 283,
+    "episodes": 4
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Sharon",
+    "lines": 25,
+    "words": 325,
+    "episodes": 4
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Announcer",
+    "lines": 23,
+    "words": 339,
+    "episodes": 11
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Clyde",
+    "lines": 22,
+    "words": 182,
+    "episodes": 6
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Terrance",
+    "lines": 19,
+    "words": 136,
+    "episodes": 1
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Phillip",
+    "lines": 18,
+    "words": 129,
+    "episodes": 1
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Mackey",
+    "lines": 17,
+    "words": 359,
+    "episodes": 4
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Stephen",
+    "lines": 14,
+    "words": 146,
+    "episodes": 5
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Principal Victoria",
+    "lines": 11,
+    "words": 189,
+    "episodes": 3
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Gerald",
+    "lines": 10,
+    "words": 108,
+    "episodes": 5
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Garrison",
+    "lines": 10,
+    "words": 86,
+    "episodes": 6
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Reporter",
+    "lines": 9,
+    "words": 278,
+    "episodes": 3
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Sheila",
+    "lines": 8,
+    "words": 81,
+    "episodes": 3
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Craig",
+    "lines": 8,
+    "words": 55,
+    "episodes": 4
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Token",
+    "lines": 8,
+    "words": 35,
+    "episodes": 4
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Doctor",
+    "lines": 7,
+    "words": 108,
+    "episodes": 2
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Woman",
+    "lines": 7,
+    "words": 56,
+    "episodes": 2
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Man 2",
+    "lines": 6,
+    "words": 40,
+    "episodes": 4
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Bebe",
+    "lines": 6,
+    "words": 21,
+    "episodes": 2
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "General",
+    "lines": 5,
+    "words": 43,
+    "episodes": 1
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Man",
+    "lines": 2,
+    "words": 18,
+    "episodes": 2
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Tweek",
+    "lines": 2,
+    "words": 13,
+    "episodes": 2
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Liane",
+    "lines": 2,
+    "words": 12,
+    "episodes": 1
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Scott",
+    "lines": 2,
+    "words": 12,
+    "episodes": 1
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Shelly",
+    "lines": 1,
+    "words": 13,
+    "episodes": 1
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Dr. Doctor",
+    "lines": 1,
+    "words": 11,
+    "episodes": 1
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Stuart",
+    "lines": 1,
+    "words": 4,
+    "episodes": 1
+  },
+  {
+    "season": 13,
+    "seasonEpisodeTotal": 14,
+    "character": "Kids",
+    "lines": 1,
+    "words": 1,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Cartman",
+    "lines": 349,
+    "words": 4809,
+    "episodes": 12
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Stan",
+    "lines": 278,
+    "words": 2625,
+    "episodes": 12
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Randy",
+    "lines": 224,
+    "words": 2956,
+    "episodes": 10
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Kyle",
+    "lines": 188,
+    "words": 2050,
+    "episodes": 11
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Butters",
+    "lines": 106,
+    "words": 1185,
+    "episodes": 7
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Sharon",
+    "lines": 102,
+    "words": 890,
+    "episodes": 6
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Kenny",
+    "lines": 43,
+    "words": 154,
+    "episodes": 7
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Announcer",
+    "lines": 33,
+    "words": 552,
+    "episodes": 9
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Garrison",
+    "lines": 27,
+    "words": 340,
+    "episodes": 4
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Sheila",
+    "lines": 25,
+    "words": 441,
+    "episodes": 4
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Jesus",
+    "lines": 24,
+    "words": 246,
+    "episodes": 2
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Liane",
+    "lines": 23,
+    "words": 216,
+    "episodes": 4
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimmy",
+    "lines": 19,
+    "words": 271,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Wendy",
+    "lines": 18,
+    "words": 275,
+    "episodes": 2
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimbo",
+    "lines": 16,
+    "words": 112,
+    "episodes": 4
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Dr. Doctor",
+    "lines": 14,
+    "words": 229,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Mackey",
+    "lines": 14,
+    "words": 135,
+    "episodes": 2
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Stephen",
+    "lines": 13,
+    "words": 119,
+    "episodes": 3
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Stuart",
+    "lines": 12,
+    "words": 137,
+    "episodes": 3
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Reporter",
+    "lines": 11,
+    "words": 325,
+    "episodes": 5
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Man 2",
+    "lines": 7,
+    "words": 95,
+    "episodes": 4
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Man",
+    "lines": 7,
+    "words": 71,
+    "episodes": 4
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Gerald",
+    "lines": 7,
+    "words": 69,
+    "episodes": 3
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Mayor",
+    "lines": 6,
+    "words": 50,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Doctor",
+    "lines": 5,
+    "words": 105,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Barbrady",
+    "lines": 5,
+    "words": 68,
+    "episodes": 3
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Timmy",
+    "lines": 5,
+    "words": 5,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Narrator",
+    "lines": 4,
+    "words": 162,
+    "episodes": 2
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Michael",
+    "lines": 4,
+    "words": 74,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Principal Victoria",
+    "lines": 4,
+    "words": 40,
+    "episodes": 2
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Woman",
+    "lines": 4,
+    "words": 30,
+    "episodes": 4
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Ike",
+    "lines": 4,
+    "words": 7,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Chris",
+    "lines": 3,
+    "words": 53,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Phillip",
+    "lines": 2,
+    "words": 28,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Terrance",
+    "lines": 2,
+    "words": 12,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Pip",
+    "lines": 1,
+    "words": 22,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Craig",
+    "lines": 1,
+    "words": 6,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Clyde",
+    "lines": 1,
+    "words": 4,
+    "episodes": 1
+  },
+  {
+    "season": 14,
+    "seasonEpisodeTotal": 14,
+    "character": "Linda",
+    "lines": 1,
+    "words": 2,
+    "episodes": 1
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Cartman",
+    "lines": 447,
+    "words": 7010,
+    "episodes": 13
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Kyle",
+    "lines": 285,
+    "words": 2989,
+    "episodes": 12
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Stan",
+    "lines": 249,
+    "words": 2434,
+    "episodes": 13
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Randy",
+    "lines": 153,
+    "words": 2186,
+    "episodes": 5
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Butters",
+    "lines": 151,
+    "words": 1600,
+    "episodes": 12
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Sharon",
+    "lines": 63,
+    "words": 849,
+    "episodes": 3
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Mackey",
+    "lines": 52,
+    "words": 1344,
+    "episodes": 6
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimmy",
+    "lines": 45,
+    "words": 927,
+    "episodes": 4
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Liane",
+    "lines": 45,
+    "words": 410,
+    "episodes": 7
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Doctor",
+    "lines": 35,
+    "words": 880,
+    "episodes": 4
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Principal Victoria",
+    "lines": 31,
+    "words": 441,
+    "episodes": 3
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Craig",
+    "lines": 28,
+    "words": 287,
+    "episodes": 7
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Gerald",
+    "lines": 25,
+    "words": 306,
+    "episodes": 2
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Narrator",
+    "lines": 23,
+    "words": 1208,
+    "episodes": 4
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Kenny",
+    "lines": 23,
+    "words": 78,
+    "episodes": 7
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Announcer",
+    "lines": 22,
+    "words": 290,
+    "episodes": 9
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Woman",
+    "lines": 22,
+    "words": 282,
+    "episodes": 3
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Scott",
+    "lines": 19,
+    "words": 286,
+    "episodes": 1
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Clyde",
+    "lines": 17,
+    "words": 161,
+    "episodes": 7
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Token",
+    "lines": 15,
+    "words": 82,
+    "episodes": 4
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Stephen",
+    "lines": 14,
+    "words": 122,
+    "episodes": 2
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Man",
+    "lines": 12,
+    "words": 165,
+    "episodes": 2
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Linda",
+    "lines": 12,
+    "words": 89,
+    "episodes": 3
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Wendy",
+    "lines": 11,
+    "words": 120,
+    "episodes": 4
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Shelly",
+    "lines": 11,
+    "words": 80,
+    "episodes": 1
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Garrison",
+    "lines": 9,
+    "words": 152,
+    "episodes": 4
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Ike",
+    "lines": 7,
+    "words": 33,
+    "episodes": 1
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Timmy",
+    "lines": 6,
+    "words": 30,
+    "episodes": 2
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Man 2",
+    "lines": 5,
+    "words": 40,
+    "episodes": 3
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Stuart",
+    "lines": 4,
+    "words": 25,
+    "episodes": 1
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Kids",
+    "lines": 4,
+    "words": 4,
+    "episodes": 3
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Michael",
+    "lines": 2,
+    "words": 12,
+    "episodes": 1
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "General",
+    "lines": 2,
+    "words": 11,
+    "episodes": 1
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Chris",
+    "lines": 1,
+    "words": 25,
+    "episodes": 1
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Sheila",
+    "lines": 1,
+    "words": 11,
+    "episodes": 1
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Officer Barbrady",
+    "lines": 1,
+    "words": 9,
+    "episodes": 1
+  },
+  {
+    "season": 15,
+    "seasonEpisodeTotal": 14,
+    "character": "Phillip",
+    "lines": 1,
+    "words": 8,
+    "episodes": 1
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Cartman",
+    "lines": 519,
+    "words": 7926,
+    "episodes": 14
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Stan",
+    "lines": 326,
+    "words": 3425,
+    "episodes": 13
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Kyle",
+    "lines": 323,
+    "words": 3223,
+    "episodes": 14
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Butters",
+    "lines": 195,
+    "words": 2522,
+    "episodes": 11
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Randy",
+    "lines": 161,
+    "words": 2175,
+    "episodes": 6
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Token",
+    "lines": 46,
+    "words": 414,
+    "episodes": 3
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Kenny",
+    "lines": 44,
+    "words": 462,
+    "episodes": 9
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Stephen",
+    "lines": 38,
+    "words": 790,
+    "episodes": 5
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Sharon",
+    "lines": 35,
+    "words": 446,
+    "episodes": 4
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Michael",
+    "lines": 32,
+    "words": 350,
+    "episodes": 2
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Narrator",
+    "lines": 31,
+    "words": 946,
+    "episodes": 1
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Jesus",
+    "lines": 27,
+    "words": 465,
+    "episodes": 2
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Mackey",
+    "lines": 24,
+    "words": 421,
+    "episodes": 5
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Clyde",
+    "lines": 23,
+    "words": 157,
+    "episodes": 6
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Gerald",
+    "lines": 19,
+    "words": 167,
+    "episodes": 3
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Craig",
+    "lines": 18,
+    "words": 147,
+    "episodes": 8
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Man 2",
+    "lines": 16,
+    "words": 145,
+    "episodes": 6
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimmy",
+    "lines": 14,
+    "words": 96,
+    "episodes": 6
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Announcer",
+    "lines": 13,
+    "words": 272,
+    "episodes": 6
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Sheila",
+    "lines": 13,
+    "words": 146,
+    "episodes": 3
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Liane",
+    "lines": 12,
+    "words": 76,
+    "episodes": 4
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Linda",
+    "lines": 10,
+    "words": 122,
+    "episodes": 4
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Doctor",
+    "lines": 8,
+    "words": 166,
+    "episodes": 3
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Reporter",
+    "lines": 7,
+    "words": 291,
+    "episodes": 2
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Mr. Garrison",
+    "lines": 7,
+    "words": 246,
+    "episodes": 4
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Principal Victoria",
+    "lines": 7,
+    "words": 52,
+    "episodes": 2
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Jimbo",
+    "lines": 6,
+    "words": 77,
+    "episodes": 2
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Man",
+    "lines": 6,
+    "words": 77,
+    "episodes": 5
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Bebe",
+    "lines": 6,
+    "words": 35,
+    "episodes": 1
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Shelly",
+    "lines": 6,
+    "words": 32,
+    "episodes": 1
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Stuart",
+    "lines": 3,
+    "words": 40,
+    "episodes": 1
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Wendy",
+    "lines": 3,
+    "words": 29,
+    "episodes": 2
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Woman",
+    "lines": 3,
+    "words": 20,
+    "episodes": 2
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Terrance",
+    "lines": 2,
+    "words": 20,
+    "episodes": 1
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Ike",
+    "lines": 2,
+    "words": 9,
+    "episodes": 1
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Phillip",
+    "lines": 2,
+    "words": 8,
+    "episodes": 1
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Chris",
+    "lines": 1,
+    "words": 23,
+    "episodes": 1
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Kids",
+    "lines": 1,
+    "words": 2,
+    "episodes": 1
+  },
+  {
+    "season": 16,
+    "seasonEpisodeTotal": 14,
+    "character": "Timmy",
+    "lines": 1,
+    "words": 1,
+    "episodes": 1
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Cartman",
+    "lines": 326,
+    "words": 5525,
+    "episodes": 9
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Kyle",
+    "lines": 214,
+    "words": 2066,
+    "episodes": 9
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Butters",
+    "lines": 117,
+    "words": 1911,
+    "episodes": 9
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Stan",
+    "lines": 117,
+    "words": 1528,
+    "episodes": 9
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Randy",
+    "lines": 95,
+    "words": 1412,
+    "episodes": 4
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Mr. Mackey",
+    "lines": 72,
+    "words": 1538,
+    "episodes": 5
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Wendy",
+    "lines": 68,
+    "words": 884,
+    "episodes": 2
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Michael",
+    "lines": 48,
+    "words": 576,
+    "episodes": 2
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Ike",
+    "lines": 31,
+    "words": 403,
+    "episodes": 1
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Craig",
+    "lines": 31,
+    "words": 247,
+    "episodes": 7
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Sharon",
+    "lines": 26,
+    "words": 234,
+    "episodes": 3
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Kenny",
+    "lines": 24,
+    "words": 119,
+    "episodes": 5
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Token",
+    "lines": 22,
+    "words": 126,
+    "episodes": 3
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Clyde",
+    "lines": 20,
+    "words": 192,
+    "episodes": 5
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Jimmy",
+    "lines": 18,
+    "words": 190,
+    "episodes": 6
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Scott",
+    "lines": 13,
+    "words": 70,
+    "episodes": 1
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Announcer",
+    "lines": 11,
+    "words": 159,
+    "episodes": 7
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Bebe",
+    "lines": 10,
+    "words": 65,
+    "episodes": 1
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Reporter",
+    "lines": 9,
+    "words": 309,
+    "episodes": 3
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Jimbo",
+    "lines": 8,
+    "words": 122,
+    "episodes": 1
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Liane",
+    "lines": 7,
+    "words": 59,
+    "episodes": 2
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Principal Victoria",
+    "lines": 6,
+    "words": 94,
+    "episodes": 3
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Stephen",
+    "lines": 6,
+    "words": 74,
+    "episodes": 1
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Man",
+    "lines": 6,
+    "words": 45,
+    "episodes": 4
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Narrator",
+    "lines": 4,
+    "words": 241,
+    "episodes": 2
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Sheila",
+    "lines": 4,
+    "words": 52,
+    "episodes": 2
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Barbrady",
+    "lines": 4,
+    "words": 45,
+    "episodes": 1
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Mr. Garrison",
+    "lines": 3,
+    "words": 66,
+    "episodes": 3
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Tweek",
+    "lines": 3,
+    "words": 34,
+    "episodes": 3
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Stuart",
+    "lines": 2,
+    "words": 15,
+    "episodes": 2
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Woman",
+    "lines": 2,
+    "words": 8,
+    "episodes": 1
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Gerald",
+    "lines": 2,
+    "words": 4,
+    "episodes": 1
+  },
+  {
+    "season": 17,
+    "seasonEpisodeTotal": 10,
+    "character": "Terrance",
+    "lines": 1,
+    "words": 6,
+    "episodes": 1
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Cartman",
+    "lines": 421,
+    "words": 5843,
+    "episodes": 9
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Kyle",
+    "lines": 270,
+    "words": 3036,
+    "episodes": 9
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Stan",
+    "lines": 202,
+    "words": 1966,
+    "episodes": 9
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Randy",
+    "lines": 179,
+    "words": 2570,
+    "episodes": 9
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Butters",
+    "lines": 168,
+    "words": 1421,
+    "episodes": 8
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Stephen",
+    "lines": 59,
+    "words": 993,
+    "episodes": 5
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Announcer",
+    "lines": 44,
+    "words": 1248,
+    "episodes": 8
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Sharon",
+    "lines": 42,
+    "words": 386,
+    "episodes": 8
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Kenny",
+    "lines": 33,
+    "words": 112,
+    "episodes": 7
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Wendy",
+    "lines": 31,
+    "words": 374,
+    "episodes": 4
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Jimmy",
+    "lines": 28,
+    "words": 514,
+    "episodes": 4
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Principal Victoria",
+    "lines": 26,
+    "words": 388,
+    "episodes": 3
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Mr. Garrison",
+    "lines": 25,
+    "words": 295,
+    "episodes": 5
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Timmy",
+    "lines": 21,
+    "words": 25,
+    "episodes": 1
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Gerald",
+    "lines": 19,
+    "words": 143,
+    "episodes": 3
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Satan",
+    "lines": 16,
+    "words": 410,
+    "episodes": 1
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Craig",
+    "lines": 16,
+    "words": 113,
+    "episodes": 4
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Phillip",
+    "lines": 13,
+    "words": 136,
+    "episodes": 1
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Terrance",
+    "lines": 13,
+    "words": 126,
+    "episodes": 1
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Mr. Mackey",
+    "lines": 10,
+    "words": 116,
+    "episodes": 3
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Woman",
+    "lines": 9,
+    "words": 71,
+    "episodes": 3
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Shelly",
+    "lines": 8,
+    "words": 89,
+    "episodes": 3
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Stuart",
+    "lines": 7,
+    "words": 27,
+    "episodes": 3
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Man",
+    "lines": 6,
+    "words": 120,
+    "episodes": 2
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Reporter",
+    "lines": 6,
+    "words": 104,
+    "episodes": 3
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Sheila",
+    "lines": 6,
+    "words": 32,
+    "episodes": 2
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Ike",
+    "lines": 6,
+    "words": 8,
+    "episodes": 2
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Clyde",
+    "lines": 5,
+    "words": 30,
+    "episodes": 3
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Linda",
+    "lines": 5,
+    "words": 27,
+    "episodes": 2
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Scott",
+    "lines": 3,
+    "words": 21,
+    "episodes": 1
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Kids",
+    "lines": 3,
+    "words": 3,
+    "episodes": 2
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Token",
+    "lines": 2,
+    "words": 19,
+    "episodes": 1
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Jimbo",
+    "lines": 2,
+    "words": 17,
+    "episodes": 2
+  },
+  {
+    "season": 18,
+    "seasonEpisodeTotal": 10,
+    "character": "Liane",
+    "lines": 1,
+    "words": 52,
+    "episodes": 1
+  }
+]

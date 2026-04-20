@@ -1,0 +1,110 @@
+[
+  {
+    "season": 1,
+    "episodes": 13,
+    "totalLines": 4170,
+    "totalWords": 40294
+  },
+  {
+    "season": 2,
+    "episodes": 18,
+    "totalLines": 6416,
+    "totalWords": 63513
+  },
+  {
+    "season": 3,
+    "episodes": 17,
+    "totalLines": 5798,
+    "totalWords": 58370
+  },
+  {
+    "season": 4,
+    "episodes": 17,
+    "totalLines": 5680,
+    "totalWords": 60445
+  },
+  {
+    "season": 5,
+    "episodes": 14,
+    "totalLines": 4414,
+    "totalWords": 48913
+  },
+  {
+    "season": 6,
+    "episodes": 17,
+    "totalLines": 5131,
+    "totalWords": 58178
+  },
+  {
+    "season": 7,
+    "episodes": 15,
+    "totalLines": 4236,
+    "totalWords": 48777
+  },
+  {
+    "season": 8,
+    "episodes": 14,
+    "totalLines": 3601,
+    "totalWords": 42688
+  },
+  {
+    "season": 9,
+    "episodes": 14,
+    "totalLines": 3526,
+    "totalWords": 41312
+  },
+  {
+    "season": 10,
+    "episodes": 14,
+    "totalLines": 3471,
+    "totalWords": 39983
+  },
+  {
+    "season": 11,
+    "episodes": 14,
+    "totalLines": 3478,
+    "totalWords": 39414
+  },
+  {
+    "season": 12,
+    "episodes": 14,
+    "totalLines": 3307,
+    "totalWords": 38065
+  },
+  {
+    "season": 13,
+    "episodes": 14,
+    "totalLines": 3257,
+    "totalWords": 43009
+  },
+  {
+    "season": 14,
+    "episodes": 14,
+    "totalLines": 3346,
+    "totalWords": 42141
+  },
+  {
+    "season": 15,
+    "episodes": 14,
+    "totalLines": 3101,
+    "totalWords": 42282
+  },
+  {
+    "season": 16,
+    "episodes": 14,
+    "totalLines": 3120,
+    "totalWords": 41802
+  },
+  {
+    "season": 17,
+    "episodes": 10,
+    "totalLines": 2305,
+    "totalWords": 32170
+  },
+  {
+    "season": 18,
+    "episodes": 10,
+    "totalLines": 2522,
+    "totalWords": 32306
+  }
+]

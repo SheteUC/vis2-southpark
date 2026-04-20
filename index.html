@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>South Park — A Dialogue Anatomy</title>
+  <meta name="description" content="Seven-page Level 1 narrative analysis of South Park dialogue. 18 seasons, 257 episodes, 813,625 words." />
+  <meta property="og:title" content="South Park — A Dialogue Anatomy" />
+  <meta property="og:description" content="Who actually speaks in South Park? 18 seasons of dialogue dissected." />
+
+  <!-- Fonts: Cabinet Grotesk for display, General Sans for body -->
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link
+    href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@500,700,800&f[]=general-sans@400,500,600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+
+  <!-- ── Site header ──────────────────────────────────────────────────────── -->
+  <header class="site-header" role="banner">
+    <a href="#page-1" class="logo-link" aria-label="South Park Dialogue Anatomy — go to start">
+      <!-- Paper-cutout mountain mark -->
+      <svg class="logo-mountain" viewBox="0 0 32 26" width="32" height="26" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+        <!-- Background range (lighter) -->
+        <polygon points="0,26 4,18 10,22 16,10 22,20 28,14 32,18 32,26" fill="currentColor" opacity="0.22"/>
+        <!-- Foreground peak (solid) -->
+        <polygon points="6,26 14,6 22,26" fill="currentColor" opacity="0.55"/>
+        <!-- Snow cap -->
+        <polygon points="12,10 14,6 16,10" fill="white" opacity="0.80"/>
+        <!-- Small side peak -->
+        <polygon points="0,26 0,20 5,14 10,20 10,26" fill="currentColor" opacity="0.40"/>
+        <!-- Snow on side peak -->
+        <polygon points="3,16 5,14 7,16" fill="white" opacity="0.70"/>
+      </svg>
+      <!-- Town-sign style logotype -->
+      <div class="logo-sign" aria-label="South Park">
+        <span class="logo-sign-main">South Park</span>
+        <span class="logo-sign-sub">Dialogue Anatomy</span>
+      </div>
+    </a>
+
+    <nav class="page-nav" aria-label="Section navigation">
+      <ol class="page-nav__list" role="list">
+        <li><a href="#page-1" class="page-nav__link" data-page="1">Who Matters</a></li>
+        <li><a href="#page-2" class="page-nav__link" data-page="2">Hierarchy</a></li>
+        <li><a href="#page-3" class="page-nav__link" data-page="3">By Season</a></li>
+        <li><a href="#page-4" class="page-nav__link" data-page="4">Episode Runs</a></li>
+        <li><a href="#page-5" class="page-nav__link" data-page="5">Presence vs Power</a></li>
+        <li><a href="#page-6" class="page-nav__link" data-page="6">Episode Ownership</a></li>
+        <li><a href="#page-7" class="page-nav__link" data-page="7">The Ensemble</a></li>
+      </ol>
+    </nav>
+
+    <div class="header-controls">
+      <!-- Global scope filter -->
+      <div class="scope-control" role="group" aria-label="Character scope filter">
+        <button class="scope-btn active" data-scope="recurring" title="Show recurring cast: 8+ episode appearances">
+          Recurring <span class="scope-count" id="scope-count-recurring"></span>
+        </button>
+        <button class="scope-btn" data-scope="core" title="Show core cast: 12+ episode appearances">
+          Core <span class="scope-count" id="scope-count-core"></span>
+        </button>
+      </div>
+      <!-- Theme toggle -->
+      <button class="theme-toggle" data-theme-toggle aria-label="Switch to light mode">
+        <!-- Moon icon (default: dark mode) -->
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ── Main content ──────────────────────────────────────────────────────── -->
+  <main id="main-content">
+
+    <!-- PAGE 1 ── Who Actually Matters ──────────────────────────────────── -->
+    <section id="page-1" class="page-section" data-page="1">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-num">01</span>
+          <h1 class="section-title">Who Actually Matters</h1>
+          <p class="section-lede">
+            The dataset covers <strong id="meta-seasons"></strong> seasons,
+            <strong id="meta-episodes"></strong> episodes, and
+            <strong id="meta-words"></strong> words spoken by
+            <strong id="meta-speakers"></strong> distinct characters.
+            <strong id="meta-one-ep-pct"></strong>% appear in just one episode.
+            The recurring cast — 8 or more appearances — is 165 strong.
+          </p>
+        </div>
+
+        <div class="chart-area" id="chart-p1" aria-label="Scatterplot: episode coverage vs total words">
+          <div class="chart-loading">Loading…</div>
+        </div>
+
+        <div class="chart-note">
+          <strong>x-axis</strong> — episode coverage (share of all <span id="meta-ep-count"></span> episodes)&ensp;
+          <strong>y-axis</strong> — total words spoken&ensp;
+          <strong>bubble size</strong> — max single-episode word share
+        </div>
+
+        <!-- Long-tail toggle for page 1 -->
+        <div class="page1-scope-toggle">
+          <button class="text-btn active" id="p1-show-recurring" data-p1scope="recurring">Recurring only</button>
+          <button class="text-btn" id="p1-show-all" data-p1scope="all">Show all speakers</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 2 ── The Main Hierarchy ────────────────────────────────────── -->
+    <section id="page-2" class="page-section" data-page="2">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-num">02</span>
+          <h2 class="section-title">The Main Hierarchy</h2>
+          <p class="section-lede">
+            Recurring cast ranked by voice volume. Cartman's lead is structural — 102 episodes as the top speaker, nearly double Stan's 24.
+            Randy punches far above his episode count; Kenny is the ghost.
+          </p>
+        </div>
+
+        <div class="metric-switcher" role="group" aria-label="Ranking metric">
+          <button class="metric-btn active" data-metric="totalWords">Total words</button>
+          <button class="metric-btn" data-metric="episodeCount">Episodes</button>
+          <button class="metric-btn" data-metric="avgWordsPerEpisode">Avg words / episode</button>
+        </div>
+
+        <div class="chart-area" id="chart-p2" aria-label="Horizontal bar chart: character ranking"></div>
+      </div>
+    </section>
+
+    <!-- PAGE 3 ── How Importance Changes by Season ───────────────────────── -->
+    <section id="page-3" class="page-section" data-page="3">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-num">03</span>
+          <h2 class="section-title">How Importance Changes by Season</h2>
+          <p class="section-lede">
+            Cartman and Stan are fixtures. Randy and Butters rise sharply in the middle seasons
+            as the show expands beyond the four boys.
+            The top-four hierarchy stays remarkably stable across 18 seasons.
+          </p>
+        </div>
+
+        <div class="season-view-toggle" role="group" aria-label="Season view">
+          <button class="metric-btn active" data-seasonview="share">Word share</button>
+          <button class="metric-btn" data-seasonview="rank">Rank</button>
+        </div>
+
+        <div class="chart-area" id="chart-p3" aria-label="Multi-line chart: seasonal word share by character"></div>
+
+        <div class="legend-area" id="legend-p3"></div>
+      </div>
+    </section>
+
+    <!-- PAGE 4 ── Character Run Across Episodes ──────────────────────────── -->
+    <section id="page-4" class="page-section" data-page="4">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-num">04</span>
+          <h2 class="section-title">Character Run Across Episodes</h2>
+          <p class="section-lede">
+            Every square is one episode. Colour intensity = words spoken.
+            Empty = absent. Select a character to explore their run, absences, and spike episodes.
+          </p>
+        </div>
+
+        <div class="char-selector-wrap">
+          <label for="p4-char-select" class="sr-only">Select character</label>
+          <select id="p4-char-select" class="char-select" aria-label="Select character for episode run view">
+            <option value="">Select a character…</option>
+          </select>
+        </div>
+
+        <div class="chart-area chart-area--heatmap" id="chart-p4" aria-label="Episode heatmap: presence and speaking volume"></div>
+
+        <div class="p4-stats" id="p4-stats" hidden>
+          <dl class="stat-row">
+            <div class="stat-item"><dt>Episodes appeared</dt><dd id="p4-stat-ep"></dd></div>
+            <div class="stat-item"><dt>Total words</dt><dd id="p4-stat-words"></dd></div>
+            <div class="stat-item"><dt>Avg words / episode</dt><dd id="p4-stat-avg"></dd></div>
+            <div class="stat-item"><dt>Peak episode</dt><dd id="p4-stat-peak"></dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 5 ── Presence is Not Power ─────────────────────────────────── -->
+    <section id="page-5" class="page-section" data-page="5">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-num">05</span>
+          <h2 class="section-title">Presence Is Not Power</h2>
+          <p class="section-lede">
+            Kenny appears in 161 episodes but ranks 15th by words — the widest gap in the cast.
+            Randy appears in 129 episodes but ranks 4th by words.
+            Being present and owning the dialogue are very different things.
+          </p>
+        </div>
+
+        <div class="chart-area" id="chart-p5" aria-label="Slope / dumbbell chart: presence rank vs volume rank"></div>
+
+        <div class="chart-note">
+          <strong>Left</strong> — rank by episode appearances&ensp;
+          <strong>Right</strong> — rank by total words spoken&ensp;
+          Lines slanting right = more words than their presence suggests; left = less.
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 6 ── Who Owns an Episode ───────────────────────────────────── -->
+    <section id="page-6" class="page-section" data-page="6">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-num">06</span>
+          <h2 class="section-title">Who Owns an Episode</h2>
+          <p class="section-lede">
+            Cartman's ceiling is 55.7% of an episode's words.
+            Stan and Kyle hover near 30% at their peak — consistent but capped.
+            Randy and Butters are detonators: when they're the focus, they take over completely.
+          </p>
+        </div>
+
+        <div class="chart-area chart-area--beeswarm" id="chart-p6" aria-label="Beeswarm chart: per-episode word share distribution by character"></div>
+
+        <div class="chart-note">
+          Each dot = one episode the character appears in. Position = share of that episode's total words.
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 7 ── The Ensemble Machine ──────────────────────────────────── -->
+    <section id="page-7" class="page-section" data-page="7">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-num">07</span>
+          <h2 class="section-title">The Ensemble Machine</h2>
+          <p class="section-lede">
+            South Park runs on a recognisable cast architecture:
+            <strong>anchors</strong> who hold every episode,
+            <strong>spotlight characters</strong> who hijack episodes when called upon,
+            and a deep <strong>supporting ensemble</strong> that provides continuity without demanding voice.
+          </p>
+        </div>
+
+        <!-- Legend / cluster key -->
+        <div class="cluster-legend" id="cluster-legend" aria-label="Cluster legend"></div>
+
+        <div class="chart-area chart-area--ensemble" id="chart-p7" aria-label="Clustered scatterplot: cast architecture"></div>
+
+        <div class="chart-note">
+          <strong>x-axis</strong> — episode coverage&ensp;
+          <strong>y-axis</strong> — avg words per episode&ensp;
+          <strong>Scope filter above</strong> also controls this view.
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Tooltip (shared across all charts) ───────────────────────────────── -->
+  <div id="tooltip" class="tooltip" role="tooltip" aria-live="polite" hidden></div>
+
+  <!-- ── Footer ───────────────────────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <p>Data: <a href="https://github.com/yaylinda/south-park-dialog" target="_blank" rel="noopener">South Park dialogue dataset</a> &mdash; Seasons 1–18 &mdash; public domain transcripts</p>
+    <p>Built with <a href="https://d3js.org" target="_blank" rel="noopener">D3.js</a></p>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
