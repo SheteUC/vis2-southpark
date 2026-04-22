@@ -1,7 +1,7 @@
 # South Park — Dialogue Anatomy
 
-A Level 1 narrative analysis site built on the South Park dialogue dataset.
-Seven pages of D3-powered charts that dissect who speaks, how much, and when.
+A level-based South Park dialogue explorer built on the public transcript dataset.
+The app is organized around the course milestones so Level 1, 2, 3, and 4 each have their own routed view and their own internal navigation.
 
 ---
 
@@ -24,7 +24,7 @@ The site is fully static after build — no server required.
 
 ## Preprocessing
 
-Run `python preprocess.py` from the project root to regenerate all JSON data files.
+Run `python preprocess.py` from the project root to regenerate the derived JSON data files used by the routed app shell.
 
 ### Name normalisation (conservative)
 
@@ -60,53 +60,48 @@ Page 1 adds a third option to show all speakers for long-tail context.
 
 ### Output files (in `public/data/`)
 
-| File | Used on pages | Content |
-|------|--------------|---------|
-| `meta.json` | All | Dataset-level stats, filter thresholds |
-| `overview.json` | 1, 7 | All 3,948 speakers with full metrics and scope tag |
-| `hierarchy.json` | 2 | Recurring cast with multi-metric data |
-| `seasonal-share.json` | 3 | Core cast seasonal word share and rank by season |
-| `episode-runs.json` | 4 | Per-character episode-by-episode words (sparse) |
-| `rank-divergence.json` | 5 | Presence rank vs volume rank for recurring cast |
-| `episode-share.json` | 6 | Per-episode word share distributions with box stats |
-| `ensemble.json` | 7 | All characters with cluster classification |
+| File | Used by | Content |
+|------|---------|---------|
+| `meta.json` | All routes | Dataset-level stats and filter thresholds |
+| `overview.json` | Level 1 | All speakers with scope tags and summary metrics |
+| `hierarchy.json` | Level 1 | Recurring-cast ranking metrics |
+| `seasonal-share.json` | Level 1 | Core-cast seasonal share and rank history |
+| `episode-runs.json` | Level 1 | Per-character episode run data |
+| `rank-divergence.json` | Level 1 | Presence vs volume rank comparison |
+| `episode-share.json` | Level 1 | Per-episode ownership distributions |
+| `ensemble.json` | Level 1 | Cast architecture clusters |
+| `character-text.json` | Level 2 | Per-character top words, phrases, sample lines, and season slices |
+| `character-by-season.json` | Level 2 | Per-character seasonal totals |
+| `major-characters.json` | Level 2 | Character summary stats for language view cards |
+| `fun-facts-summary.json` | Overview / Methods | Dataset summary and supporting notes |
+| `relationship-network.json` | Level 3 | Approximate interaction graph overall and by season |
+| `phrase-trends.json` | Level 4 | Searchable word and phrase trend index with top speakers |
 
 ---
 
-## The Seven Pages
+## App Structure
 
-### 01 — Who Actually Matters
-Scatterplot: x = episode coverage, y = total words, bubble size = max single-episode word share.
-Annotations call out the key narrative archetypes: anchors (Cartman, Stan, Kyle), spotlight characters (Randy, Butters), and the quiet frequent (Kenny).
+### Overview
+Landing page for the project with dataset coverage, assignment framing, and links into each level.
 
-### 02 — The Main Hierarchy
-Horizontal lollipop chart of recurring cast sorted by the selected metric.
-**Metric switcher:** total words / episodes appeared / avg words per episode.
+### Level 1 — Character Importance
+Preserves the original seven-chart narrative:
+who matters overall, hierarchy, seasonal change, episode runs, presence vs power, episode ownership, and the ensemble machine.
 
-### 03 — How Importance Changes by Season
-Multi-line chart (word share view) or bump chart (rank view) for the core recurring cast.
-Line hover highlights one character and dims the rest.
-Shows Cartman's stable dominance and Randy/Butters's mid-series rise.
+### Level 2 — Character Language
+Character selector plus whole-show or season scope.
+Includes a word cloud, repeated phrases, sample lines, and a seasonal dialogue volume chart.
 
-### 04 — Character Run Across Episodes
-Episode heatmap: 18 rows (one per season), columns = episodes within each season.
-Colour intensity = words spoken by the selected character. White = absent.
-Stats row below shows totals and the peak episode.
+### Level 3 — Character Relationships
+Approximate interaction network based on adjacent dialogue turns in each episode.
+Includes a season filter, top-pair list, and details-on-demand panel.
 
-### 05 — Presence Is Not Power
-Slope chart comparing rank by episode appearances (left) to rank by total words (right).
-Kenny's dramatic drop from #5 presence → #20 volume is the headline story.
-Randy shows the opposite: fewer episodes but more words per appearance.
+### Level 4 — Phrase Evolution
+Searchable trend view for indexed words and short phrases.
+Shows season-by-season counts, top speakers, and sample mentions.
 
-### 06 — Who Owns an Episode
-Beeswarm with box summary per character.
-Each dot = one episode the character appeared in; x = share of that episode's words.
-Cartman's ceiling: 55.7%. Stan/Kyle: capped around 30%. Randy/Butters: bimodal — quiet or dominant.
-
-### 07 — The Ensemble Machine
-Clustered scatterplot: x = episode coverage, y = avg words per episode, size = total words.
-Colour = cast cluster (anchor / spotlight / adult support / school kids / other recurring / guest).
-Scope filter controls which characters appear.
+### Methods / Sources
+Documents filtering decisions, preprocessing logic, design rationale, and deployment assumptions.
 
 ---
 
@@ -154,8 +149,8 @@ Requirements: Node ≥ 18, Python 3 with `pandas` and `numpy`.
 
 ## Design Notes
 
-- **South Park–inspired but editorial.** Off-white parchment surfaces, slate blue primary accent, ochre data highlight. Paper-cutout mountain silhouette in the SVG logo.
-- **Light + dark mode.** System preference default with manual toggle. CSS variables update all chart colours on switch.
-- **No framework overhead.** Entire app is 87 kB bundled JS (including D3). Instant first paint.
-- **Responsive.** Mobile-first layout; charts re-render on resize. Heatmap and beeswarm adapt to narrow viewports.
-- **Accessible.** Semantic HTML, `aria-label` on charts, `role="group"` on filter controls, keyboard-navigable.
+- **Level-based information architecture.** Primary navigation chooses the assignment level; secondary navigation changes with the current route.
+- **South Park–inspired but editorial.** Off-white parchment surfaces, slate blue primary accent, ochre highlights, and a paper-cutout mountain sign system.
+- **Lazy data loading.** Each level fetches only the datasets it needs, then caches them for revisits.
+- **Static deployment friendly.** Plain HTML, CSS, and JavaScript with Vite and D3; no framework routing dependency required.
+- **Responsive.** Primary and secondary navigation stay usable on mobile, and routed charts re-render on resize.
