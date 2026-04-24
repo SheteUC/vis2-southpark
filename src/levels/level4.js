@@ -27,10 +27,6 @@ function escapeHtml(value) {
     .replaceAll("'", '&#39;');
 }
 
-function formatEpisodeBadge(snippet) {
-  return `S${String(snippet.season).padStart(2, '0')}E${String(snippet.episode).padStart(2, '0')}`;
-}
-
 function renderTemplate(rootEl, pair) {
   const [cartmanStats, kyleStats] = pair.speakerStats;
   rootEl.innerHTML = `
@@ -42,7 +38,7 @@ function renderTemplate(rootEl, pair) {
           <p class="level-hero__lede">
             This level zooms in on <strong>Cartman</strong> and <strong>Kyle Broflovski</strong> to ask a narrower question:
             when they are effectively talking to each other, do they sound different? The chart uses short transcript
-            windows to approximate shared scene context, then the dialogue card below grounds that pattern in direct exchanges.
+            windows to approximate shared scene context.
           </p>
         </div>
       </div>
@@ -76,8 +72,6 @@ function renderTemplate(rootEl, pair) {
               </p>
             </div>
           </div>
-
-          <aside class="dialogue-card" id="l4-dialogue-card" aria-live="polite"></aside>
         </div>
       </div>
     </section>
@@ -226,111 +220,6 @@ function drawPairWordsChart(pair) {
     .text('Rate within Cartman/Kyle pair-context words');
 }
 
-function buildSnippetBubble(line) {
-  const side = line.speaker === 'Cartman' ? 'cartman' : 'kyle';
-  return `
-    <article class="dialogue-bubble dialogue-bubble--${side}">
-      <span class="dialogue-bubble__speaker">${escapeHtml(line.speaker)}</span>
-      <p>${escapeHtml(line.text)}</p>
-    </article>
-  `;
-}
-
-function renderDialogueCard(ctx, pair) {
-  const card = document.getElementById('l4-dialogue-card');
-  if (!card) return;
-
-  const state = ctx.getLevelState({ snippetIndex: 0 });
-  const snippets = pair.snippets || [];
-  const snippetIndex = clampIndex(state.snippetIndex || 0, snippets.length);
-  if (snippetIndex !== state.snippetIndex) {
-    ctx.updateLevelState({ snippetIndex });
-  }
-  const snippet = snippets[snippetIndex];
-
-  if (!snippet) {
-    card.innerHTML = `
-      <div class="empty-state">
-        No clean Cartman/Kyle exchange snippets were available in the processed dataset.
-      </div>
-    `;
-    return;
-  }
-
-  const pills = snippets.map((row, index) => `
-    <button
-      type="button"
-      class="dialogue-pill ${index === snippetIndex ? 'active' : ''}"
-      data-snippet-index="${index}"
-      aria-pressed="${index === snippetIndex ? 'true' : 'false'}"
-    >
-      ${escapeHtml(formatEpisodeBadge(row))}
-    </button>
-  `).join('');
-
-  card.innerHTML = `
-    <div class="dialogue-card__header">
-      <div>
-        <span class="overview-card__label">Snippet card</span>
-        <h3>Cartman and Kyle in direct exchange</h3>
-      </div>
-      <span class="dialogue-card__badge">${escapeHtml(formatEpisodeBadge(snippet))}</span>
-    </div>
-
-    <div class="dialogue-nav">
-      <button
-        type="button"
-        class="dialogue-nav__btn"
-        data-snippet-step="-1"
-        ${snippetIndex === 0 ? 'disabled' : ''}
-      >
-        Previous
-      </button>
-      <button
-        type="button"
-        class="dialogue-nav__btn"
-        data-snippet-step="1"
-        ${snippetIndex === snippets.length - 1 ? 'disabled' : ''}
-      >
-        Next
-      </button>
-    </div>
-
-    <div class="dialogue-pill-row">
-      ${pills}
-    </div>
-
-    <div class="dialogue-card__stage" aria-hidden="true">
-      <div class="dialogue-avatar dialogue-avatar--cartman">
-        <span>Cartman</span>
-      </div>
-      <div class="dialogue-avatar dialogue-avatar--kyle">
-        <span>Kyle</span>
-      </div>
-    </div>
-
-    <div class="dialogue-bubbles">
-      ${snippet.lines.map(buildSnippetBubble).join('')}
-    </div>
-  `;
-
-  card.querySelectorAll('[data-snippet-step]').forEach((button) => {
-    button.addEventListener('click', () => {
-      const step = Number(button.dataset.snippetStep || 0);
-      ctx.updateLevelState({ snippetIndex: clampIndex(snippetIndex + step, snippets.length) });
-      renderDialogueCard(ctx, pair);
-    });
-  });
-
-  card.querySelectorAll('[data-snippet-index]').forEach((button) => {
-    button.addEventListener('click', () => {
-      const index = Number(button.dataset.snippetIndex || 0);
-      ctx.updateLevelState({ snippetIndex: clampIndex(index, snippets.length) });
-      renderDialogueCard(ctx, pair);
-    });
-  });
-}
-
 function renderEmpty(rootEl, message) {
   rootEl.innerHTML = `
     <section id="level-4-intro" class="level-shell">
@@ -364,12 +253,8 @@ export const level4View = {
       return;
     }
 
-    const state = ctx.getLevelState({ snippetIndex: 0 });
-    ctx.updateLevelState({ snippetIndex: clampIndex(state.snippetIndex || 0, pair.snippets.length) });
-
     renderTemplate(ctx.container, pair);
     drawPairWordsChart(pair);
-    renderDialogueCard(ctx, pair);
 
     if (resizeHandler) {
       window.removeEventListener('resize', resizeHandler);
