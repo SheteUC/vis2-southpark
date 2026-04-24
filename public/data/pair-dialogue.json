@@ -1,0 +1,6925 @@
+{
+  "meta": {
+    "defaultPair": [
+      "Cartman",
+      "Kyle"
+    ],
+    "conversationModel": "window-5-plus-adjacent-snippets",
+    "windowSize": 5,
+    "pairDominanceThreshold": 4,
+    "minTokenCount": 8
+  },
+  "pairs": [
+    {
+      "pairKey": "Cartman__Kyle",
+      "characters": [
+        "Cartman",
+        "Kyle"
+      ],
+      "pairContextLineCount": 5244,
+      "pairContextWordCount": 64406,
+      "adjacentExchangeCount": 4074,
+      "episodeCount": 203,
+      "speakerStats": [
+        {
+          "character": "Cartman",
+          "pairContextLines": 2921,
+          "pairContextWords": 43558,
+          "topDistinctiveWords": [
+            {
+              "word": "guys",
+              "count": 419,
+              "rate": 0.0096,
+              "rateDiff": 0.0072
+            },
+            {
+              "word": "man",
+              "count": 70,
+              "rate": 0.0016,
+              "rateDiff": 0.0011
+            },
+            {
+              "word": "bitch",
+              "count": 62,
+              "rate": 0.0014,
+              "rateDiff": 0.0007
+            },
+            {
+              "word": "clyde",
+              "count": 37,
+              "rate": 0.0008,
+              "rateDiff": 0.0007
+            },
+            {
+              "word": "heh",
+              "count": 34,
+              "rate": 0.0008,
+              "rateDiff": 0.0007
+            },
+            {
+              "word": "school",
+              "count": 55,
+              "rate": 0.0013,
+              "rateDiff": 0.0007
+            },
+            {
+              "word": "balls",
+              "count": 45,
+              "rate": 0.001,
+              "rateDiff": 0.0006
+            },
+            {
+              "word": "call",
+              "count": 51,
+              "rate": 0.0012,
+              "rateDiff": 0.0006
+            }
+          ]
+        },
+        {
+          "character": "Kyle",
+          "pairContextLines": 2323,
+          "pairContextWords": 20848,
+          "topDistinctiveWords": [
+            {
+              "word": "dude",
+              "count": 167,
+              "rate": 0.008,
+              "rateDiff": -0.005
+            },
+            {
+              "word": "fatass",
+              "count": 71,
+              "rate": 0.0034,
+              "rateDiff": -0.0034
+            },
+            {
+              "word": "dreidel",
+              "count": 40,
+              "rate": 0.0019,
+              "rateDiff": -0.0019
+            },
+            {
+              "word": "hell",
+              "count": 61,
+              "rate": 0.0029,
+              "rateDiff": -0.0019
+            },
+            {
+              "word": "fat",
+              "count": 47,
+              "rate": 0.0023,
+              "rateDiff": -0.0016
+            },
+            {
+              "word": "stupid",
+              "count": 55,
+              "rate": 0.0026,
+              "rateDiff": -0.0013
+            },
+            {
+              "word": "ike",
+              "count": 25,
+              "rate": 0.0012,
+              "rateDiff": -0.0011
+            },
+            {
+              "word": "yummy",
+              "count": 23,
+              "rate": 0.0011,
+              "rateDiff": -0.0011
+            }
+          ]
+        }
+      ],
+      "chartWords": [
+        {
+          "word": "guys",
+          "cartmanCount": 419,
+          "kyleCount": 51,
+          "cartmanRate": 0.0096,
+          "kyleRate": 0.0024,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0072,
+          "absRateDiff": 0.0072
+        },
+        {
+          "word": "dude",
+          "cartmanCount": 129,
+          "kyleCount": 167,
+          "cartmanRate": 0.003,
+          "kyleRate": 0.008,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.005,
+          "absRateDiff": 0.005
+        },
+        {
+          "word": "fatass",
+          "cartmanCount": 2,
+          "kyleCount": 71,
+          "cartmanRate": 0.0,
+          "kyleRate": 0.0034,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0034,
+          "absRateDiff": 0.0034
+        },
+        {
+          "word": "dreidel",
+          "cartmanCount": 2,
+          "kyleCount": 40,
+          "cartmanRate": 0.0,
+          "kyleRate": 0.0019,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0019,
+          "absRateDiff": 0.0019
+        },
+        {
+          "word": "hell",
+          "cartmanCount": 44,
+          "kyleCount": 61,
+          "cartmanRate": 0.001,
+          "kyleRate": 0.0029,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0019,
+          "absRateDiff": 0.0019
+        },
+        {
+          "word": "fat",
+          "cartmanCount": 27,
+          "kyleCount": 47,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0023,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0016,
+          "absRateDiff": 0.0016
+        },
+        {
+          "word": "stupid",
+          "cartmanCount": 60,
+          "kyleCount": 55,
+          "cartmanRate": 0.0014,
+          "kyleRate": 0.0026,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0013,
+          "absRateDiff": 0.0013
+        },
+        {
+          "word": "ike",
+          "cartmanCount": 5,
+          "kyleCount": 25,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0012,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0011,
+          "absRateDiff": 0.0011
+        },
+        {
+          "word": "man",
+          "cartmanCount": 70,
+          "kyleCount": 10,
+          "cartmanRate": 0.0016,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0011,
+          "absRateDiff": 0.0011
+        },
+        {
+          "word": "yummy",
+          "cartmanCount": 1,
+          "kyleCount": 23,
+          "cartmanRate": 0.0,
+          "kyleRate": 0.0011,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0011,
+          "absRateDiff": 0.0011
+        },
+        {
+          "word": "stop",
+          "cartmanCount": 43,
+          "kyleCount": 41,
+          "cartmanRate": 0.001,
+          "kyleRate": 0.002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.001,
+          "absRateDiff": 0.001
+        },
+        {
+          "word": "stan",
+          "cartmanCount": 65,
+          "kyleCount": 50,
+          "cartmanRate": 0.0015,
+          "kyleRate": 0.0024,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0009,
+          "absRateDiff": 0.0009
+        },
+        {
+          "word": "hankey",
+          "cartmanCount": 7,
+          "kyleCount": 19,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0008,
+          "absRateDiff": 0.0008
+        },
+        {
+          "word": "people",
+          "cartmanCount": 104,
+          "kyleCount": 67,
+          "cartmanRate": 0.0024,
+          "kyleRate": 0.0032,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0008,
+          "absRateDiff": 0.0008
+        },
+        {
+          "word": "want",
+          "cartmanCount": 61,
+          "kyleCount": 45,
+          "cartmanRate": 0.0014,
+          "kyleRate": 0.0022,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0008,
+          "absRateDiff": 0.0008
+        },
+        {
+          "word": "bitch",
+          "cartmanCount": 62,
+          "kyleCount": 15,
+          "cartmanRate": 0.0014,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0007,
+          "absRateDiff": 0.0007
+        },
+        {
+          "word": "cartman's",
+          "cartmanCount": 5,
+          "kyleCount": 16,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0007,
+          "absRateDiff": 0.0007
+        },
+        {
+          "word": "clyde",
+          "cartmanCount": 37,
+          "kyleCount": 4,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0007,
+          "absRateDiff": 0.0007
+        },
+        {
+          "word": "heh",
+          "cartmanCount": 34,
+          "kyleCount": 2,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0007,
+          "absRateDiff": 0.0007
+        },
+        {
+          "word": "school",
+          "cartmanCount": 55,
+          "kyleCount": 12,
+          "cartmanRate": 0.0013,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0007,
+          "absRateDiff": 0.0007
+        },
+        {
+          "word": "shut",
+          "cartmanCount": 20,
+          "kyleCount": 24,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0012,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0007,
+          "absRateDiff": 0.0007
+        },
+        {
+          "word": "balls",
+          "cartmanCount": 45,
+          "kyleCount": 8,
+          "cartmanRate": 0.001,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0006,
+          "absRateDiff": 0.0006
+        },
+        {
+          "word": "call",
+          "cartmanCount": 51,
+          "kyleCount": 11,
+          "cartmanRate": 0.0012,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0006,
+          "absRateDiff": 0.0006
+        },
+        {
+          "word": "dad",
+          "cartmanCount": 12,
+          "kyleCount": 18,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0006,
+          "absRateDiff": 0.0006
+        },
+        {
+          "word": "home",
+          "cartmanCount": 43,
+          "kyleCount": 8,
+          "cartmanRate": 0.001,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0006,
+          "absRateDiff": 0.0006
+        },
+        {
+          "word": "idea",
+          "cartmanCount": 22,
+          "kyleCount": 23,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0011,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0006,
+          "absRateDiff": 0.0006
+        },
+        {
+          "word": "jew",
+          "cartmanCount": 65,
+          "kyleCount": 19,
+          "cartmanRate": 0.0015,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0006,
+          "absRateDiff": 0.0006
+        },
+        {
+          "word": "talking",
+          "cartmanCount": 19,
+          "kyleCount": 21,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0006,
+          "absRateDiff": 0.0006
+        },
+        {
+          "word": "thank",
+          "cartmanCount": 32,
+          "kyleCount": 2,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0006,
+          "absRateDiff": 0.0006
+        },
+        {
+          "word": "wanna",
+          "cartmanCount": 59,
+          "kyleCount": 41,
+          "cartmanRate": 0.0014,
+          "kyleRate": 0.002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0006,
+          "absRateDiff": 0.0006
+        },
+        {
+          "word": "whoa",
+          "cartmanCount": 10,
+          "kyleCount": 18,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0006,
+          "absRateDiff": 0.0006
+        },
+        {
+          "word": "wow",
+          "cartmanCount": 15,
+          "kyleCount": 20,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0006,
+          "absRateDiff": 0.0006
+        },
+        {
+          "word": "another",
+          "cartmanCount": 27,
+          "kyleCount": 2,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "brother",
+          "cartmanCount": 14,
+          "kyleCount": 18,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "ever",
+          "cartmanCount": 44,
+          "kyleCount": 11,
+          "cartmanRate": 0.001,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "goin",
+          "cartmanCount": 20,
+          "kyleCount": 0,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "guess",
+          "cartmanCount": 45,
+          "kyleCount": 12,
+          "cartmanRate": 0.001,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "kenny",
+          "cartmanCount": 96,
+          "kyleCount": 36,
+          "cartmanRate": 0.0022,
+          "kyleRate": 0.0017,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "kyle's",
+          "cartmanCount": 24,
+          "kyleCount": 1,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "made",
+          "cartmanCount": 25,
+          "kyleCount": 23,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0011,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "parents",
+          "cartmanCount": 12,
+          "kyleCount": 16,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "scott",
+          "cartmanCount": 27,
+          "kyleCount": 3,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "seriously",
+          "cartmanCount": 29,
+          "kyleCount": 3,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "something",
+          "cartmanCount": 50,
+          "kyleCount": 35,
+          "cartmanRate": 0.0011,
+          "kyleRate": 0.0017,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "time",
+          "cartmanCount": 107,
+          "kyleCount": 41,
+          "cartmanRate": 0.0025,
+          "kyleRate": 0.002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "two",
+          "cartmanCount": 43,
+          "kyleCount": 11,
+          "cartmanRate": 0.001,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0005,
+          "absRateDiff": 0.0005
+        },
+        {
+          "word": "bucks",
+          "cartmanCount": 20,
+          "kyleCount": 1,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "butters",
+          "cartmanCount": 84,
+          "kyleCount": 32,
+          "cartmanRate": 0.0019,
+          "kyleRate": 0.0015,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "craig",
+          "cartmanCount": 20,
+          "kyleCount": 2,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "crap",
+          "cartmanCount": 34,
+          "kyleCount": 24,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0012,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "dammit",
+          "cartmanCount": 2,
+          "kyleCount": 9,
+          "cartmanRate": 0.0,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "enough",
+          "cartmanCount": 11,
+          "kyleCount": 13,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "frog",
+          "cartmanCount": 17,
+          "kyleCount": 0,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "fucking",
+          "cartmanCount": 22,
+          "kyleCount": 18,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "house",
+          "cartmanCount": 23,
+          "kyleCount": 20,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "jambu",
+          "cartmanCount": 0,
+          "kyleCount": 8,
+          "cartmanRate": 0.0,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "jews",
+          "cartmanCount": 36,
+          "kyleCount": 9,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "kids",
+          "cartmanCount": 10,
+          "kyleCount": 14,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "morning",
+          "cartmanCount": 23,
+          "kyleCount": 3,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "nuts",
+          "cartmanCount": 20,
+          "kyleCount": 1,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "park",
+          "cartmanCount": 18,
+          "kyleCount": 0,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "saw",
+          "cartmanCount": 18,
+          "kyleCount": 17,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "today",
+          "cartmanCount": 25,
+          "kyleCount": 4,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "token",
+          "cartmanCount": 26,
+          "kyleCount": 4,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "try",
+          "cartmanCount": 40,
+          "kyleCount": 27,
+          "cartmanRate": 0.0009,
+          "kyleRate": 0.0013,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "watch",
+          "cartmanCount": 14,
+          "kyleCount": 14,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "win",
+          "cartmanCount": 7,
+          "kyleCount": 11,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0004,
+          "absRateDiff": 0.0004
+        },
+        {
+          "word": "ahead",
+          "cartmanCount": 23,
+          "kyleCount": 4,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "air",
+          "cartmanCount": 8,
+          "kyleCount": 10,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "anything",
+          "cartmanCount": 29,
+          "kyleCount": 21,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "around",
+          "cartmanCount": 28,
+          "kyleCount": 20,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "ass",
+          "cartmanCount": 49,
+          "kyleCount": 29,
+          "cartmanRate": 0.0011,
+          "kyleRate": 0.0014,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "assholes",
+          "cartmanCount": 13,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "away",
+          "cartmanCount": 56,
+          "kyleCount": 20,
+          "cartmanRate": 0.0013,
+          "kyleRate": 0.001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "bad",
+          "cartmanCount": 34,
+          "kyleCount": 23,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0011,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "big",
+          "cartmanCount": 42,
+          "kyleCount": 13,
+          "cartmanRate": 0.001,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "bring",
+          "cartmanCount": 18,
+          "kyleCount": 3,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "cause",
+          "cartmanCount": 29,
+          "kyleCount": 8,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "check",
+          "cartmanCount": 29,
+          "kyleCount": 8,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "clay",
+          "cartmanCount": 1,
+          "kyleCount": 7,
+          "cartmanRate": 0.0,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "coming",
+          "cartmanCount": 18,
+          "kyleCount": 3,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "cool",
+          "cartmanCount": 58,
+          "kyleCount": 33,
+          "cartmanRate": 0.0013,
+          "kyleRate": 0.0016,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "damn",
+          "cartmanCount": 19,
+          "kyleCount": 16,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "day",
+          "cartmanCount": 29,
+          "kyleCount": 7,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "douche",
+          "cartmanCount": 3,
+          "kyleCount": 8,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "eating",
+          "cartmanCount": 5,
+          "kyleCount": 9,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "everybody",
+          "cartmanCount": 22,
+          "kyleCount": 5,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "everyone",
+          "cartmanCount": 49,
+          "kyleCount": 18,
+          "cartmanRate": 0.0011,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "excuse",
+          "cartmanCount": 14,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "family",
+          "cartmanCount": 25,
+          "kyleCount": 18,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "feel",
+          "cartmanCount": 26,
+          "kyleCount": 18,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "fine",
+          "cartmanCount": 60,
+          "kyleCount": 23,
+          "cartmanRate": 0.0014,
+          "kyleRate": 0.0011,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "food",
+          "cartmanCount": 15,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "four",
+          "cartmanCount": 19,
+          "kyleCount": 3,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "fun",
+          "cartmanCount": 11,
+          "kyleCount": 11,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "game",
+          "cartmanCount": 18,
+          "kyleCount": 14,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "gentlemen",
+          "cartmanCount": 11,
+          "kyleCount": 0,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "giant",
+          "cartmanCount": 3,
+          "kyleCount": 7,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "ginger",
+          "cartmanCount": 17,
+          "kyleCount": 1,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "give",
+          "cartmanCount": 47,
+          "kyleCount": 28,
+          "cartmanRate": 0.0011,
+          "kyleRate": 0.0013,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "goddamnit",
+          "cartmanCount": 5,
+          "kyleCount": 8,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "hands",
+          "cartmanCount": 15,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "head",
+          "cartmanCount": 25,
+          "kyleCount": 5,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "heheh",
+          "cartmanCount": 11,
+          "kyleCount": 0,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "help",
+          "cartmanCount": 36,
+          "kyleCount": 24,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0012,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "hold",
+          "cartmanCount": 21,
+          "kyleCount": 3,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "kid",
+          "cartmanCount": 19,
+          "kyleCount": 16,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "light",
+          "cartmanCount": 12,
+          "kyleCount": 0,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "listen",
+          "cartmanCount": 21,
+          "kyleCount": 4,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "long",
+          "cartmanCount": 29,
+          "kyleCount": 7,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "look",
+          "cartmanCount": 99,
+          "kyleCount": 41,
+          "cartmanRate": 0.0023,
+          "kyleRate": 0.002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "looking",
+          "cartmanCount": 13,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "lopez",
+          "cartmanCount": 14,
+          "kyleCount": 0,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "lying",
+          "cartmanCount": 10,
+          "kyleCount": 11,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "mel",
+          "cartmanCount": 11,
+          "kyleCount": 0,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "money",
+          "cartmanCount": 43,
+          "kyleCount": 27,
+          "cartmanRate": 0.001,
+          "kyleRate": 0.0013,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "needs",
+          "cartmanCount": 11,
+          "kyleCount": 0,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "old",
+          "cartmanCount": 16,
+          "kyleCount": 13,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "person",
+          "cartmanCount": 12,
+          "kyleCount": 0,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "picture",
+          "cartmanCount": 19,
+          "kyleCount": 2,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "poor",
+          "cartmanCount": 29,
+          "kyleCount": 7,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "real",
+          "cartmanCount": 20,
+          "kyleCount": 16,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "retard",
+          "cartmanCount": 2,
+          "kyleCount": 8,
+          "cartmanRate": 0.0,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "retarded",
+          "cartmanCount": 2,
+          "kyleCount": 7,
+          "cartmanRate": 0.0,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "sail",
+          "cartmanCount": 13,
+          "kyleCount": 0,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "seen",
+          "cartmanCount": 19,
+          "kyleCount": 3,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "sure",
+          "cartmanCount": 37,
+          "kyleCount": 23,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0011,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "sweet",
+          "cartmanCount": 35,
+          "kyleCount": 10,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "tell",
+          "cartmanCount": 62,
+          "kyleCount": 35,
+          "cartmanRate": 0.0014,
+          "kyleRate": 0.0017,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "thanks",
+          "cartmanCount": 16,
+          "kyleCount": 14,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "think",
+          "cartmanCount": 117,
+          "kyleCount": 63,
+          "cartmanRate": 0.0027,
+          "kyleRate": 0.003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "toilet",
+          "cartmanCount": 13,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0003,
+          "absRateDiff": 0.0003
+        },
+        {
+          "word": "afraid",
+          "cartmanCount": 11,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "album",
+          "cartmanCount": 11,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "alone",
+          "cartmanCount": 10,
+          "kyleCount": 8,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "already",
+          "cartmanCount": 13,
+          "kyleCount": 10,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "alright",
+          "cartmanCount": 42,
+          "kyleCount": 25,
+          "cartmanRate": 0.001,
+          "kyleRate": 0.0012,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "always",
+          "cartmanCount": 14,
+          "kyleCount": 11,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "anymore",
+          "cartmanCount": 20,
+          "kyleCount": 14,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "aren't",
+          "cartmanCount": 16,
+          "kyleCount": 12,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "baby",
+          "cartmanCount": 6,
+          "kyleCount": 8,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "ball",
+          "cartmanCount": 11,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "bathroom",
+          "cartmanCount": 12,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "bet",
+          "cartmanCount": 13,
+          "kyleCount": 10,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "better",
+          "cartmanCount": 42,
+          "kyleCount": 24,
+          "cartmanRate": 0.001,
+          "kyleRate": 0.0012,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "black",
+          "cartmanCount": 19,
+          "kyleCount": 4,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "body",
+          "cartmanCount": 12,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "born",
+          "cartmanCount": 5,
+          "kyleCount": 6,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "break",
+          "cartmanCount": 10,
+          "kyleCount": 8,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "brown",
+          "cartmanCount": 9,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "bull",
+          "cartmanCount": 4,
+          "kyleCount": 7,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "bunch",
+          "cartmanCount": 3,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "called",
+          "cartmanCount": 21,
+          "kyleCount": 5,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "came",
+          "cartmanCount": 6,
+          "kyleCount": 8,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "care",
+          "cartmanCount": 24,
+          "kyleCount": 16,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "cash",
+          "cartmanCount": 8,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "chance",
+          "cartmanCount": 8,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "christmas",
+          "cartmanCount": 21,
+          "kyleCount": 14,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "computer",
+          "cartmanCount": 11,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "costume",
+          "cartmanCount": 4,
+          "kyleCount": 6,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "course",
+          "cartmanCount": 18,
+          "kyleCount": 5,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "cream",
+          "cartmanCount": 11,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "damnit",
+          "cartmanCount": 15,
+          "kyleCount": 12,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "david",
+          "cartmanCount": 3,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "dead",
+          "cartmanCount": 13,
+          "kyleCount": 10,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "dick",
+          "cartmanCount": 12,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "dirty",
+          "cartmanCount": 9,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "doll",
+          "cartmanCount": 3,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "dollar",
+          "cartmanCount": 9,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "double",
+          "cartmanCount": 9,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "dying",
+          "cartmanCount": 4,
+          "kyleCount": 6,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "each",
+          "cartmanCount": 14,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "either",
+          "cartmanCount": 7,
+          "kyleCount": 8,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "eye",
+          "cartmanCount": 8,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "eyes",
+          "cartmanCount": 17,
+          "kyleCount": 4,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "face",
+          "cartmanCount": 23,
+          "kyleCount": 6,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "fart",
+          "cartmanCount": 3,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "farts",
+          "cartmanCount": 4,
+          "kyleCount": 7,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "fetuses",
+          "cartmanCount": 11,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "finally",
+          "cartmanCount": 16,
+          "kyleCount": 4,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "find",
+          "cartmanCount": 33,
+          "kyleCount": 20,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "five",
+          "cartmanCount": 18,
+          "kyleCount": 4,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "fuckin",
+          "cartmanCount": 13,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "gets",
+          "cartmanCount": 10,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "gibson",
+          "cartmanCount": 8,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "god",
+          "cartmanCount": 109,
+          "kyleCount": 49,
+          "cartmanRate": 0.0025,
+          "kyleRate": 0.0024,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "goes",
+          "cartmanCount": 14,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "gotta",
+          "cartmanCount": 31,
+          "kyleCount": 18,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "government",
+          "cartmanCount": 3,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "hahaha",
+          "cartmanCount": 8,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "happened",
+          "cartmanCount": 12,
+          "kyleCount": 10,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "headset",
+          "cartmanCount": 3,
+          "kyleCount": 6,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "hella",
+          "cartmanCount": 14,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "high",
+          "cartmanCount": 13,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "how's",
+          "cartmanCount": 11,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "huge",
+          "cartmanCount": 9,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "hundred",
+          "cartmanCount": 17,
+          "kyleCount": 4,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "jealous",
+          "cartmanCount": 13,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "jimmy",
+          "cartmanCount": 13,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "kewl",
+          "cartmanCount": 8,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "kill",
+          "cartmanCount": 23,
+          "kyleCount": 15,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "killed",
+          "cartmanCount": 4,
+          "kyleCount": 6,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "knew",
+          "cartmanCount": 4,
+          "kyleCount": 7,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "know",
+          "cartmanCount": 209,
+          "kyleCount": 104,
+          "cartmanRate": 0.0048,
+          "kyleRate": 0.005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "knows",
+          "cartmanCount": 3,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "kyyyle",
+          "cartmanCount": 8,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "live",
+          "cartmanCount": 26,
+          "kyleCount": 8,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "lives",
+          "cartmanCount": 11,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "living",
+          "cartmanCount": 12,
+          "kyleCount": 10,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "make",
+          "cartmanCount": 76,
+          "kyleCount": 32,
+          "cartmanRate": 0.0017,
+          "kyleRate": 0.0015,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "mall",
+          "cartmanCount": 11,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "mart",
+          "cartmanCount": 11,
+          "kyleCount": 9,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "may",
+          "cartmanCount": 9,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "maybe",
+          "cartmanCount": 41,
+          "kyleCount": 23,
+          "cartmanRate": 0.0009,
+          "kyleRate": 0.0011,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "mean",
+          "cartmanCount": 55,
+          "kyleCount": 30,
+          "cartmanRate": 0.0013,
+          "kyleRate": 0.0014,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "means",
+          "cartmanCount": 16,
+          "kyleCount": 3,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "mega",
+          "cartmanCount": 11,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "minorities",
+          "cartmanCount": 11,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "minute",
+          "cartmanCount": 18,
+          "kyleCount": 12,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "mom",
+          "cartmanCount": 68,
+          "kyleCount": 28,
+          "cartmanRate": 0.0016,
+          "kyleRate": 0.0013,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "name",
+          "cartmanCount": 13,
+          "kyleCount": 11,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "never",
+          "cartmanCount": 39,
+          "kyleCount": 14,
+          "cartmanRate": 0.0009,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "nine",
+          "cartmanCount": 11,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "nobody",
+          "cartmanCount": 8,
+          "kyleCount": 7,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "normal",
+          "cartmanCount": 9,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "nya",
+          "cartmanCount": 8,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "office",
+          "cartmanCount": 10,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "open",
+          "cartmanCount": 8,
+          "kyleCount": 8,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "pants",
+          "cartmanCount": 14,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "pee",
+          "cartmanCount": 7,
+          "kyleCount": 7,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "phillip",
+          "cartmanCount": 5,
+          "kyleCount": 7,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "play",
+          "cartmanCount": 42,
+          "kyleCount": 25,
+          "cartmanRate": 0.001,
+          "kyleRate": 0.0012,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "please",
+          "cartmanCount": 34,
+          "kyleCount": 20,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "practice",
+          "cartmanCount": 2,
+          "kyleCount": 6,
+          "cartmanRate": 0.0,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "remember",
+          "cartmanCount": 23,
+          "kyleCount": 6,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "rest",
+          "cartmanCount": 14,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "room",
+          "cartmanCount": 18,
+          "kyleCount": 13,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "said",
+          "cartmanCount": 44,
+          "kyleCount": 26,
+          "cartmanRate": 0.001,
+          "kyleRate": 0.0012,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "saved",
+          "cartmanCount": 8,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "saying",
+          "cartmanCount": 15,
+          "kyleCount": 11,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "says",
+          "cartmanCount": 9,
+          "kyleCount": 9,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "scare",
+          "cartmanCount": 2,
+          "kyleCount": 6,
+          "cartmanRate": 0.0,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "second",
+          "cartmanCount": 19,
+          "kyleCount": 4,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "seem",
+          "cartmanCount": 9,
+          "kyleCount": 8,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "serious",
+          "cartmanCount": 11,
+          "kyleCount": 10,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "shall",
+          "cartmanCount": 6,
+          "kyleCount": 8,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "shit",
+          "cartmanCount": 24,
+          "kyleCount": 15,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "show",
+          "cartmanCount": 37,
+          "kyleCount": 14,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "sir",
+          "cartmanCount": 13,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "sit",
+          "cartmanCount": 10,
+          "kyleCount": 9,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "skin",
+          "cartmanCount": 9,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "somebody",
+          "cartmanCount": 25,
+          "kyleCount": 8,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "somewhere",
+          "cartmanCount": 3,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "sorry",
+          "cartmanCount": 30,
+          "kyleCount": 19,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "special",
+          "cartmanCount": 15,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "stan's",
+          "cartmanCount": 5,
+          "kyleCount": 7,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "stand",
+          "cartmanCount": 13,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "stinky",
+          "cartmanCount": 9,
+          "kyleCount": 0,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "students",
+          "cartmanCount": 9,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "suck",
+          "cartmanCount": 18,
+          "kyleCount": 5,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "super",
+          "cartmanCount": 12,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "supposed",
+          "cartmanCount": 15,
+          "kyleCount": 11,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "taken",
+          "cartmanCount": 9,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "teacher",
+          "cartmanCount": 2,
+          "kyleCount": 6,
+          "cartmanRate": 0.0,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "tenorman",
+          "cartmanCount": 14,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "terrance",
+          "cartmanCount": 4,
+          "kyleCount": 6,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "thing",
+          "cartmanCount": 52,
+          "kyleCount": 21,
+          "cartmanRate": 0.0012,
+          "kyleRate": 0.001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "thinking",
+          "cartmanCount": 16,
+          "kyleCount": 4,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "though",
+          "cartmanCount": 10,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "thought",
+          "cartmanCount": 21,
+          "kyleCount": 15,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "thousand",
+          "cartmanCount": 12,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "took",
+          "cartmanCount": 19,
+          "kyleCount": 4,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "totally",
+          "cartmanCount": 29,
+          "kyleCount": 18,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "town",
+          "cartmanCount": 14,
+          "kyleCount": 2,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "tried",
+          "cartmanCount": 10,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "truth",
+          "cartmanCount": 13,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "turd",
+          "cartmanCount": 5,
+          "kyleCount": 7,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "tweek",
+          "cartmanCount": 6,
+          "kyleCount": 6,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "twenty",
+          "cartmanCount": 13,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "ugh",
+          "cartmanCount": 12,
+          "kyleCount": 1,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "video",
+          "cartmanCount": 16,
+          "kyleCount": 3,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "wait",
+          "cartmanCount": 50,
+          "kyleCount": 29,
+          "cartmanRate": 0.0011,
+          "kyleRate": 0.0014,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "wall",
+          "cartmanCount": 11,
+          "kyleCount": 9,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "wants",
+          "cartmanCount": 10,
+          "kyleCount": 8,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "week",
+          "cartmanCount": 7,
+          "kyleCount": 7,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "wendy",
+          "cartmanCount": 17,
+          "kyleCount": 5,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "whatever",
+          "cartmanCount": 27,
+          "kyleCount": 9,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "while",
+          "cartmanCount": 21,
+          "kyleCount": 6,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "yesterday",
+          "cartmanCount": 9,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "yet",
+          "cartmanCount": 14,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0002,
+          "absRateDiff": 0.0002
+        },
+        {
+          "word": "again",
+          "cartmanCount": 40,
+          "kyleCount": 18,
+          "cartmanRate": 0.0009,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "ago",
+          "cartmanCount": 6,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "agree",
+          "cartmanCount": 4,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "america",
+          "cartmanCount": 12,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "anybody",
+          "cartmanCount": 9,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "ask",
+          "cartmanCount": 11,
+          "kyleCount": 7,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "asking",
+          "cartmanCount": 8,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "awesome",
+          "cartmanCount": 26,
+          "kyleCount": 11,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "babies",
+          "cartmanCount": 9,
+          "kyleCount": 7,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "band",
+          "cartmanCount": 15,
+          "kyleCount": 5,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "bed",
+          "cartmanCount": 9,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "behind",
+          "cartmanCount": 4,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "believe",
+          "cartmanCount": 48,
+          "kyleCount": 25,
+          "cartmanRate": 0.0011,
+          "kyleRate": 0.0012,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "best",
+          "cartmanCount": 20,
+          "kyleCount": 12,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "bill",
+          "cartmanCount": 8,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "book",
+          "cartmanCount": 11,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "boy",
+          "cartmanCount": 23,
+          "kyleCount": 13,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "boys",
+          "cartmanCount": 7,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "brought",
+          "cartmanCount": 5,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "buddy",
+          "cartmanCount": 7,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "bus",
+          "cartmanCount": 8,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "butt",
+          "cartmanCount": 10,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "buy",
+          "cartmanCount": 12,
+          "kyleCount": 7,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "cells",
+          "cartmanCount": 7,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "chicken",
+          "cartmanCount": 9,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "christ",
+          "cartmanCount": 16,
+          "kyleCount": 6,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "city",
+          "cartmanCount": 7,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "club",
+          "cartmanCount": 7,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "company",
+          "cartmanCount": 19,
+          "kyleCount": 8,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "control",
+          "cartmanCount": 7,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "cow",
+          "cartmanCount": 7,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "crack",
+          "cartmanCount": 15,
+          "kyleCount": 10,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "crazy",
+          "cartmanCount": 5,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "damned",
+          "cartmanCount": 7,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "days",
+          "cartmanCount": 16,
+          "kyleCount": 9,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "deal",
+          "cartmanCount": 21,
+          "kyleCount": 9,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "die",
+          "cartmanCount": 22,
+          "kyleCount": 13,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "died",
+          "cartmanCount": 8,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "dog",
+          "cartmanCount": 10,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "done",
+          "cartmanCount": 19,
+          "kyleCount": 7,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "dream",
+          "cartmanCount": 11,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "dumbass",
+          "cartmanCount": 8,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "eat",
+          "cartmanCount": 19,
+          "kyleCount": 6,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "eight",
+          "cartmanCount": 6,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "election",
+          "cartmanCount": 6,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "else",
+          "cartmanCount": 24,
+          "kyleCount": 9,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "end",
+          "cartmanCount": 9,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "episode",
+          "cartmanCount": 8,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "every",
+          "cartmanCount": 22,
+          "kyleCount": 12,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "except",
+          "cartmanCount": 10,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "few",
+          "cartmanCount": 8,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "fight",
+          "cartmanCount": 10,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "first",
+          "cartmanCount": 36,
+          "kyleCount": 16,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "follow",
+          "cartmanCount": 5,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "fourth",
+          "cartmanCount": 5,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "free",
+          "cartmanCount": 15,
+          "kyleCount": 5,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "friends",
+          "cartmanCount": 33,
+          "kyleCount": 17,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "fuck",
+          "cartmanCount": 30,
+          "kyleCount": 13,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "games",
+          "cartmanCount": 13,
+          "kyleCount": 5,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "garrison",
+          "cartmanCount": 5,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "gave",
+          "cartmanCount": 12,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "genius",
+          "cartmanCount": 7,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "girls",
+          "cartmanCount": 9,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "gold",
+          "cartmanCount": 13,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "gone",
+          "cartmanCount": 12,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "good",
+          "cartmanCount": 69,
+          "kyleCount": 36,
+          "cartmanRate": 0.0016,
+          "kyleRate": 0.0017,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "gotten",
+          "cartmanCount": 4,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "grandma",
+          "cartmanCount": 6,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "great",
+          "cartmanCount": 21,
+          "kyleCount": 9,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "guy",
+          "cartmanCount": 33,
+          "kyleCount": 18,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0009,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "hair",
+          "cartmanCount": 7,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "hand",
+          "cartmanCount": 16,
+          "kyleCount": 6,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "hang",
+          "cartmanCount": 10,
+          "kyleCount": 7,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "happens",
+          "cartmanCount": 6,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "hard",
+          "cartmanCount": 14,
+          "kyleCount": 5,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "heard",
+          "cartmanCount": 14,
+          "kyleCount": 5,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "heart",
+          "cartmanCount": 6,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "here's",
+          "cartmanCount": 11,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "hit",
+          "cartmanCount": 8,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "hiv",
+          "cartmanCount": 8,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "holy",
+          "cartmanCount": 8,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "hope",
+          "cartmanCount": 16,
+          "kyleCount": 10,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "hot",
+          "cartmanCount": 12,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "hours",
+          "cartmanCount": 9,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "hurry",
+          "cartmanCount": 8,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "hurt",
+          "cartmanCount": 11,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "ice",
+          "cartmanCount": 6,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "important",
+          "cartmanCount": 11,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "instead",
+          "cartmanCount": 12,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "internet",
+          "cartmanCount": 6,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "it'll",
+          "cartmanCount": 6,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "jersey",
+          "cartmanCount": 7,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "jesus",
+          "cartmanCount": 32,
+          "kyleCount": 14,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "jewish",
+          "cartmanCount": 14,
+          "kyleCount": 9,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "jewpacabra",
+          "cartmanCount": 9,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "joke",
+          "cartmanCount": 14,
+          "kyleCount": 5,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "killer",
+          "cartmanCount": 8,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "kind",
+          "cartmanCount": 20,
+          "kyleCount": 7,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "king",
+          "cartmanCount": 7,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "knock",
+          "cartmanCount": 6,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "last",
+          "cartmanCount": 33,
+          "kyleCount": 17,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "laugh",
+          "cartmanCount": 9,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "learned",
+          "cartmanCount": 10,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "least",
+          "cartmanCount": 11,
+          "kyleCount": 8,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "leave",
+          "cartmanCount": 26,
+          "kyleCount": 10,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "left",
+          "cartmanCount": 22,
+          "kyleCount": 9,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "life",
+          "cartmanCount": 21,
+          "kyleCount": 8,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "little",
+          "cartmanCount": 74,
+          "kyleCount": 33,
+          "cartmanRate": 0.0017,
+          "kyleRate": 0.0016,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "looks",
+          "cartmanCount": 21,
+          "kyleCount": 9,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "lose",
+          "cartmanCount": 6,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "love",
+          "cartmanCount": 20,
+          "kyleCount": 7,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "magic",
+          "cartmanCount": 10,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "makes",
+          "cartmanCount": 20,
+          "kyleCount": 8,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "making",
+          "cartmanCount": 20,
+          "kyleCount": 8,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "matter",
+          "cartmanCount": 17,
+          "kyleCount": 11,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "might",
+          "cartmanCount": 21,
+          "kyleCount": 13,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "million",
+          "cartmanCount": 10,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "mind",
+          "cartmanCount": 12,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "missing",
+          "cartmanCount": 4,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "mouth",
+          "cartmanCount": 20,
+          "kyleCount": 12,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "move",
+          "cartmanCount": 8,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "next",
+          "cartmanCount": 20,
+          "kyleCount": 8,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "nice",
+          "cartmanCount": 28,
+          "kyleCount": 12,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "night",
+          "cartmanCount": 23,
+          "kyleCount": 13,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "nothing",
+          "cartmanCount": 36,
+          "kyleCount": 16,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "nuh",
+          "cartmanCount": 11,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "number",
+          "cartmanCount": 7,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "ohh",
+          "cartmanCount": 7,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "oho",
+          "cartmanCount": 7,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "owe",
+          "cartmanCount": 9,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "part",
+          "cartmanCount": 17,
+          "kyleCount": 11,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "party",
+          "cartmanCount": 15,
+          "kyleCount": 6,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "passion",
+          "cartmanCount": 7,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "people's",
+          "cartmanCount": 4,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "percent",
+          "cartmanCount": 6,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "perfect",
+          "cartmanCount": 7,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "phone",
+          "cartmanCount": 6,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "piece",
+          "cartmanCount": 8,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "pissed",
+          "cartmanCount": 9,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "place",
+          "cartmanCount": 19,
+          "kyleCount": 7,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "plan",
+          "cartmanCount": 11,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "platinum",
+          "cartmanCount": 8,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "point",
+          "cartmanCount": 8,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "power",
+          "cartmanCount": 10,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "powers",
+          "cartmanCount": 8,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "probably",
+          "cartmanCount": 8,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "problems",
+          "cartmanCount": 4,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "prove",
+          "cartmanCount": 7,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "pull",
+          "cartmanCount": 7,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "putting",
+          "cartmanCount": 5,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "quit",
+          "cartmanCount": 5,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "ready",
+          "cartmanCount": 17,
+          "kyleCount": 6,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "reason",
+          "cartmanCount": 5,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "red",
+          "cartmanCount": 12,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "redskins",
+          "cartmanCount": 4,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "rich",
+          "cartmanCount": 8,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "run",
+          "cartmanCount": 8,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "sandwich",
+          "cartmanCount": 5,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "saturday",
+          "cartmanCount": 5,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "scared",
+          "cartmanCount": 12,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "scary",
+          "cartmanCount": 8,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "screw",
+          "cartmanCount": 23,
+          "kyleCount": 8,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "sea",
+          "cartmanCount": 11,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "send",
+          "cartmanCount": 9,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "sense",
+          "cartmanCount": 9,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "sick",
+          "cartmanCount": 10,
+          "kyleCount": 7,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "side",
+          "cartmanCount": 8,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "simple",
+          "cartmanCount": 8,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "since",
+          "cartmanCount": 11,
+          "kyleCount": 8,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "six",
+          "cartmanCount": 7,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "sneak",
+          "cartmanCount": 5,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "somebody's",
+          "cartmanCount": 5,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "son",
+          "cartmanCount": 19,
+          "kyleCount": 7,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "soon",
+          "cartmanCount": 7,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "south",
+          "cartmanCount": 13,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "space",
+          "cartmanCount": 4,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "speak",
+          "cartmanCount": 7,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "standing",
+          "cartmanCount": 5,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "start",
+          "cartmanCount": 22,
+          "kyleCount": 8,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "stay",
+          "cartmanCount": 19,
+          "kyleCount": 7,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "student",
+          "cartmanCount": 7,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "stuff",
+          "cartmanCount": 22,
+          "kyleCount": 9,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "swear",
+          "cartmanCount": 16,
+          "kyleCount": 5,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "take",
+          "cartmanCount": 62,
+          "kyleCount": 28,
+          "cartmanRate": 0.0014,
+          "kyleRate": 0.0013,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "takes",
+          "cartmanCount": 9,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "taking",
+          "cartmanCount": 10,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "talk",
+          "cartmanCount": 26,
+          "kyleCount": 15,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "talkin",
+          "cartmanCount": 7,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "television",
+          "cartmanCount": 10,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "telling",
+          "cartmanCount": 13,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "test",
+          "cartmanCount": 6,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "third",
+          "cartmanCount": 10,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "three",
+          "cartmanCount": 31,
+          "kyleCount": 13,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "throw",
+          "cartmanCount": 7,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "ticket",
+          "cartmanCount": 7,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "times",
+          "cartmanCount": 15,
+          "kyleCount": 6,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "together",
+          "cartmanCount": 9,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "told",
+          "cartmanCount": 38,
+          "kyleCount": 21,
+          "cartmanRate": 0.0009,
+          "kyleRate": 0.001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "tomorrow",
+          "cartmanCount": 21,
+          "kyleCount": 8,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "tonight",
+          "cartmanCount": 11,
+          "kyleCount": 3,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "tooth",
+          "cartmanCount": 9,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "top",
+          "cartmanCount": 7,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "touch",
+          "cartmanCount": 9,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "tough",
+          "cartmanCount": 7,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "trouble",
+          "cartmanCount": 7,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "true",
+          "cartmanCount": 10,
+          "kyleCount": 7,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "trying",
+          "cartmanCount": 23,
+          "kyleCount": 8,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "under",
+          "cartmanCount": 8,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "unless",
+          "cartmanCount": 9,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "use",
+          "cartmanCount": 15,
+          "kyleCount": 9,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "used",
+          "cartmanCount": 9,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "wanted",
+          "cartmanCount": 22,
+          "kyleCount": 9,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "war",
+          "cartmanCount": 4,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "washington",
+          "cartmanCount": 4,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "watching",
+          "cartmanCount": 5,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "water",
+          "cartmanCount": 14,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "went",
+          "cartmanCount": 9,
+          "kyleCount": 6,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "whoever",
+          "cartmanCount": 7,
+          "kyleCount": 1,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "whole",
+          "cartmanCount": 22,
+          "kyleCount": 9,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "wing",
+          "cartmanCount": 6,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "without",
+          "cartmanCount": 12,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "won",
+          "cartmanCount": 5,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "won't",
+          "cartmanCount": 29,
+          "kyleCount": 16,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "word",
+          "cartmanCount": 6,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "works",
+          "cartmanCount": 9,
+          "kyleCount": 2,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "world",
+          "cartmanCount": 29,
+          "kyleCount": 11,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "worry",
+          "cartmanCount": 4,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "worse",
+          "cartmanCount": 6,
+          "kyleCount": 5,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "worth",
+          "cartmanCount": 5,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "wrong",
+          "cartmanCount": 30,
+          "kyleCount": 13,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "xbox",
+          "cartmanCount": 6,
+          "kyleCount": 4,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "years",
+          "cartmanCount": 13,
+          "kyleCount": 4,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0001,
+          "absRateDiff": 0.0001
+        },
+        {
+          "word": "able",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "actually",
+          "cartmanCount": 18,
+          "kyleCount": 8,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "against",
+          "cartmanCount": 10,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "aids",
+          "cartmanCount": 8,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "almost",
+          "cartmanCount": 10,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "along",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "asshole",
+          "cartmanCount": 32,
+          "kyleCount": 16,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "beat",
+          "cartmanCount": 8,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "become",
+          "cartmanCount": 8,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "birthday",
+          "cartmanCount": 14,
+          "kyleCount": 6,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "blood",
+          "cartmanCount": 15,
+          "kyleCount": 7,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "bonita",
+          "cartmanCount": 13,
+          "kyleCount": 7,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "breaking",
+          "cartmanCount": 6,
+          "kyleCount": 2,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "cake",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "candy",
+          "cartmanCount": 8,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "car",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "cares",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "casa",
+          "cartmanCount": 13,
+          "kyleCount": 7,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "change",
+          "cartmanCount": 12,
+          "kyleCount": 6,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "children",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "chinpokomon",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "class",
+          "cartmanCount": 10,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "cold",
+          "cartmanCount": 9,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "comes",
+          "cartmanCount": 13,
+          "kyleCount": 6,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "comment",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "commercial",
+          "cartmanCount": 8,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "country",
+          "cartmanCount": 10,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "different",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "disease",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "dollars",
+          "cartmanCount": 32,
+          "kyleCount": 15,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "door",
+          "cartmanCount": 11,
+          "kyleCount": 6,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "dudes",
+          "cartmanCount": 7,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "dumb",
+          "cartmanCount": 7,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "duty",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "everyone's",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "everything",
+          "cartmanCount": 25,
+          "kyleCount": 11,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "exactly",
+          "cartmanCount": 9,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "fairy",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "faith",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "father",
+          "cartmanCount": 7,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "feeling",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "forget",
+          "cartmanCount": 9,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "found",
+          "cartmanCount": 15,
+          "kyleCount": 7,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "friend",
+          "cartmanCount": 25,
+          "kyleCount": 12,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "full",
+          "cartmanCount": 11,
+          "kyleCount": 5,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "funny",
+          "cartmanCount": 30,
+          "kyleCount": 15,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "gay",
+          "cartmanCount": 11,
+          "kyleCount": 6,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "girl",
+          "cartmanCount": 8,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "goddammit",
+          "cartmanCount": 10,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "grade",
+          "cartmanCount": 9,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "gross",
+          "cartmanCount": 6,
+          "kyleCount": 2,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "grow",
+          "cartmanCount": 8,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "haha",
+          "cartmanCount": 7,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "happen",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "happy",
+          "cartmanCount": 12,
+          "kyleCount": 5,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "hate",
+          "cartmanCount": 23,
+          "kyleCount": 10,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "hear",
+          "cartmanCount": 30,
+          "kyleCount": 14,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "hello",
+          "cartmanCount": 19,
+          "kyleCount": 10,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "inches",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "inside",
+          "cartmanCount": 14,
+          "kyleCount": 6,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "job",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "jump",
+          "cartmanCount": 7,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "keep",
+          "cartmanCount": 30,
+          "kyleCount": 14,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "kenny's",
+          "cartmanCount": 13,
+          "kyleCount": 7,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "kick",
+          "cartmanCount": 26,
+          "kyleCount": 12,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "kiss",
+          "cartmanCount": 10,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "lame",
+          "cartmanCount": 10,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "later",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "learn",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "longer",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "lunch",
+          "cartmanCount": 8,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "ma'am",
+          "cartmanCount": 6,
+          "kyleCount": 2,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "many",
+          "cartmanCount": 14,
+          "kyleCount": 6,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "meet",
+          "cartmanCount": 11,
+          "kyleCount": 6,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "men",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "mine",
+          "cartmanCount": 11,
+          "kyleCount": 6,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "miss",
+          "cartmanCount": 6,
+          "kyleCount": 2,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "mom's",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "movie",
+          "cartmanCount": 8,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "must",
+          "cartmanCount": 17,
+          "kyleCount": 9,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "new",
+          "cartmanCount": 29,
+          "kyleCount": 13,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "news",
+          "cartmanCount": 7,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "noo",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "olympics",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "ones",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "outside",
+          "cartmanCount": 10,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "pass",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "passover",
+          "cartmanCount": 6,
+          "kyleCount": 2,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "pay",
+          "cartmanCount": 12,
+          "kyleCount": 5,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "penis",
+          "cartmanCount": 8,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "playing",
+          "cartmanCount": 15,
+          "kyleCount": 7,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "possible",
+          "cartmanCount": 8,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "president",
+          "cartmanCount": 13,
+          "kyleCount": 6,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "pretty",
+          "cartmanCount": 24,
+          "kyleCount": 11,
+          "cartmanRate": 0.0006,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "problem",
+          "cartmanCount": 6,
+          "kyleCount": 2,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "pubes",
+          "cartmanCount": 8,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "pulled",
+          "cartmanCount": 9,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "put",
+          "cartmanCount": 34,
+          "kyleCount": 17,
+          "cartmanRate": 0.0008,
+          "kyleRate": 0.0008,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "ride",
+          "cartmanCount": 10,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "rock",
+          "cartmanCount": 10,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "save",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "seems",
+          "cartmanCount": 8,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "set",
+          "cartmanCount": 13,
+          "kyleCount": 6,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "sex",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "shot",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "sitting",
+          "cartmanCount": 6,
+          "kyleCount": 2,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "somehow",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "someone",
+          "cartmanCount": 10,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "song",
+          "cartmanCount": 10,
+          "kyleCount": 5,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "sooo",
+          "cartmanCount": 8,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "started",
+          "cartmanCount": 8,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "starting",
+          "cartmanCount": 6,
+          "kyleCount": 2,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "staying",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "stick",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "story",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "sucks",
+          "cartmanCount": 14,
+          "kyleCount": 7,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0003,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "ten",
+          "cartmanCount": 22,
+          "kyleCount": 10,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "things",
+          "cartmanCount": 31,
+          "kyleCount": 15,
+          "cartmanRate": 0.0007,
+          "kyleRate": 0.0007,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "timmy",
+          "cartmanCount": 6,
+          "kyleCount": 2,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "treasure",
+          "cartmanCount": 8,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "triangle",
+          "cartmanCount": 8,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "turn",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "understand",
+          "cartmanCount": 21,
+          "kyleCount": 10,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0005,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "until",
+          "cartmanCount": 16,
+          "kyleCount": 8,
+          "cartmanRate": 0.0004,
+          "kyleRate": 0.0004,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "using",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "vagina",
+          "cartmanCount": 6,
+          "kyleCount": 2,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "walk",
+          "cartmanCount": 8,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "weak",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "white",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "wiener",
+          "cartmanCount": 11,
+          "kyleCount": 5,
+          "cartmanRate": 0.0003,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "wish",
+          "cartmanCount": 6,
+          "kyleCount": 2,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "work",
+          "cartmanCount": 23,
+          "kyleCount": 12,
+          "cartmanRate": 0.0005,
+          "kyleRate": 0.0006,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "worked",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "working",
+          "cartmanCount": 7,
+          "kyleCount": 3,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Cartman",
+          "rateDiff": 0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "write",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "year",
+          "cartmanCount": 8,
+          "kyleCount": 4,
+          "cartmanRate": 0.0002,
+          "kyleRate": 0.0002,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "yep",
+          "cartmanCount": 6,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        },
+        {
+          "word": "ziplining",
+          "cartmanCount": 5,
+          "kyleCount": 3,
+          "cartmanRate": 0.0001,
+          "kyleRate": 0.0001,
+          "dominantSpeaker": "Kyle",
+          "rateDiff": -0.0,
+          "absRateDiff": 0.0
+        }
+      ],
+      "snippets": [
+        {
+          "epKey": "18x01",
+          "season": 18,
+          "episode": 1,
+          "lineCount": 2,
+          "wordCount": 282,
+          "score": 302,
+          "lines": [
+            {
+              "speaker": "Cartman",
+              "text": "Fuck youuuu, fuck youuuu. Fuck you up there! Fuck you! \"Fuck you.\" Those words mean a great deal to us. They help us express just how we as a company... see things differently. There are a lot of startup companies on Kickstarter, but after today I think you'll agree that Washington Redskins is the most exciting. As you know, the Redskins have been on the forefront of Kickstarter as a company that is always finding new and exciting ways to tell people to go fuck themselves. And now, our company is thrilled to show you all the latest innovations we've come up with.  To begin with, we have moved the couch from the left side of the office to the right side. But we didn't stop there. We also added a new rug that goes better with our office drapes. And probably most exciting of all, we have actually updated the company from the inside out. We received a lot of pressure from certain communities to change our Redskins logo. As a company we want to be firm, but we also want to be flexible. And so we thought, if we have to change our logo, it should be more in step with today's times, but still define us as the leading Kickstarter company. What we came up with is the new company logo that I think you'll all agree is very exciting.  Now when people hear the name \"Redskins\", they will immediately think \"titties\" and \"balls\". It's just a bold new way that we can say \"We don't fucking care.\" Go Redskins!"
+            },
+            {
+              "speaker": "Kyle",
+              "text": "It's so awesome, dude. Our company already has a hundred backers. And we still have 14 days to go!"
+            }
+          ]
+        },
+        {
+          "epKey": "15x12",
+          "season": 15,
+          "episode": 12,
+          "lineCount": 5,
+          "wordCount": 215,
+          "score": 265,
+          "lines": [
+            {
+              "speaker": "Cartman",
+              "text": "I've known Clyde Frog since I was two years old. He was a fighter, a visionary. But most of all, Clyde Frog was the perfect friend. He never said anything. He never had his own ideas about what he wanted to do. He just sat there goin' along with whatever I wanted. A noble trait that seems lost on you 99%ers.  And now we live in a world where one of you has decided to become a murderer. Well whoever you are, I'm sure you're sitting there right now, in your little green hat, with your left cheek resting against your hand thinking, \"I'm not getting away with this, am I?\" Because whoever you are, maybe you still have one little piece of humanity left, covered up and tainted black by years of Jewish propaganda and left-wing lies. Maybe you should just-"
+            },
+            {
+              "speaker": "Kyle",
+              "text": "Shut the hell up, Cartman!"
+            },
+            {
+              "speaker": "Cartman",
+              "text": "Got something to say Kyle?!"
+            },
+            {
+              "speaker": "Kyle",
+              "text": "How do you murder a stuffed animal?!"
+            },
+            {
+              "speaker": "Cartman",
+              "text": "How do you murder a stuffed animal?! You tell us, Kyle!  Butbut but but, but uh but let's not get ahead of ourselves. There's still a biiig investigation to come. And until we prove beyond a reasonable doubt who the killer was, you are all just as guilty as Kyle. Thank you so much. Bagpipes please."
+            }
+          ]
+        },
+        {
+          "epKey": "16x09",
+          "season": 16,
+          "episode": 9,
+          "lineCount": 6,
+          "wordCount": 203,
+          "score": 263,
+          "lines": [
+            {
+              "speaker": "Kyle",
+              "text": "You have got to be kidding me!"
+            },
+            {
+              "speaker": "Cartman",
+              "text": "What, Kyle?!"
+            },
+            {
+              "speaker": "Kyle",
+              "text": "We should not be wasting time and money making sure Cartman's fat scooter can't be tipped over!"
+            },
+            {
+              "speaker": "Cartman",
+              "text": "You condone Rascal-tipping, Kyle?! Do you know that all over our country people in mobility scooters are being victimized?!"
+            },
+            {
+              "speaker": "Kyle",
+              "text": "So get off your fucking scooters and pick them up!"
+            },
+            {
+              "speaker": "Cartman",
+              "text": "Oh! Oh, did you hear him?!  This is exactly what Adele is talking about!  Our culture celebrates anorexia and tries to make us ashamed if we don't have slim stomachs and perky little tits like Kyle!  Well I for one am gonna stop feeling ashamed just because Kyle throws up in the bathroom six times a day  to make sure he looks good on his magazine covers!  You should be ashamed of YOURself, Kyle! eating your latkes and gefilte fish and then putting your fingers down your throat because society tells you how to look!  I'm not feeling shamed anymore! From now on, I'm gonna shop sitting down and skip to the front of the lines with my head held high! Just because someone needs a mobility scooter doesn't mean they're an ignorant piece of white trash, Kyle! I may be fat, but I'm not Honey Boo Boo!"
+            }
+          ]
+        },
+        {
+          "epKey": "16x09",
+          "season": 16,
+          "episode": 9,
+          "lineCount": 6,
+          "wordCount": 200,
+          "score": 260,
+          "lines": [
+            {
+              "speaker": "Cartman",
+              "text": "What, Kyle?!"
+            },
+            {
+              "speaker": "Kyle",
+              "text": "We should not be wasting time and money making sure Cartman's fat scooter can't be tipped over!"
+            },
+            {
+              "speaker": "Cartman",
+              "text": "You condone Rascal-tipping, Kyle?! Do you know that all over our country people in mobility scooters are being victimized?!"
+            },
+            {
+              "speaker": "Kyle",
+              "text": "So get off your fucking scooters and pick them up!"
+            },
+            {
+              "speaker": "Cartman",
+              "text": "Oh! Oh, did you hear him?!  This is exactly what Adele is talking about!  Our culture celebrates anorexia and tries to make us ashamed if we don't have slim stomachs and perky little tits like Kyle!  Well I for one am gonna stop feeling ashamed just because Kyle throws up in the bathroom six times a day  to make sure he looks good on his magazine covers!  You should be ashamed of YOURself, Kyle! eating your latkes and gefilte fish and then putting your fingers down your throat because society tells you how to look!  I'm not feeling shamed anymore! From now on, I'm gonna shop sitting down and skip to the front of the lines with my head held high! Just because someone needs a mobility scooter doesn't mean they're an ignorant piece of white trash, Kyle! I may be fat, but I'm not Honey Boo Boo!"
+            },
+            {
+              "speaker": "Kyle",
+              "text": "Who's Honey Boo Boo?"
+            }
+          ]
+        },
+        {
+          "epKey": "10x03",
+          "season": 10,
+          "episode": 3,
+          "lineCount": 6,
+          "wordCount": 195,
+          "score": 255,
+          "lines": [
+            {
+              "speaker": "Cartman",
+              "text": "It's simple television economics, Kyle. All it takes to kill a show forever is get one episode pulled. If we convince the network to pull this episode for the sake of Muslims, then the Catholics can demand a show they don't like get pulled. And then people with disabilities can demand another show get pulled. And so on and so on, until Family Guy is no more! It's exactly what happened to Laverne & Shirley."
+            },
+            {
+              "speaker": "Kyle",
+              "text": "Whoa whoa wait a minute!  This isn't what I signed up for! I like Family Guy. Why do we have to get it off the air forever?"
+            },
+            {
+              "speaker": "Cartman",
+              "text": "Because they made f-fun of Muslims, and and that's wrong."
+            },
+            {
+              "speaker": "Kyle",
+              "text": "But that doesn't mean it has to go off the air. You should like that show. Your sense of humor is just like Family Guy."
+            },
+            {
+              "speaker": "Cartman",
+              "text": "Don't you EVER, EVER, compare me to Family Guy! You hear me Kyle??!! Compare me to Family Guy again, and so help me I will kill you where you stand!"
+            },
+            {
+              "speaker": "Kyle",
+              "text": "You unbelievable son of a bitch. You never cared about the Muslim religion. Or the safety of people in America. You just want Family Guy off the air!"
+            }
+          ]
+        },
+        {
+          "epKey": "18x01",
+          "season": 18,
+          "episode": 1,
+          "lineCount": 6,
+          "wordCount": 195,
+          "score": 255,
+          "lines": [
+            {
+              "speaker": "Kyle",
+              "text": "Guys, we need to talk to you. I really don't think we wanna be a company that ISIS looks up to. We should maybe issue a statement saying that we don't sanction them."
+            },
+            {
+              "speaker": "Cartman",
+              "text": "Oh no. No, you guys. We started this company to do nothing. If we start doing stuff now, it'll put it all at risk!"
+            },
+            {
+              "speaker": "Kyle",
+              "text": "People aren't gonna support our company if we dig in our heels and say we don't care about anything!"
+            },
+            {
+              "speaker": "Cartman",
+              "text": "Digging in our heels and pissing on public opinion us what the Washington Redskins are all about!  Now come on, guys! If you wanna be a successful business, then you have to be honest about what you are!  Once you take a stand on something, you're pretending like your company is about more than money. Then all of a sudden you're the NFL and and your players get caught molesting little boys!"
+            },
+            {
+              "speaker": "Kyle",
+              "text": "That's the Catholic Church!"
+            },
+            {
+              "speaker": "Cartman",
+              "text": "NFL, Catholic Church, same thing! Okay, let's use the Catholic Church! You take a moral stand on issues, you say you're about honor and integrity, and the next thing you know, your clergymen are getting caught beating up their wives in an elevator!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
