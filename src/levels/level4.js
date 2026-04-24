@@ -31,26 +31,6 @@ function formatEpisodeBadge(snippet) {
   return `S${String(snippet.season).padStart(2, '0')}E${String(snippet.episode).padStart(2, '0')}`;
 }
 
-function buildStatCard(label, value, note) {
-  return `
-    <article class="pair-stat-card">
-      <span class="overview-card__label">${label}</span>
-      <strong>${value}</strong>
-      <p>${note}</p>
-    </article>
-  `;
-}
-
-function buildDistinctiveList(speakerStat) {
-  const words = speakerStat.topDistinctiveWords.slice(0, 3).map((row) => row.word);
-  if (!words.length) return '';
-  return `
-    <p class="pair-stat-card__aside">
-      ${escapeHtml(speakerStat.character)} leans on <strong>${escapeHtml(words.join(', '))}</strong> in this pair context.
-    </p>
-  `;
-}
-
 function renderTemplate(rootEl, pair) {
   const [cartmanStats, kyleStats] = pair.speakerStats;
   rootEl.innerHTML = `
@@ -78,44 +58,22 @@ function renderTemplate(rootEl, pair) {
           </p>
         </div>
 
-        <div class="pair-stats">
-          ${buildStatCard(
-            'Pair-context lines',
-            fmt(pair.pairContextLineCount),
-            'Lines from 5-line windows where Cartman and Kyle both appear and account for at least four turns.'
-          )}
-          ${buildStatCard(
-            'Adjacent exchanges',
-            fmt(pair.adjacentExchangeCount),
-            'Direct back-to-back turn changes between Cartman and Kyle, used to surface readable snippet examples.'
-          )}
-          ${buildStatCard(
-            'Episodes with exchanges',
-            fmt(pair.episodeCount),
-            'Distinct episodes with at least one valid Cartman/Kyle pair-context window.'
-          )}
-        </div>
-
-        <div class="pair-stats pair-stats--notes">
-          <article class="pair-stat-card pair-stat-card--speaker pair-stat-card--cartman">
-            <span class="overview-card__label">Cartman context</span>
-            <strong>${fmt(cartmanStats.pairContextWords)} words</strong>
-            <p>${fmt(cartmanStats.pairContextLines)} lines inside Cartman/Kyle windows.</p>
-            ${buildDistinctiveList(cartmanStats)}
-          </article>
-          <article class="pair-stat-card pair-stat-card--speaker pair-stat-card--kyle">
-            <span class="overview-card__label">Kyle context</span>
-            <strong>${fmt(kyleStats.pairContextWords)} words</strong>
-            <p>${fmt(kyleStats.pairContextLines)} lines inside Cartman/Kyle windows.</p>
-            ${buildDistinctiveList(kyleStats)}
-          </article>
-        </div>
-
         <div class="pair-dialogue-layout split-panel--wide">
-          <div>
+          <div class="pair-context-chart-card">
             <div class="chart-area chart-area--pair-dialogue" id="chart-l4-pair-words" aria-label="Diverging bar chart: Cartman vs Kyle pair-context words"></div>
             <div class="chart-note">
               Vocabulary here comes from short local transcript windows. It is a scene-like approximation, not a manually labeled scene dataset.
+            </div>
+            <div class="pair-context-summary" aria-label="Pair context summary">
+              <p>
+                Across <strong>${fmt(pair.pairContextLineCount)}</strong> pair-context lines,
+                there were <strong>${fmt(pair.adjacentExchangeCount)}</strong> adjacent Cartman/Kyle exchanges
+                spanning <strong>${fmt(pair.episodeCount)}</strong> episodes with exchanges.
+                Within those windows, Cartman had <strong>${fmt(cartmanStats.pairContextWords)}</strong> words across
+                <strong>${fmt(cartmanStats.pairContextLines)}</strong> lines, while Kyle had
+                <strong>${fmt(kyleStats.pairContextWords)}</strong> words across
+                <strong>${fmt(kyleStats.pairContextLines)}</strong> lines.
+              </p>
             </div>
           </div>
 
