@@ -3,7 +3,7 @@ const LEVEL_DATASETS = {
   'level-1': ['meta', 'overview', 'hierarchy', 'seasonal-share', 'episode-runs', 'rank-divergence', 'episode-share', 'ensemble'],
   'level-2': [],
   'level-3': [],
-  'level-4': ['pair-dialogue'],
+  'level-4': ['pair-dialogue', 'character-text'],
 };
 
 export function createDataLoader() {

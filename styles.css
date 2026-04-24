@@ -946,6 +946,43 @@ a:hover { color: var(--color-primary-hover); }
 .chart-area--pair-dialogue {
   min-height: 410px;
 }
+.pair-context-chart-card--term-search {
+  margin-top: var(--sp-5);
+}
+.l4-term-form {
+  align-items: center;
+  margin-bottom: var(--sp-3);
+}
+.l4-term-form .dialogue-nav__btn {
+  min-height: 2.45rem;
+}
+.l4-term-pill-row {
+  margin-bottom: var(--sp-3);
+}
+.l4-term-pill {
+  text-transform: none;
+}
+.pair-stats--term {
+  margin-bottom: var(--sp-3);
+}
+.chart-area--term-timeline {
+  min-height: 320px;
+}
+.chart-area--term-speakers {
+  min-height: 300px;
+}
+.l4-term-line {
+  filter: drop-shadow(0 2px 5px color-mix(in srgb, var(--color-primary) 20%, transparent));
+}
+.l4-term-marker {
+  opacity: 0.9;
+}
+.l4-term-speaker-bar {
+  rx: 5;
+}
+.l4-term-speaker-label {
+  pointer-events: none;
+}
 
 .pair-chart__heading,
 .pair-chart__caption {
@@ -1777,6 +1814,8 @@ a:hover { color: var(--color-primary-hover); }
     outline-offset: -4px;
   }
   .chart-area--pair-dialogue { min-height: 360px; }
+  .chart-area--term-timeline { min-height: 290px; }
+  .chart-area--term-speakers { min-height: 280px; }
   .chart-area--beeswarm { min-height: 320px; }
   .chart-area--ensemble { min-height: 360px; }
 
@@ -1846,6 +1885,9 @@ a:hover { color: var(--color-primary-hover); }
 
   .search-row {
     flex-direction: column;
+  }
+  .l4-term-form .dialogue-nav__btn {
+    width: 100%;
   }
 }
 
