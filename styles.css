@@ -1955,3 +1955,58 @@ a:hover { color: var(--color-primary-hover); }
     padding-right: 0;
   }
 }
+
+/* ── LEVEL 4 — PAIR SELECTOR ──────────────────────────────────────────────── */
+.pair-selector-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  margin-bottom: var(--sp-6);
+}
+
+.pair-selector-label {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.pair-selector-vs {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-text-muted);
+  padding: 0 var(--sp-1);
+}
+
+.pair-selector-error {
+  min-height: 1.2em;
+  margin: calc(var(--sp-2) * -1) 0 var(--sp-5);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-danger, #c0392b);
+}
+
+.pair-selector-select[aria-invalid="true"] {
+  border-color: var(--color-danger, #c0392b);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-danger, #c0392b) 18%, transparent);
+}
+
+/* ── LEVEL 4 — TIMING CHART ───────────────────────────────────────────────── */
+.timing-controls {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-4);
+  flex-wrap: wrap;
+}
+
+.chart-area--timing {
+  min-height: 420px;
+}
+
+@media (max-width: 640px) {
+  .pair-selector-row { gap: var(--sp-2); }
+  .pair-selector-vs  { display: none; }
+  .pair-selector-select { min-width: 100%; }
+}
