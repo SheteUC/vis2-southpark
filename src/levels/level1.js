@@ -54,46 +54,6 @@ const LEVEL1_TEMPLATE = `
     </div>
   </section>
 
-  <section id="page-0" class="page-section" data-page="0">
-    <div class="section-inner">
-      <div class="section-header">
-        <span class="section-num">00</span>
-        <h2 class="section-title">South Park 101</h2>
-        <p class="section-lede">
-          Quick context for people who have not watched the show before.
-        </p>
-      </div>
-
-      <div class="info-grid" aria-label="South Park basics for new viewers">
-        <article class="info-card">
-          <h3>When did it run, and where?</h3>
-          <p>
-            <strong>South Park</strong> premiered in <strong>1997</strong> and is still running.
-            It is a <strong>Comedy Central</strong> original series.
-          </p>
-        </article>
-
-        <article class="info-card">
-          <h3>What genre is it?</h3>
-          <p>
-            Adult animated sitcom, satire, and dark comedy.
-          </p>
-        </article>
-
-        <article class="info-card">
-          <h3>What is the general premise?</h3>
-          <p>
-            The show follows four boys in the small town of South Park, Colorado,
-            using absurd and often controversial stories to satirize current events,
-            culture, and everyday life.
-          </p>
-        </article>
-      </div>
-
-      <div id="sp101-main-cast" aria-label="Main cast portraits" style="margin-top:20px;"></div>
-    </div>
-  </section>
-
   <section id="page-1" class="page-section" data-page="1">
     <div class="section-inner">
       <div class="section-header">
@@ -1874,7 +1834,6 @@ function renderLevel1() {
   rootEl.innerHTML = LEVEL1_TEMPLATE;
   // Fill meta stats
   fillMetaStats();
-  renderSouthPark101Cast();
 
   // Wire up controls
   initScopeControl();
@@ -1901,7 +1860,6 @@ export const level1View = {
   defaultSection: 'level-1-intro',
   sections: [
     { id: 'level-1-intro', label: 'Overview' },
-    { id: 'page-0', label: 'South Park 101' },
     { id: 'page-1', label: 'Importance' },
     { id: 'page-3', label: 'Seasons' },
     { id: 'page-4', label: 'Episode runs' },
