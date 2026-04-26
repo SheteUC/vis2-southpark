@@ -174,7 +174,7 @@ const LEVEL1_TEMPLATE = `
         <span class="section-num">04</span>
         <h2 class="section-title">Character Run Across Episodes</h2>
         <p class="section-lede">
-          Each square is one episode. Darker cells mean more words; blank cells mean absence.
+          Each square is one episode. Brighter cells mean more words; blank cells mean absence.
         </p>
       </div>
 
@@ -1185,9 +1185,15 @@ function drawPage4(characterName) {
   document.getElementById('chart-p4').style.minHeight = `${neededH}px`;
 
   // Colour scale: sequential from surface to character colour
-  const color = d3.scaleSequential()
-    .domain([0, maxWords])
-    .interpolator(d3.interpolate('var(--color-surface-offset)', charColor(characterName)));
+  const baseColor = d3.color(charColor(characterName)) || d3.rgb('#7f7f7f');
+  const colorStart = baseColor.darker(2).formatRgb();
+  const colorEnd = baseColor.brighter(1.8).formatRgb();
+  const wordsSorted = runs.map(d => d.words).sort(d3.ascending);
+  const stretchMax = d3.quantile(wordsSorted, 0.95) || maxWords;
+  const color = d3.scaleSequentialPow(d3.interpolateRgb(colorStart, colorEnd))
+    .exponent(0.7)
+    .domain([0, Math.max(1, stretchMax)])
+    .clamp(true);
 
   seasonList.forEach((season, si) => {
     const eps = seasons.get(season).sort((a, b) => a.episode - b.episode);
