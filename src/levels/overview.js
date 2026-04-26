@@ -261,7 +261,7 @@ export const overviewView = {
             <a class="roadmap-card" href="#level-4-search">
               <span class="roadmap-card__eyebrow">Level 4</span>
               <h3>Phrase Evolution</h3>
-              <p>Track how phrases change over time and how characters talk to each other</p>
+              <p>Track how phrases change over time and how characters talk to each other.</p>
             </a>
           </div>
         </div>
