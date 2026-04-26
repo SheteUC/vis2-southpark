@@ -319,30 +319,9 @@ a:hover { color: var(--color-primary-hover); }
   background-size: 100% 100%;
 }
 
-/* ── 3a. LOGO ──────────────────────────────────────────────────────────── */
-
-.logo-link {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-3);
-  flex-shrink: 0;
-  color: #fff;
-  text-decoration: none;
-}
-
-/* Town-sign plaque — green sign with white text, like the iconic show sign */
 .logo-sign {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  background: #2a7a3a;
-  color: #fff;
-  padding: var(--sp-1) var(--sp-3) var(--sp-1) var(--sp-3);
-  border-radius: var(--radius-sign);
-  box-shadow: 0 2px 6px rgba(0,0,0,.3), inset 0 1px 0 rgba(255,255,255,.18);
-  border: 2px solid #1a5a28;
-  border-bottom-width: 3px;
-  line-height: 1;
   gap: 2px;
   position: relative;
 }
@@ -1684,30 +1663,6 @@ a:hover { color: var(--color-primary-hover); }
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
-
-/* ── 11. FOOTER ────────────────────────────────────────────────────────── */
-
-.site-footer {
-  padding: var(--sp-8) var(--page-gutter);
-  /* Footer uses the same sign-blue as header */
-  background: var(--color-primary);
-  color: rgba(255,255,255,.6);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--sp-2);
-  font-size: var(--text-xs);
-  text-align: center;
-  /* Mountain silhouette at top of footer */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='40' viewBox='0 0 1200 40' preserveAspectRatio='none'%3E%3Cpolygon points='0,0 100,28 180,12 300,30 420,10 540,26 660,8 780,24 900,12 1020,30 1140,14 1200,22 1200,40 0,40' fill='rgba(255,255,255,0.04)'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100% auto;
-  padding-top: var(--sp-12);
-  border-top: 4px solid var(--sign-post);
-}
-.site-footer a { color: rgba(255,255,255,.75); text-decoration: underline; }
-.site-footer a:hover { color: #fff; }
 
 /* ── 12. SNOW PARTICLES & DECORATIVE ──────────────────────────────────── */
 
