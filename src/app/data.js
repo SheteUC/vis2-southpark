@@ -2,7 +2,7 @@ const LEVEL_DATASETS = {
   overview: ['meta'],
   'level-1': ['meta', 'overview', 'hierarchy', 'seasonal-share', 'episode-runs', 'rank-divergence', 'episode-share', 'ensemble'],
   'level-2': [],
-  'level-3': [],
+  'level-3': ['network'],
   'level-4': [],
 };
 

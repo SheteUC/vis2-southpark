@@ -522,10 +522,13 @@ a:hover { color: var(--color-primary-hover); }
 /* Scope filter — inside header, so styled for dark bg */
 .scope-control {
   display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
   border: 1.5px solid rgba(255,255,255,.25);
   border-radius: var(--radius-sign);
   overflow: hidden;
   background: rgba(0,0,0,.15);
+  padding: 0.15rem;
 }
 .scope-btn {
   padding: var(--sp-1) var(--sp-3);
@@ -777,7 +780,15 @@ a:hover { color: var(--color-primary-hover); }
 }
 
 .chart-area--cloud { min-height: 420px; }
-.chart-area--network { min-height: 560px; }
+.chart-area--network {
+  min-height: 560px;
+  max-width: 880px;
+  margin-inline: auto;
+}
+.chart-area--network svg {
+  display: block;
+  margin-inline: auto;
+}
 
 .phrase-list,
 .detail-list {

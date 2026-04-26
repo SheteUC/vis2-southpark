@@ -1,16 +1,25 @@
 {
   "name": "tv-time-app",
   "version": "1.0.0",
+  "description": "A level-based South Park dialogue explorer built on the public transcript dataset.\r The app is organized around the course milestones so Level 1, 2, 3, and 4 each have their own routed view and their own internal navigation.",
+  "keywords": [],
+  "homepage": "https://github.com/SheteUC/vis2-southpark#readme",
+  "bugs": {
+    "url": "https://github.com/SheteUC/vis2-southpark/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheteUC/vis2-southpark.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "d3": "^7.9.0",
     "d3-cloud": "^1.2.9",

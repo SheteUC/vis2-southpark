@@ -543,6 +543,38 @@ with open(DATA_DIR / 'ensemble.json', 'w') as f:
     json.dump(ensemble_records, f, indent=2)
 print(f'wrote ensemble.json  ({len(ensemble_records)} total characters)')
 
+# ── network.json — Level 3 character relationships ──────────────────────────
+def build_network(df, chars):
+    df_filtered = df[df['Character'].isin(chars)]
+    edges = {}
+    for ep_key in df_filtered['ep_key'].unique():
+        ep_df = df_filtered[df_filtered['ep_key'] == ep_key].sort_index()  # assume index is line order
+        prev_char = None
+        for _, row in ep_df.iterrows():
+            char = row['Character']
+            if prev_char and prev_char != char:
+                key = tuple(sorted([prev_char, char]))
+                edges[key] = edges.get(key, 0) + 1
+            prev_char = char
+    nodes = sorted(list(chars))
+    node_index = {node: i for i, node in enumerate(nodes)}
+    links = [{'source': node_index[a], 'target': node_index[b], 'value': v} for (a, b), v in edges.items()]
+    return {'nodes': nodes, 'links': links}
+
+# For all seasons combined
+network_all = build_network(df, recurring_chars)
+network_output = {'all': network_all}
+
+# Per season
+for season in seasons_in_data:
+    season_df = df[df['Season'] == season]
+    network_season = build_network(season_df, recurring_chars)
+    network_output[str(season)] = network_season
+
+with open(DATA_DIR / 'network.json', 'w') as f:
+    json.dump(network_output, f, indent=2)
+print(f'wrote network.json  (recurring characters, all seasons and per season)')
+
 # ── summary ──────────────────────────────────────────────────────────────────
 print()
 print('=== Dataset summary ===')
