@@ -1417,6 +1417,14 @@ a:hover { color: var(--color-primary-hover); }
   letter-spacing: 0.02em;
 }
 
+.chart-blurb {
+  margin: 0;
+  font-size: var(--text-base);
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  max-width: 68ch;
+}
+
 /* ── 6. CONTROLS ───────────────────────────────────────────────────────── */
 
 .metric-switcher,

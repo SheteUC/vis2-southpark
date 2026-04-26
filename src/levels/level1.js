@@ -54,6 +54,46 @@ const LEVEL1_TEMPLATE = `
     </div>
   </section>
 
+  <section id="page-0" class="page-section" data-page="0">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-num">00</span>
+        <h2 class="section-title">South Park 101</h2>
+        <p class="section-lede">
+          Quick context for people who have not watched the show before.
+        </p>
+      </div>
+
+      <div class="info-grid" aria-label="South Park basics for new viewers">
+        <article class="info-card">
+          <h3>When did it run, and where?</h3>
+          <p>
+            <strong>South Park</strong> premiered in <strong>1997</strong> and is still running.
+            It is a <strong>Comedy Central</strong> original series.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <h3>What genre is it?</h3>
+          <p>
+            Adult animated sitcom, satire, and dark comedy.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <h3>What is the general premise?</h3>
+          <p>
+            The show follows four boys in the small town of South Park, Colorado,
+            using absurd and often controversial stories to satirize current events,
+            culture, and everyday life.
+          </p>
+        </article>
+      </div>
+
+      <div id="sp101-main-cast" aria-label="Main cast portraits" style="margin-top:20px;"></div>
+    </div>
+  </section>
+
   <section id="page-1" class="page-section" data-page="1">
     <div class="section-inner">
       <div class="section-header">
@@ -75,6 +115,10 @@ const LEVEL1_TEMPLATE = `
         <strong>y-axis</strong> — total words spoken&ensp;
         <strong>bubble size</strong> — max single-episode word share
       </div>
+
+      <p class="chart-blurb">
+        The plot shows how a handful of characters carry most of the dialogue, with Cartman, Stan, Kyle, and Kenny standing out as the main characters.
+      </p>
 
       <div class="page1-scope-toggle">
         <button class="text-btn active" id="p1-show-recurring" data-p1scope="recurring">Recurring only</button>
@@ -130,7 +174,7 @@ const LEVEL1_TEMPLATE = `
         <span class="section-num">04</span>
         <h2 class="section-title">Character Run Across Episodes</h2>
         <p class="section-lede">
-          Each square is one episode. Darker cells mean more words; blank cells mean absence.
+          Each square is one episode. Brighter cells mean more words; blank cells mean absence.
         </p>
       </div>
 
@@ -380,6 +424,230 @@ function charColor(name) {
   if (CHAR_CSS_VARS[name]) return cssVar(CHAR_CSS_VARS[name]);
   if (CHAR_FIXED[name])    return CHAR_FIXED[name];
   return fallbackScale(name);
+}
+
+const MAIN_CAST = ['Cartman', 'Stan', 'Kyle', 'Kenny', 'Butters'];
+const PORTRAIT_CHARACTERS = new Set(MAIN_CAST);
+const CHARACTER_BLURBS = {
+  Cartman: 'Manipulative, loud, and often central to conflict. He drives many of the show\'s biggest satire episodes.',
+  Stan: 'The grounded observer of the group. Stan often reacts to chaos and gives the audience a moral anchor.',
+  Kyle: 'Idealistic and argumentative, usually pushing back when things go too far. He is often Cartman\'s foil.',
+  Kenny: 'Quiet but iconic. Kenny appears constantly, with influence that is bigger than his line count.',
+  Butters: 'Naive, earnest, and frequently pulled into bizarre situations. He becomes a surprising spotlight character.',
+};
+const PORTRAIT_BASE_PATH = '/images/characters';
+const PORTRAIT_EXT = 'png';
+const PORTRAIT_FILE_MAP = {
+  Cartman: 'cartman',
+  Stan: 'stan',
+  Kyle: 'kyle',
+  Kenny: 'kenny',
+  Randy: 'randy',
+  Butters: 'butters',
+  Wendy: 'wendy',
+  'Mr. Garrison': 'mr-garrison',
+};
+
+function portraitSrc(character) {
+  const slug = PORTRAIT_FILE_MAP[character]
+    || character.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  return `${PORTRAIT_BASE_PATH}/${slug}.${PORTRAIT_EXT}`;
+}
+
+function initials(character) {
+  return character
+    .replace(/\./g, '')
+    .split(/\s+/)
+    .filter(Boolean)
+    .map(part => part[0])
+    .join('')
+    .slice(0, 2)
+    .toUpperCase();
+}
+
+function buildPortraitNode(character, { size = 28, ringColor = 'var(--color-divider)' } = {}) {
+  const wrap = document.createElement('span');
+  wrap.style.cssText = [
+    'display:inline-grid',
+    'place-items:center',
+    `width:${size}px`,
+    `height:${size}px`,
+    'border-radius:999px',
+    'overflow:hidden',
+    `border:2px solid ${ringColor}`,
+    'background:var(--color-surface-offset)',
+    'flex:0 0 auto',
+  ].join(';');
+
+  const img = document.createElement('img');
+  img.src = portraitSrc(character);
+  img.alt = `${character} portrait`;
+  img.loading = 'lazy';
+  img.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;';
+
+  const fallback = document.createElement('span');
+  fallback.textContent = initials(character);
+  fallback.setAttribute('aria-hidden', 'true');
+  fallback.style.cssText = [
+    'display:none',
+    'width:100%',
+    'height:100%',
+    'font-size:10px',
+    'font-weight:700',
+    'color:var(--color-text-muted)',
+    'align-items:center',
+    'justify-content:center',
+  ].join(';');
+
+  img.addEventListener('error', () => {
+    img.remove();
+    fallback.style.display = 'inline-flex';
+  });
+
+  wrap.appendChild(img);
+  wrap.appendChild(fallback);
+  return wrap;
+}
+
+function characterTooltipHeader(character) {
+  if (!PORTRAIT_CHARACTERS.has(character)) {
+    return `<strong>${character}</strong>`;
+  }
+  const src = portraitSrc(character);
+  return `
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+      <img src="${src}" alt="${character} portrait" style="width:26px;height:26px;border-radius:999px;object-fit:cover;border:1px solid var(--color-divider);"
+        onerror="this.style.display='none'">
+      <strong>${character}</strong>
+    </div>
+  `;
+}
+
+function renderSouthPark101Cast() {
+  const container = document.getElementById('sp101-main-cast');
+  if (!container) return;
+
+  const hierarchyByName = new Map((DATA.hierarchy || []).map(d => [d.character, d]));
+  const cast = MAIN_CAST.filter(name => hierarchyByName.has(name));
+
+  container.innerHTML = '';
+
+  const title = document.createElement('h3');
+  title.textContent = 'Main cast carousel';
+  title.style.margin = '0 0 10px 0';
+  container.appendChild(title);
+
+  const frame = document.createElement('div');
+  frame.style.cssText = [
+    'position:relative',
+    'overflow:hidden',
+    'border:1px solid var(--color-divider)',
+    'border-radius:14px',
+    'background:var(--color-surface)',
+  ].join(';');
+
+  const track = document.createElement('div');
+  track.style.cssText = [
+    'display:flex',
+    'transition:transform 260ms ease',
+    'will-change:transform',
+  ].join(';');
+
+  cast.forEach(name => {
+    const stat = hierarchyByName.get(name);
+    const slide = document.createElement('article');
+    slide.style.cssText = [
+      'flex:0 0 100%',
+      'padding:16px',
+      'display:grid',
+      'grid-template-columns:auto 1fr',
+      'gap:12px',
+      'align-items:start',
+    ].join(';');
+    slide.setAttribute('aria-label', name);
+
+    slide.appendChild(buildPortraitNode(name, { size: 58, ringColor: charColor(name) }));
+
+    const body = document.createElement('div');
+    body.innerHTML = `
+      <h4 style="margin:0 0 4px 0;font-size:15px;color:var(--color-text);">${name}</h4>
+      <p style="margin:0 0 6px 0;font-size:12px;color:var(--color-text-muted);">${fmt(stat.episodeCount)} episodes · ${fmt(stat.totalWords)} words · ${fmt(stat.avgWordsPerEpisode)} avg words/ep</p>
+      <p style="margin:0;font-size:13px;line-height:1.45;color:var(--color-text);">${CHARACTER_BLURBS[name] || ''}</p>
+    `;
+    slide.appendChild(body);
+    track.appendChild(slide);
+  });
+
+  frame.appendChild(track);
+  container.appendChild(frame);
+
+  const controls = document.createElement('div');
+  controls.style.cssText = 'display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:10px;';
+
+  const prevBtn = document.createElement('button');
+  prevBtn.type = 'button';
+  prevBtn.textContent = 'Previous';
+  prevBtn.style.cssText = 'padding:6px 10px;border-radius:999px;border:1px solid var(--color-divider);background:var(--color-surface);color:var(--color-text);';
+
+  const nextBtn = document.createElement('button');
+  nextBtn.type = 'button';
+  nextBtn.textContent = 'Next';
+  nextBtn.style.cssText = 'padding:6px 10px;border-radius:999px;border:1px solid var(--color-divider);background:var(--color-surface);color:var(--color-text);';
+
+  const dots = document.createElement('div');
+  dots.style.cssText = 'display:flex;align-items:center;gap:8px;';
+
+  const dotButtons = cast.map((name, i) => {
+    const dot = document.createElement('button');
+    dot.type = 'button';
+    dot.setAttribute('aria-label', `Go to ${name}`);
+    dot.style.cssText = [
+      'width:10px',
+      'height:10px',
+      'padding:0',
+      'border-radius:999px',
+      'border:1px solid var(--color-divider)',
+      'background:var(--color-surface-offset)',
+      'cursor:pointer',
+    ].join(';');
+    dot.addEventListener('click', () => setSlide(i));
+    dots.appendChild(dot);
+    return dot;
+  });
+
+  controls.appendChild(prevBtn);
+  controls.appendChild(dots);
+  controls.appendChild(nextBtn);
+  container.appendChild(controls);
+
+  let activeIndex = 0;
+
+  function setSlide(index) {
+    if (cast.length === 0) return;
+    activeIndex = ((index % cast.length) + cast.length) % cast.length;
+    track.style.transform = `translateX(-${activeIndex * 100}%)`;
+    dotButtons.forEach((dot, i) => {
+      dot.style.background = i === activeIndex ? charColor(cast[i]) : 'var(--color-surface-offset)';
+      dot.style.borderColor = i === activeIndex ? charColor(cast[i]) : 'var(--color-divider)';
+    });
+  }
+
+  prevBtn.addEventListener('click', () => setSlide(activeIndex - 1));
+  nextBtn.addEventListener('click', () => setSlide(activeIndex + 1));
+
+  frame.tabIndex = 0;
+  frame.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowLeft') {
+      event.preventDefault();
+      setSlide(activeIndex - 1);
+    }
+    if (event.key === 'ArrowRight') {
+      event.preventDefault();
+      setSlide(activeIndex + 1);
+    }
+  });
+
+  setSlide(0);
 }
 
 // ════════════════════════════════════════════════════════════════════════════
@@ -836,7 +1104,7 @@ function drawPage3() {
       const point = s.data.find(d => d.season === closest);
       if (!point) return;
       showTooltip(`
-        <strong>${s.character}</strong>
+        ${characterTooltipHeader(s.character)}
         <div class="t-row"><span class="t-label">Season</span><span class="t-val">${closest}</span></div>
         <div class="t-row"><span class="t-label">Word share</span><span class="t-val">${fmtPct(point.share)}</span></div>
         <div class="t-row"><span class="t-label">Words</span><span class="t-val">${fmt(point.words)}</span></div>
@@ -852,10 +1120,21 @@ function drawPage3() {
   ranked.forEach(s => {
     const item = document.createElement('div');
     item.className = 'legend-item';
-    item.innerHTML = `
-      <span class="legend-swatch" style="background:${charColor(s.character)}"></span>
-      <span>${s.character}</span>
-    `;
+    if (PORTRAIT_CHARACTERS.has(s.character)) {
+      const portrait = buildPortraitNode(s.character, { size: 22, ringColor: charColor(s.character) });
+      portrait.style.marginRight = '6px';
+      item.appendChild(portrait);
+    } else {
+      const swatch = document.createElement('span');
+      swatch.className = 'legend-swatch';
+      swatch.style.background = charColor(s.character);
+      item.appendChild(swatch);
+    }
+
+    const label = document.createElement('span');
+    label.textContent = s.character;
+    item.appendChild(label);
+
     item.addEventListener('mouseenter', () => handleMouseOver(null, s));
     item.addEventListener('mouseleave', handleMouseOut);
     legendEl.appendChild(item);
@@ -906,9 +1185,15 @@ function drawPage4(characterName) {
   document.getElementById('chart-p4').style.minHeight = `${neededH}px`;
 
   // Colour scale: sequential from surface to character colour
-  const color = d3.scaleSequential()
-    .domain([0, maxWords])
-    .interpolator(d3.interpolate('var(--color-surface-offset)', charColor(characterName)));
+  const baseColor = d3.color(charColor(characterName)) || d3.rgb('#7f7f7f');
+  const colorStart = baseColor.darker(2).formatRgb();
+  const colorEnd = baseColor.brighter(1.8).formatRgb();
+  const wordsSorted = runs.map(d => d.words).sort(d3.ascending);
+  const stretchMax = d3.quantile(wordsSorted, 0.95) || maxWords;
+  const color = d3.scaleSequentialPow(d3.interpolateRgb(colorStart, colorEnd))
+    .exponent(0.7)
+    .domain([0, Math.max(1, stretchMax)])
+    .clamp(true);
 
   seasonList.forEach((season, si) => {
     const eps = seasons.get(season).sort((a, b) => a.episode - b.episode);
@@ -1589,6 +1874,7 @@ function renderLevel1() {
   rootEl.innerHTML = LEVEL1_TEMPLATE;
   // Fill meta stats
   fillMetaStats();
+  renderSouthPark101Cast();
 
   // Wire up controls
   initScopeControl();
@@ -1615,6 +1901,7 @@ export const level1View = {
   defaultSection: 'level-1-intro',
   sections: [
     { id: 'level-1-intro', label: 'Overview' },
+    { id: 'page-0', label: 'South Park 101' },
     { id: 'page-1', label: 'Importance' },
     { id: 'page-3', label: 'Seasons' },
     { id: 'page-4', label: 'Episode runs' },
