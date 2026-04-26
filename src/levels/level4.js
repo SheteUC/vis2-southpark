@@ -212,6 +212,30 @@ function renderTemplate(rootEl, pairsData, timingChars) {
         </div>
       </div>
     </section>
+
+    <section id="level-4-kenny" class="page-section" data-page="4">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-num">04</span>
+          <h2 class="section-title">Kenny's Tragic Journey</h2>
+          <p class="section-lede">
+            Kenny is immortal and dies way too often. Explore when his iconic deaths occur and how they cluster across seasons.
+          </p>
+        </div>
+
+        <div class="pair-context-chart-card">
+          <div
+            class="chart-area chart-area--kenny-deaths"
+            id="chart-l4-kenny-deaths"
+            aria-label="Bar chart: Kenny deaths by season"
+          ></div>
+          <div class="chart-note">
+            Running count of episodes in which Kenny dies. The "Kenny dies" running gag was most frequent in early seasons.
+          </div>
+          <div class="kenny-stats" id="l4-kenny-stats" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
   `;
 }
 
@@ -821,6 +845,81 @@ function renderEmpty(rootEl, message) {
   `;
 }
 
+// ── kenny deaths chart ────────────────────────────────────────────────────────
+function renderKennyStats(kennyData) {
+  const statsEl = document.getElementById('l4-kenny-stats');
+  if (!statsEl || !kennyData?.deaths?.length) return;
+
+  const totalDeaths = kennyData.deaths.reduce((sum, d) => sum + d.count, 0);
+  const avgDeaths = (totalDeaths / kennyData.deaths.length).toFixed(1);
+  const peakSeason = kennyData.deaths.reduce((best, cur) => (cur.count > best.count ? cur : best), kennyData.deaths[0]);
+  const episodesWithDeaths = kennyData.deaths.filter((d) => d.count > 0).length;
+
+  statsEl.innerHTML = `
+    <p>
+      Across <strong>${fmt(kennyData.deaths.length)}</strong> seasons, Kenny died in episodes a total of
+      <strong>${fmt(totalDeaths)}</strong> times, averaging <strong>${avgDeaths}</strong> deaths per season.
+      His deadliest season was <strong>Season ${peakSeason.season}</strong> with <strong>${peakSeason.count}</strong> deaths.
+      Kenny stays alive in the later seasons, probably to not use the joke too much. If you would like another view, look at this <a href="https://www.reddit.com/r/dataisbeautiful/comments/ileivk/all_the_times_they_killed_kenny_in_south_park_you/#lightbox" target="_blank" rel="noopener noreferrer">Reddit thread</a>.
+    </p>
+  `;
+}
+
+function drawKennyDeathsChart(kennyData) {
+  const container = d3.select('#chart-l4-kenny-deaths');
+  container.selectAll('*').remove();
+
+  if (!kennyData?.deaths?.length) {
+    container.append('div').attr('class', 'chart-loading').text('Kenny deaths data not available.');
+    return;
+  }
+
+  const dims = svgDims('chart-l4-kenny-deaths', {
+    marginTop: 26, marginRight: 26, marginBottom: 44, marginLeft: 44,
+  });
+  const { svg, g } = makeSvg('chart-l4-kenny-deaths', dims);
+
+  const x = d3.scaleLinear().domain(d3.extent(kennyData.deaths, (d) => d.season)).range([0, dims.innerW]);
+  const y = d3.scaleLinear().domain([0, d3.max(kennyData.deaths, (d) => d.count) || 1]).nice().range([dims.innerH, 0]);
+
+  // Grid
+  g.append('g').attr('class', 'grid').attr('transform', `translate(0,${dims.innerH})`)
+    .call(d3.axisBottom(x).tickValues([1, 5, 10, 15, 20, 21]).tickSize(-dims.innerH).tickFormat(''));
+
+  // X axis
+  g.append('g').attr('class', 'axis').attr('transform', `translate(0,${dims.innerH})`)
+    .call(d3.axisBottom(x).tickValues([1, 5, 10, 15, 20, 21]).tickFormat(d3.format('d')))
+    .call((a) => a.select('.domain').remove());
+
+  // Y axis
+  g.append('g').attr('class', 'axis')
+    .call(d3.axisLeft(y).ticks(5).tickFormat(d3.format('d')))
+    .call((a) => a.select('.domain').remove());
+
+  // Bars
+  g.selectAll('.kenny-bar').data(kennyData.deaths).join('rect')
+    .attr('class', 'kenny-bar')
+    .attr('x', (d) => x(d.season) - 8)
+    .attr('y', (d) => y(d.count))
+    .attr('width', 16)
+    .attr('height', (d) => dims.innerH - y(d.count))
+    .attr('fill', (d) => d.count > 0 ? '#D4AF37' : 'var(--color-border)')
+    .attr('opacity', (d) => d.count > 0 ? 0.85 : 0.4)
+    .on('mouseenter', (event, d) => {
+      showTooltip(`
+        <strong>Season ${d.season}</strong>
+        <div class="t-row"><span class="t-label">Deaths</span><span class="t-val">${fmt(d.count)}</span></div>
+      `, event);
+    })
+    .on('mousemove', positionTooltip)
+    .on('mouseleave', hideTooltip);
+
+  svg.append('text').attr('class', 'pair-chart__caption')
+    .attr('x', dims.W / 2).attr('y', dims.H - 8).attr('text-anchor', 'middle')
+    .text('Number of episodes in which Kenny dies');
+}
+
+
 // ── export ────────────────────────────────────────────────────────────────────
 export const level4View = {
   id:             'level-4',
@@ -832,6 +931,7 @@ export const level4View = {
     { id: 'level-4-dialogue',    label: 'Dialogue' },
     { id: 'level-4-term-search', label: 'Search' },
     { id: 'level-4-timing',      label: 'Speaker Timing' },
+    { id: 'level-4-kenny',       label: "Kenny's Deaths" },
   ],
 
   async render(ctx) {
@@ -839,6 +939,7 @@ export const level4View = {
     const pairsData     = loaded['pair-dialogue'];
     const characterText = loaded['character-text'];
     const timingData    = loaded['episode-timing'];
+    const kennyData     = loaded['kenny-deaths'];
 
     if (!pairsData?.pairs?.length || !Array.isArray(characterText) || !timingData) {
       renderEmpty(ctx.container, 'Failed to load Level 4 data.');
@@ -885,6 +986,12 @@ export const level4View = {
     if (removeTimingListeners) removeTimingListeners();
     removeTimingListeners = wireTimingControls(timingData);
 
+    // Kenny deaths chart
+    if (kennyData?.deaths?.length) {
+      renderKennyStats(kennyData);
+      drawKennyDeathsChart(kennyData);
+    }
+
     if (resizeHandler) window.removeEventListener('resize', resizeHandler);
     resizeHandler = () => {
       if (latestPair) drawPairWordsChart(latestPair);
@@ -893,6 +1000,7 @@ export const level4View = {
         drawTermSpeakersChart(latestTermAnalysis);
       }
       drawTimingChart(timingData, activeTimingChars, activeTimingSeason);
+      if (kennyData?.deaths?.length) drawKennyDeathsChart(kennyData);
     };
     window.addEventListener('resize', resizeHandler);
   },

@@ -21,6 +21,49 @@ export function createApp({ rootId }) {
   };
 
   let activeRoute = null;
+  let sectionObserver = null;
+
+  function updateSectionNavOnScroll(route) {
+    if (sectionObserver) sectionObserver.disconnect();
+
+    const sections = route.sections || [];
+    const sectionElements = sections
+      .map((section) => document.getElementById(section.id))
+      .filter(Boolean);
+
+    if (!sectionElements.length) return;
+
+    sectionObserver = new IntersectionObserver(
+      (entries) => {
+        // Find which section is mostly in view
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+
+        if (visible.length === 0) return;
+
+        const topSection = visible[0].target;
+        const newSectionId = topSection.id;
+
+        // Update the navbar to highlight the current section
+        document.querySelectorAll('.app-section-link').forEach((link) => {
+          const linkSectionId = link.getAttribute('href')?.replace('#', '');
+          if (linkSectionId === newSectionId) {
+            link.classList.add('active');
+          } else {
+            link.classList.remove('active');
+          }
+        });
+      },
+      {
+        root: null,
+        rootMargin: '-50% 0px -50% 0px',
+        threshold: 0,
+      }
+    );
+
+    sectionElements.forEach((el) => sectionObserver.observe(el));
+  }
 
   function getLevelState(routeId, defaults = {}) {
     if (!state.levelState[routeId]) {
@@ -129,11 +172,13 @@ export function createApp({ rootId }) {
       activeRoute = route;
       await route.init?.(currentContext(route));
       await route.render?.(currentContext(route));
+      updateSectionNavOnScroll(route);
       requestAnimationFrame(() => scrollToSection(sectionId));
       return;
     }
 
     route.onSectionChange?.(currentContext(route), sectionId);
+    updateSectionNavOnScroll(route);
     requestAnimationFrame(() => scrollToSection(sectionId));
   }
 

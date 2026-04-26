@@ -1,0 +1,30 @@
+{
+  "deaths": [
+    { "season": 1, "count": 16 },
+    { "season": 2, "count": 19 },
+    { "season": 3, "count": 15 },
+    { "season": 4, "count": 16 },
+    { "season": 5, "count": 12 },
+    { "season": 6, "count": 1 },
+    { "season": 7, "count": 1 },
+    { "season": 8, "count": 1 },
+    { "season": 9, "count": 3 },
+    { "season": 10, "count": 2 },
+    { "season": 11, "count": 1 },
+    { "season": 12, "count": 0 },
+    { "season": 13, "count": 3 },
+    { "season": 14, "count": 5 },
+    { "season": 15, "count": 1 },
+    { "season": 16, "count": 1 },
+    { "season": 17, "count": 1 },
+    { "season": 18, "count": 0 },
+    { "season": 19, "count": 0 },
+    { "season": 20, "count": 0 },
+    { "season": 21, "count": 1 }
+  ],
+  "totalDeaths": 119,
+  "meta": {
+    "title": "Kenny Deaths by Season",
+    "description": "Running count of character Kenny's deaths throughout South Park series"
+  }
+}
