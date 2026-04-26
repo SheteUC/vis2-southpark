@@ -114,6 +114,10 @@ const LEVEL1_TEMPLATE = `
         <strong>bubble size</strong> — max single-episode word share
       </div>
 
+      <p class="chart-blurb">
+        The plot shows how a handful of characters carry most of the dialogue, with Cartman, Stan, Kyle, and Kenny standing out as the main characters.
+      </p>
+
       <div class="page1-scope-toggle">
         <button class="text-btn active" id="p1-show-recurring" data-p1scope="recurring">Recurring only</button>
         <button class="text-btn" id="p1-show-all" data-p1scope="all">Show all speakers</button>
