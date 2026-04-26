@@ -19,6 +19,7 @@ let removeTimingListeners = null;
 let latestTermAnalysis  = null;
 let latestSearchQuery   = 'you guys';
 let latestPair          = null;
+let latestPairSelection = [];
 let activeTimingChars   = [];
 let activeTimingSeason  = '';
 
@@ -99,6 +100,7 @@ function renderTemplate(rootEl, pairsData, timingChars) {
           </select>
           <label class="pair-selector-label" for="l4-char-b">Character B</label>
         </div>
+        <p id="l4-pair-error" class="pair-selector-error" role="alert" aria-live="assertive"></p>
 
         <div class="pair-dialogue-layout split-panel--wide">
           <div class="pair-context-chart-card">
@@ -218,6 +220,46 @@ function findPair(pairsData, charA, charB) {
   const key1 = `${charA}__${charB}`;
   const key2 = `${charB}__${charA}`;
   return pairsData.pairs.find((p) => p.pairKey === key1 || p.pairKey === key2) || null;
+}
+
+function syncPairSelectOptions(selA, selB) {
+  const valueA = selA?.value || '';
+  const valueB = selB?.value || '';
+
+  Array.from(selA?.options || []).forEach((option) => {
+    option.disabled = option.value === valueB && option.value !== valueA;
+  });
+
+  Array.from(selB?.options || []).forEach((option) => {
+    option.disabled = option.value === valueA && option.value !== valueB;
+  });
+}
+
+function setPairError(message) {
+  const errorEl = document.getElementById('l4-pair-error');
+  const selA = document.getElementById('l4-char-a');
+  const selB = document.getElementById('l4-char-b');
+  const hasError = Boolean(message);
+
+  if (errorEl) errorEl.textContent = message || '';
+  if (selA) {
+    selA.setCustomValidity(message || '');
+    selA.setAttribute('aria-invalid', hasError ? 'true' : 'false');
+  }
+  if (selB) {
+    selB.setCustomValidity(message || '');
+    selB.setAttribute('aria-invalid', hasError ? 'true' : 'false');
+  }
+}
+
+function restorePairSelection(charA, charB) {
+  const selA = document.getElementById('l4-char-a');
+  const selB = document.getElementById('l4-char-b');
+  if (!selA || !selB) return;
+
+  selA.value = charA;
+  selB.value = charB;
+  syncPairSelectOptions(selA, selB);
 }
 
 // ── pair chart ────────────────────────────────────────────────────────────────
@@ -352,6 +394,7 @@ function drawPairWordsChart(pair) {
 
 function activatePair(pair) {
   latestPair = pair;
+  latestPairSelection = pair?.characters ? [...pair.characters] : [];
   renderPairStats(pair);
   drawPairWordsChart(pair);
 }
@@ -362,15 +405,22 @@ function wirePairSelector(pairsData) {
   const selB = document.getElementById('l4-char-b');
   if (!selA || !selB) return () => {};
 
+  syncPairSelectOptions(selA, selB);
+
   const onChange = () => {
     const charA = selA.value;
     const charB = selB.value;
     if (charA === charB) {
-      const statsEl = document.getElementById('l4-pair-stats');
-      if (statsEl) statsEl.innerHTML = '<p>Please select two different characters.</p>';
-      d3.select('#chart-l4-pair-words').selectAll('*').remove();
+      setPairError('Select two different characters.');
+      if (latestPairSelection.length === 2) {
+        restorePairSelection(latestPairSelection[0], latestPairSelection[1]);
+        const pair = findPair(pairsData, latestPairSelection[0], latestPairSelection[1]);
+        if (pair) activatePair(pair);
+      }
       return;
     }
+
+    setPairError('');
     const pair = findPair(pairsData, charA, charB);
     if (pair) {
       activatePair(pair);
@@ -383,6 +433,8 @@ function wirePairSelector(pairsData) {
       }
       d3.select('#chart-l4-pair-words').selectAll('*').remove();
     }
+
+    syncPairSelectOptions(selA, selB);
   };
 
   selA.addEventListener('change', onChange);
@@ -810,6 +862,7 @@ export const level4View = {
     if (selA && selB && initialPair) {
       selA.value = initialPair.characters[0];
       selB.value = initialPair.characters[1];
+      syncPairSelectOptions(selA, selB);
     }
 
     renderTermAnalysis(characterText, latestSearchQuery);

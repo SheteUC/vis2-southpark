@@ -1979,6 +1979,19 @@ a:hover { color: var(--color-primary-hover); }
   padding: 0 var(--sp-1);
 }
 
+.pair-selector-error {
+  min-height: 1.2em;
+  margin: calc(var(--sp-2) * -1) 0 var(--sp-5);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-danger, #c0392b);
+}
+
+.pair-selector-select[aria-invalid="true"] {
+  border-color: var(--color-danger, #c0392b);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-danger, #c0392b) 18%, transparent);
+}
+
 /* ── LEVEL 4 — TIMING CHART ───────────────────────────────────────────────── */
 .timing-controls {
   display: flex;
