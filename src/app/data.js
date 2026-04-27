@@ -28,6 +28,25 @@ export function createDataLoader() {
 
   async function loadLevelData(levelId) {
     const names = LEVEL_DATASETS[levelId] || [];
+    // Level 4 includes optional datasets (e.g. kenny-deaths): one 404 must not block pair-dialogue.
+    if (levelId === 'level-4') {
+      const settled = await Promise.allSettled(names.map((name) => loadDataset(name)));
+      const loaded = {};
+      settled.forEach((result, i) => {
+        const name = names[i];
+        if (result.status === 'fulfilled') {
+          loaded[name] = result.value;
+        } else {
+          const err = result.reason;
+          console.warn(
+            `[data] ${name}.json not loaded for ${levelId}:`,
+            err?.message || err
+          );
+        }
+      });
+      return loaded;
+    }
+
     const loaded = await Promise.all(
       names.map(async (name) => [name, await loadDataset(name)])
     );
