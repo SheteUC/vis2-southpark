@@ -1,9 +1,9 @@
 const LEVEL_DATASETS = {
   overview: ['meta'],
   'level-1': ['meta', 'overview', 'hierarchy', 'seasonal-share', 'episode-runs', 'rank-divergence', 'episode-share', 'ensemble'],
-  'level-2': [],
+  'level-2': ['character-text'],
   'level-3': ['network'],
-  'level-4': [],
+  'level-4': ['pair-dialogue', 'character-text', 'episode-timing', 'kenny-deaths'],
 };
 
 export function createDataLoader() {

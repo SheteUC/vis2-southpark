@@ -50,6 +50,7 @@ METRICS PRODUCED
 import json
 import os
 import re
+from collections import Counter, defaultdict
 from pathlib import Path
 
 import pandas as pd
@@ -107,6 +108,72 @@ df['ep_key'] = (
     df['Season'].astype(str).str.zfill(2) + 'x' +
     df['Episode'].astype(str).str.zfill(2)
 )
+df = df.reset_index(drop=True)
+
+# ── level-4 pair-dialogue helpers ────────────────────────────────────────────
+PAIR_DIALOGUE_TARGETS = [('Cartman', 'Kyle')]
+PAIR_WINDOW_SIZE = 5
+PAIR_WINDOW_MIN_LINES = 4
+PAIR_SNIPPET_MIN_RUN = 2
+PAIR_SNIPPET_MAX_RUN = 6
+PAIR_MIN_TOKEN_COUNT = 8
+
+PAIR_STOPWORDS = {
+    'a', 'about', 'after', 'all', 'also', 'am', 'an', 'and', 'any', 'are',
+    'as', 'at', 'back', 'be', 'because', 'been', 'before', 'being', 'both',
+    'but', 'by', 'can', "can't", 'come', 'could', "couldn't", 'did',
+    "didn't", 'do', 'does', "doesn't", 'doing', "don't", 'down', 'even',
+    'for', 'from', 'get', 'getting', 'go', 'going', 'gonna', 'got', 'had',
+    "hadn't", 'has', "hasn't", 'have', "haven't", 'having', 'he', "he'd",
+    "he'll", "he's", 'her', 'here', 'hers', 'herself', 'him', 'himself',
+    'his', 'how', 'huh', 'i', "i'd", "i'll", "i'm", "i've", 'if', 'in',
+    'into', 'is', "isn't", 'it', "it's", 'its', 'itself', 'just', 'let',
+    "let's", 'like', 'lot', 'lots', 'me', 'more', 'most', 'much', 'my',
+    'myself', 'need', 'no', 'not', 'now', 'of', 'off', 'oh', 'ok', 'okay',
+    'on', 'once', 'one', 'only', 'or', 'other', 'our', 'ours', 'ourselves',
+    'out', 'over', 'own', 'really', 'right', 'same', 'say', 'see', 'she',
+    "she'd", "she'll", "she's", 'should', "shouldn't", 'so', 'some', 'still',
+    'such', 'than', 'that', "that's", 'the', 'their', 'theirs', 'them',
+    'themselves', 'then', 'there', "there's", 'these', 'they', "they'd",
+    "they'll", "they're", "they've", 'this', 'those', 'through', 'to', 'too',
+    'uh', 'umm', 'up', 'very', 'was', "wasn't", 'way', 'we', "we'd",
+    "we'll", "we're", "we've", 'well', 'were', "weren't", 'what', "what's",
+    'when', 'where', 'which', 'who', "who's", 'why', 'will', 'with', 'would',
+    "wouldn't", 'yeah', 'yes', 'you', "you'd", "you'll", "you're", "you've",
+    'your', 'yours', 'yourself', 'yourselves', 'hey', 'eric', 'broflovski',
+    'cartman', 'kyle',
+}
+TOKEN_RE = re.compile(r"[a-z']+")
+
+
+def tokenize_text(line: str) -> list[str]:
+    text = str(line).lower().replace('’', "'")
+    return TOKEN_RE.findall(text)
+
+
+def clean_token(token: str) -> str | None:
+    cleaned = token.strip("'")
+    if len(cleaned) < 3:
+        return None
+    if cleaned in PAIR_STOPWORDS:
+        return None
+    return cleaned
+
+
+cleaned_rows = []
+rows_by_episode = defaultdict(list)
+for idx, row in enumerate(df.itertuples(index=False)):
+    row_record = {
+        'rowIndex': idx,
+        'season': int(row.Season),
+        'episode': int(row.Episode),
+        'character': row.Character,
+        'line': row.Line,
+        'epKey': row.ep_key,
+        'wordCount': int(row.word_count),
+    }
+    cleaned_rows.append(row_record)
+    rows_by_episode[row.ep_key].append(row_record)
 
 # ── episode-level totals ─────────────────────────────────────────────────────
 ep_totals = (
@@ -310,7 +377,7 @@ print(f'wrote hierarchy.json  ({len(hierarchy_records)} characters)')
 # Provide season-by-season word share for each character.
 # Also include a season-level ranking by word share so bump chart can be drawn.
 
-top_chars_for_season = list(core_chars)
+top_chars_for_season = sorted(core_chars)
 
 # For each character, collect their seasonal word share
 seasonal_by_char = {}
@@ -574,6 +641,173 @@ for season in seasons_in_data:
 with open(DATA_DIR / 'network.json', 'w') as f:
     json.dump(network_output, f, indent=2)
 print(f'wrote network.json  (recurring characters, all seasons and per season)')
+
+# ── pair-dialogue.json — Level 4 pair-context vocabulary + snippets ─────────
+pair_dialogue_output = {
+    'meta': {
+        'defaultPair': list(PAIR_DIALOGUE_TARGETS[0]),
+        'conversationModel': 'window-5-plus-adjacent-snippets',
+        'windowSize': PAIR_WINDOW_SIZE,
+        'pairDominanceThreshold': PAIR_WINDOW_MIN_LINES,
+        'minTokenCount': PAIR_MIN_TOKEN_COUNT,
+    },
+    'pairs': [],
+}
+
+for speaker_a, speaker_b in PAIR_DIALOGUE_TARGETS:
+    pair_set = {speaker_a, speaker_b}
+    pair_context_episode_keys = set()
+    pair_context_indices = set()
+    adjacent_exchange_count = 0
+    speaker_line_counts = Counter()
+    speaker_word_counts = Counter()
+    speaker_token_counts = {
+        speaker_a: Counter(),
+        speaker_b: Counter(),
+    }
+    snippet_candidates = {}
+
+    for ep_key, ep_rows in rows_by_episode.items():
+        valid_indices = set()
+        if len(ep_rows) >= PAIR_WINDOW_SIZE:
+            for start in range(0, len(ep_rows) - PAIR_WINDOW_SIZE + 1):
+                window = ep_rows[start:start + PAIR_WINDOW_SIZE]
+                window_chars = {row['character'] for row in window}
+                pair_line_count = sum(1 for row in window if row['character'] in pair_set)
+                if pair_set.issubset(window_chars) and pair_line_count >= PAIR_WINDOW_MIN_LINES:
+                    pair_context_episode_keys.add(ep_key)
+                    for row in window:
+                        if row['character'] in pair_set:
+                            valid_indices.add(row['rowIndex'])
+
+        for row_index in valid_indices:
+            pair_context_indices.add(row_index)
+
+        for idx in range(len(ep_rows) - 1):
+            first = ep_rows[idx]
+            second = ep_rows[idx + 1]
+            if first['character'] == second['character']:
+                continue
+            if {first['character'], second['character']} != pair_set:
+                continue
+            adjacent_exchange_count += 1
+
+            run = [first, second]
+            next_idx = idx + 2
+            while next_idx < len(ep_rows) and len(run) < PAIR_SNIPPET_MAX_RUN:
+                current = ep_rows[next_idx]
+                if current['character'] not in pair_set:
+                    break
+                if current['character'] == run[-1]['character']:
+                    break
+                run.append(current)
+                next_idx += 1
+
+            if len(run) < PAIR_SNIPPET_MIN_RUN:
+                continue
+
+            snippet_text = '|'.join(
+                f"{row['character']}:{' '.join(tokenize_text(row['line']))}"
+                for row in run
+            )
+            word_count = sum(row['wordCount'] for row in run)
+            snippet = {
+                'epKey': first['epKey'],
+                'season': int(first['season']),
+                'episode': int(first['episode']),
+                'lineCount': int(len(run)),
+                'wordCount': int(word_count),
+                'score': int(len(run) * 10 + word_count),
+                'lines': [
+                    {
+                        'speaker': row['character'],
+                        'text': row['line'],
+                    }
+                    for row in run
+                ],
+            }
+            current_best = snippet_candidates.get(snippet_text)
+            if current_best is None or snippet['score'] > current_best['score']:
+                snippet_candidates[snippet_text] = snippet
+
+    for row in cleaned_rows:
+        if row['rowIndex'] not in pair_context_indices:
+            continue
+        speaker = row['character']
+        if speaker not in pair_set:
+            continue
+        speaker_line_counts[speaker] += 1
+        speaker_word_counts[speaker] += row['wordCount']
+        for token in tokenize_text(row['line']):
+            cleaned = clean_token(token)
+            if cleaned:
+                speaker_token_counts[speaker][cleaned] += 1
+
+    all_tokens = sorted(
+        set(speaker_token_counts[speaker_a]) | set(speaker_token_counts[speaker_b])
+    )
+    chart_words = []
+    for token in all_tokens:
+        a_count = int(speaker_token_counts[speaker_a].get(token, 0))
+        b_count = int(speaker_token_counts[speaker_b].get(token, 0))
+        total_count = a_count + b_count
+        if total_count < PAIR_MIN_TOKEN_COUNT:
+            continue
+        a_rate = a_count / max(int(speaker_word_counts[speaker_a]), 1)
+        b_rate = b_count / max(int(speaker_word_counts[speaker_b]), 1)
+        rate_diff = a_rate - b_rate
+        dominant = speaker_a if rate_diff >= 0 else speaker_b
+        chart_words.append({
+            'word': token,
+            'cartmanCount': a_count,
+            'kyleCount': b_count,
+            'cartmanRate': round(a_rate, 4),
+            'kyleRate': round(b_rate, 4),
+            'dominantSpeaker': dominant,
+            'rateDiff': round(rate_diff, 4),
+            'absRateDiff': round(abs(rate_diff), 4),
+        })
+
+    chart_words.sort(key=lambda row: (-row['absRateDiff'], row['word']))
+
+    speaker_stats = []
+    for speaker in [speaker_a, speaker_b]:
+        dominant_words = [row for row in chart_words if row['dominantSpeaker'] == speaker][:8]
+        speaker_stats.append({
+            'character': speaker,
+            'pairContextLines': int(speaker_line_counts[speaker]),
+            'pairContextWords': int(speaker_word_counts[speaker]),
+            'topDistinctiveWords': [
+                {
+                    'word': row['word'],
+                    'count': int(row['cartmanCount'] if speaker == speaker_a else row['kyleCount']),
+                    'rate': float(row['cartmanRate'] if speaker == speaker_a else row['kyleRate']),
+                    'rateDiff': float(row['rateDiff']),
+                }
+                for row in dominant_words
+            ],
+        })
+
+    snippets = sorted(
+        snippet_candidates.values(),
+        key=lambda row: (-row['score'], -row['lineCount'], -row['wordCount'], row['epKey'])
+    )[:6]
+
+    pair_dialogue_output['pairs'].append({
+        'pairKey': f'{speaker_a}__{speaker_b}',
+        'characters': [speaker_a, speaker_b],
+        'pairContextLineCount': int(sum(speaker_line_counts.values())),
+        'pairContextWordCount': int(sum(speaker_word_counts.values())),
+        'adjacentExchangeCount': int(adjacent_exchange_count),
+        'episodeCount': int(len(pair_context_episode_keys)),
+        'speakerStats': speaker_stats,
+        'chartWords': chart_words,
+        'snippets': snippets,
+    })
+
+with open(DATA_DIR / 'pair-dialogue.json', 'w') as f:
+    json.dump(pair_dialogue_output, f, indent=2)
+print(f'wrote pair-dialogue.json  ({len(pair_dialogue_output["pairs"])} pairs)')
 
 # ── summary ──────────────────────────────────────────────────────────────────
 print()
