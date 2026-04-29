@@ -81,15 +81,6 @@
     "scope": "core"
   },
   {
-    "character": "Man",
-    "episodeCount": 93,
-    "totalWords": 1828,
-    "rankPresence": 10,
-    "rankVolume": 44,
-    "rankDiverge": 34,
-    "scope": "core"
-  },
-  {
     "character": "Mr. Mackey",
     "episodeCount": 93,
     "totalWords": 10690,
@@ -99,12 +90,30 @@
     "scope": "core"
   },
   {
+    "character": "Man",
+    "episodeCount": 93,
+    "totalWords": 1828,
+    "rankPresence": 10,
+    "rankVolume": 44,
+    "rankDiverge": 34,
+    "scope": "core"
+  },
+  {
     "character": "Clyde",
     "episodeCount": 91,
     "totalWords": 2537,
     "rankPresence": 12,
     "rankVolume": 30,
     "rankDiverge": 18,
+    "scope": "core"
+  },
+  {
+    "character": "Liane",
+    "episodeCount": 86,
+    "totalWords": 5129,
+    "rankPresence": 13,
+    "rankVolume": 16,
+    "rankDiverge": 3,
     "scope": "core"
   },
   {
@@ -123,15 +132,6 @@
     "rankPresence": 13,
     "rankVolume": 13,
     "rankDiverge": 0,
-    "scope": "core"
-  },
-  {
-    "character": "Liane",
-    "episodeCount": 86,
-    "totalWords": 5129,
-    "rankPresence": 13,
-    "rankVolume": 16,
-    "rankDiverge": 3,
     "scope": "core"
   },
   {
@@ -225,6 +225,15 @@
     "scope": "core"
   },
   {
+    "character": "Man 3",
+    "episodeCount": 49,
+    "totalWords": 550,
+    "rankPresence": 26,
+    "rankVolume": 87,
+    "rankDiverge": 61,
+    "scope": "core"
+  },
+  {
     "character": "Linda",
     "episodeCount": 49,
     "totalWords": 2700,
@@ -243,30 +252,12 @@
     "scope": "core"
   },
   {
-    "character": "Man 3",
-    "episodeCount": 49,
-    "totalWords": 550,
-    "rankPresence": 26,
-    "rankVolume": 87,
-    "rankDiverge": 61,
-    "scope": "core"
-  },
-  {
     "character": "Token",
     "episodeCount": 48,
     "totalWords": 2422,
     "rankPresence": 29,
     "rankVolume": 33,
     "rankDiverge": 4,
-    "scope": "core"
-  },
-  {
-    "character": "The Boys",
-    "episodeCount": 47,
-    "totalWords": 260,
-    "rankPresence": 30,
-    "rankVolume": 123,
-    "rankDiverge": 93,
     "scope": "core"
   },
   {
@@ -279,12 +270,12 @@
     "scope": "core"
   },
   {
-    "character": "All",
-    "episodeCount": 39,
-    "totalWords": 217,
-    "rankPresence": 32,
-    "rankVolume": 126,
-    "rankDiverge": 94,
+    "character": "The Boys",
+    "episodeCount": 47,
+    "totalWords": 260,
+    "rankPresence": 30,
+    "rankVolume": 123,
+    "rankDiverge": 93,
     "scope": "core"
   },
   {
@@ -294,6 +285,15 @@
     "rankPresence": 32,
     "rankVolume": 61,
     "rankDiverge": 29,
+    "scope": "core"
+  },
+  {
+    "character": "All",
+    "episodeCount": 39,
+    "totalWords": 217,
+    "rankPresence": 32,
+    "rankVolume": 126,
+    "rankDiverge": 94,
     "scope": "core"
   },
   {
@@ -324,21 +324,21 @@
     "scope": "core"
   },
   {
-    "character": "Bebe",
-    "episodeCount": 33,
-    "totalWords": 2052,
-    "rankPresence": 37,
-    "rankVolume": 38,
-    "rankDiverge": 1,
-    "scope": "core"
-  },
-  {
     "character": "Boys",
     "episodeCount": 33,
     "totalWords": 269,
     "rankPresence": 37,
     "rankVolume": 122,
     "rankDiverge": 85,
+    "scope": "core"
+  },
+  {
+    "character": "Bebe",
+    "episodeCount": 33,
+    "totalWords": 2052,
+    "rankPresence": 37,
+    "rankVolume": 38,
+    "rankDiverge": 1,
     "scope": "core"
   },
   {
@@ -396,12 +396,12 @@
     "scope": "core"
   },
   {
-    "character": "Timmy",
+    "character": "Clerk",
     "episodeCount": 28,
-    "totalWords": 519,
+    "totalWords": 1223,
     "rankPresence": 44,
-    "rankVolume": 90,
-    "rankDiverge": 46,
+    "rankVolume": 59,
+    "rankDiverge": 15,
     "scope": "core"
   },
   {
@@ -414,21 +414,21 @@
     "scope": "core"
   },
   {
-    "character": "Clerk",
+    "character": "Timmy",
     "episodeCount": 28,
-    "totalWords": 1223,
+    "totalWords": 519,
     "rankPresence": 44,
-    "rankVolume": 59,
-    "rankDiverge": 15,
+    "rankVolume": 90,
+    "rankDiverge": 46,
     "scope": "core"
   },
   {
-    "character": "Tom",
+    "character": "Singer",
     "episodeCount": 27,
-    "totalWords": 1624,
+    "totalWords": 1172,
     "rankPresence": 48,
-    "rankVolume": 49,
-    "rankDiverge": 1,
+    "rankVolume": 60,
+    "rankDiverge": 12,
     "scope": "core"
   },
   {
@@ -450,21 +450,12 @@
     "scope": "core"
   },
   {
-    "character": "Singer",
+    "character": "Tom",
     "episodeCount": 27,
-    "totalWords": 1172,
+    "totalWords": 1624,
     "rankPresence": 48,
-    "rankVolume": 60,
-    "rankDiverge": 12,
-    "scope": "core"
-  },
-  {
-    "character": "Doctor",
-    "episodeCount": 26,
-    "totalWords": 2565,
-    "rankPresence": 52,
-    "rankVolume": 29,
-    "rankDiverge": 23,
+    "rankVolume": 49,
+    "rankDiverge": 1,
     "scope": "core"
   },
   {
@@ -477,21 +468,21 @@
     "scope": "core"
   },
   {
+    "character": "Doctor",
+    "episodeCount": 26,
+    "totalWords": 2565,
+    "rankPresence": 52,
+    "rankVolume": 29,
+    "rankDiverge": 23,
+    "scope": "core"
+  },
+  {
     "character": "Field Reporter",
     "episodeCount": 25,
     "totalWords": 2472,
     "rankPresence": 54,
     "rankVolume": 31,
     "rankDiverge": 23,
-    "scope": "core"
-  },
-  {
-    "character": "Jesus",
-    "episodeCount": 24,
-    "totalWords": 3803,
-    "rankPresence": 55,
-    "rankVolume": 23,
-    "rankDiverge": 32,
     "scope": "core"
   },
   {
@@ -504,12 +495,12 @@
     "scope": "core"
   },
   {
-    "character": "Narrator",
+    "character": "Jesus",
     "episodeCount": 24,
-    "totalWords": 4939,
+    "totalWords": 3803,
     "rankPresence": 55,
-    "rankVolume": 18,
-    "rankDiverge": 37,
+    "rankVolume": 23,
+    "rankDiverge": 32,
     "scope": "core"
   },
   {
@@ -522,30 +513,21 @@
     "scope": "core"
   },
   {
+    "character": "Narrator",
+    "episodeCount": 24,
+    "totalWords": 4939,
+    "rankPresence": 55,
+    "rankVolume": 18,
+    "rankDiverge": 37,
+    "scope": "core"
+  },
+  {
     "character": "Officer 2",
     "episodeCount": 24,
     "totalWords": 417,
     "rankPresence": 55,
     "rankVolume": 96,
     "rankDiverge": 41,
-    "scope": "core"
-  },
-  {
-    "character": "Chris",
-    "episodeCount": 23,
-    "totalWords": 2399,
-    "rankPresence": 60,
-    "rankVolume": 36,
-    "rankDiverge": 24,
-    "scope": "core"
-  },
-  {
-    "character": "Phillip",
-    "episodeCount": 23,
-    "totalWords": 1856,
-    "rankPresence": 60,
-    "rankVolume": 43,
-    "rankDiverge": 17,
     "scope": "core"
   },
   {
@@ -558,12 +540,21 @@
     "scope": "core"
   },
   {
-    "character": "Mayor McDaniels",
-    "episodeCount": 22,
-    "totalWords": 1442,
-    "rankPresence": 63,
-    "rankVolume": 54,
-    "rankDiverge": 9,
+    "character": "Phillip",
+    "episodeCount": 23,
+    "totalWords": 1856,
+    "rankPresence": 60,
+    "rankVolume": 43,
+    "rankDiverge": 17,
+    "scope": "core"
+  },
+  {
+    "character": "Chris",
+    "episodeCount": 23,
+    "totalWords": 2399,
+    "rankPresence": 60,
+    "rankVolume": 36,
+    "rankDiverge": 24,
     "scope": "core"
   },
   {
@@ -576,12 +567,12 @@
     "scope": "core"
   },
   {
-    "character": "Mrs. Garrison",
-    "episodeCount": 21,
-    "totalWords": 4993,
-    "rankPresence": 65,
-    "rankVolume": 17,
-    "rankDiverge": 48,
+    "character": "Mayor McDaniels",
+    "episodeCount": 22,
+    "totalWords": 1442,
+    "rankPresence": 63,
+    "rankVolume": 54,
+    "rankDiverge": 9,
     "scope": "core"
   },
   {
@@ -594,21 +585,12 @@
     "scope": "core"
   },
   {
-    "character": "Barbrady",
-    "episodeCount": 20,
-    "totalWords": 1501,
-    "rankPresence": 67,
-    "rankVolume": 52,
-    "rankDiverge": 15,
-    "scope": "core"
-  },
-  {
-    "character": "Red",
-    "episodeCount": 20,
-    "totalWords": 604,
-    "rankPresence": 67,
-    "rankVolume": 86,
-    "rankDiverge": 19,
+    "character": "Mrs. Garrison",
+    "episodeCount": 21,
+    "totalWords": 4993,
+    "rankPresence": 65,
+    "rankVolume": 17,
+    "rankDiverge": 48,
     "scope": "core"
   },
   {
@@ -621,12 +603,21 @@
     "scope": "core"
   },
   {
-    "character": "Nurse",
+    "character": "Red",
     "episodeCount": 20,
-    "totalWords": 318,
+    "totalWords": 604,
     "rankPresence": 67,
-    "rankVolume": 112,
-    "rankDiverge": 45,
+    "rankVolume": 86,
+    "rankDiverge": 19,
+    "scope": "core"
+  },
+  {
+    "character": "Barbrady",
+    "episodeCount": 20,
+    "totalWords": 1501,
+    "rankPresence": 67,
+    "rankVolume": 52,
+    "rankDiverge": 15,
     "scope": "core"
   },
   {
@@ -639,21 +630,21 @@
     "scope": "core"
   },
   {
+    "character": "Nurse",
+    "episodeCount": 20,
+    "totalWords": 318,
+    "rankPresence": 67,
+    "rankVolume": 112,
+    "rankDiverge": 45,
+    "scope": "core"
+  },
+  {
     "character": "Man 6",
     "episodeCount": 19,
     "totalWords": 148,
     "rankPresence": 72,
     "rankVolume": 144,
     "rankDiverge": 72,
-    "scope": "core"
-  },
-  {
-    "character": "Ned",
-    "episodeCount": 18,
-    "totalWords": 539,
-    "rankPresence": 73,
-    "rankVolume": 88,
-    "rankDiverge": 15,
     "scope": "core"
   },
   {
@@ -666,12 +657,12 @@
     "scope": "core"
   },
   {
-    "character": "Voice",
-    "episodeCount": 17,
-    "totalWords": 314,
-    "rankPresence": 75,
-    "rankVolume": 115,
-    "rankDiverge": 40,
+    "character": "Ned",
+    "episodeCount": 18,
+    "totalWords": 539,
+    "rankPresence": 73,
+    "rankVolume": 88,
+    "rankDiverge": 15,
     "scope": "core"
   },
   {
@@ -684,15 +675,6 @@
     "scope": "core"
   },
   {
-    "character": "Reporter 2",
-    "episodeCount": 17,
-    "totalWords": 323,
-    "rankPresence": 75,
-    "rankVolume": 110,
-    "rankDiverge": 35,
-    "scope": "core"
-  },
-  {
     "character": "Mr. Hat",
     "episodeCount": 17,
     "totalWords": 484,
@@ -702,21 +684,21 @@
     "scope": "core"
   },
   {
-    "character": "Kevin",
-    "episodeCount": 16,
-    "totalWords": 325,
-    "rankPresence": 79,
-    "rankVolume": 108,
-    "rankDiverge": 29,
+    "character": "Voice",
+    "episodeCount": 17,
+    "totalWords": 314,
+    "rankPresence": 75,
+    "rankVolume": 115,
+    "rankDiverge": 40,
     "scope": "core"
   },
   {
-    "character": "Singers",
-    "episodeCount": 16,
-    "totalWords": 1251,
-    "rankPresence": 79,
-    "rankVolume": 57,
-    "rankDiverge": 22,
+    "character": "Reporter 2",
+    "episodeCount": 17,
+    "totalWords": 323,
+    "rankPresence": 75,
+    "rankVolume": 110,
+    "rankDiverge": 35,
     "scope": "core"
   },
   {
@@ -729,12 +711,57 @@
     "scope": "core"
   },
   {
+    "character": "Singers",
+    "episodeCount": 16,
+    "totalWords": 1251,
+    "rankPresence": 79,
+    "rankVolume": 57,
+    "rankDiverge": 22,
+    "scope": "core"
+  },
+  {
+    "character": "Kevin",
+    "episodeCount": 16,
+    "totalWords": 325,
+    "rankPresence": 79,
+    "rankVolume": 108,
+    "rankDiverge": 29,
+    "scope": "core"
+  },
+  {
+    "character": "Man 7",
+    "episodeCount": 15,
+    "totalWords": 170,
+    "rankPresence": 82,
+    "rankVolume": 138,
+    "rankDiverge": 56,
+    "scope": "core"
+  },
+  {
     "character": "Receptionist",
     "episodeCount": 15,
     "totalWords": 653,
     "rankPresence": 82,
     "rankVolume": 81,
     "rankDiverge": 1,
+    "scope": "core"
+  },
+  {
+    "character": "Michael",
+    "episodeCount": 15,
+    "totalWords": 2995,
+    "rankPresence": 82,
+    "rankVolume": 26,
+    "rankDiverge": 56,
+    "scope": "core"
+  },
+  {
+    "character": "Boy 1",
+    "episodeCount": 15,
+    "totalWords": 337,
+    "rankPresence": 82,
+    "rankVolume": 104,
+    "rankDiverge": 22,
     "scope": "core"
   },
   {
@@ -765,33 +792,6 @@
     "scope": "core"
   },
   {
-    "character": "Man 7",
-    "episodeCount": 15,
-    "totalWords": 170,
-    "rankPresence": 82,
-    "rankVolume": 138,
-    "rankDiverge": 56,
-    "scope": "core"
-  },
-  {
-    "character": "Michael",
-    "episodeCount": 15,
-    "totalWords": 2995,
-    "rankPresence": 82,
-    "rankVolume": 26,
-    "rankDiverge": 56,
-    "scope": "core"
-  },
-  {
-    "character": "Boy 1",
-    "episodeCount": 15,
-    "totalWords": 337,
-    "rankPresence": 82,
-    "rankVolume": 104,
-    "rankDiverge": 22,
-    "scope": "core"
-  },
-  {
     "character": "Aide",
     "episodeCount": 14,
     "totalWords": 334,
@@ -801,21 +801,30 @@
     "scope": "core"
   },
   {
-    "character": "Agent 2",
+    "character": "Ms. Choksondik",
     "episodeCount": 13,
-    "totalWords": 197,
+    "totalWords": 2420,
     "rankPresence": 90,
-    "rankVolume": 131,
-    "rankDiverge": 41,
+    "rankVolume": 34,
+    "rankDiverge": 56,
     "scope": "core"
   },
   {
-    "character": "Aide 2",
+    "character": "Reporter 1",
     "episodeCount": 13,
-    "totalWords": 311,
+    "totalWords": 182,
     "rankPresence": 90,
-    "rankVolume": 116,
-    "rankDiverge": 26,
+    "rankVolume": 135,
+    "rankDiverge": 45,
+    "scope": "core"
+  },
+  {
+    "character": "Officer 3",
+    "episodeCount": 13,
+    "totalWords": 162,
+    "rankPresence": 90,
+    "rankVolume": 141,
+    "rankDiverge": 51,
     "scope": "core"
   },
   {
@@ -837,30 +846,12 @@
     "scope": "core"
   },
   {
-    "character": "Soldier",
+    "character": "Agent 2",
     "episodeCount": 13,
-    "totalWords": 205,
+    "totalWords": 197,
     "rankPresence": 90,
-    "rankVolume": 129,
-    "rankDiverge": 39,
-    "scope": "core"
-  },
-  {
-    "character": "Officer 3",
-    "episodeCount": 13,
-    "totalWords": 162,
-    "rankPresence": 90,
-    "rankVolume": 141,
-    "rankDiverge": 51,
-    "scope": "core"
-  },
-  {
-    "character": "Ms. Choksondik",
-    "episodeCount": 13,
-    "totalWords": 2420,
-    "rankPresence": 90,
-    "rankVolume": 34,
-    "rankDiverge": 56,
+    "rankVolume": 131,
+    "rankDiverge": 41,
     "scope": "core"
   },
   {
@@ -873,21 +864,21 @@
     "scope": "core"
   },
   {
-    "character": "Reporter 1",
+    "character": "Soldier",
     "episodeCount": 13,
-    "totalWords": 182,
+    "totalWords": 205,
     "rankPresence": 90,
-    "rankVolume": 135,
-    "rankDiverge": 45,
+    "rankVolume": 129,
+    "rankDiverge": 39,
     "scope": "core"
   },
   {
-    "character": "Boy 2",
-    "episodeCount": 12,
-    "totalWords": 193,
-    "rankPresence": 99,
-    "rankVolume": 133,
-    "rankDiverge": 34,
+    "character": "Aide 2",
+    "episodeCount": 13,
+    "totalWords": 311,
+    "rankPresence": 90,
+    "rankVolume": 116,
+    "rankDiverge": 26,
     "scope": "core"
   },
   {
@@ -906,6 +897,24 @@
     "rankPresence": 99,
     "rankVolume": 75,
     "rankDiverge": 24,
+    "scope": "core"
+  },
+  {
+    "character": "Richard",
+    "episodeCount": 12,
+    "totalWords": 685,
+    "rankPresence": 99,
+    "rankVolume": 78,
+    "rankDiverge": 21,
+    "scope": "core"
+  },
+  {
+    "character": "Boy 2",
+    "episodeCount": 12,
+    "totalWords": 193,
+    "rankPresence": 99,
+    "rankVolume": 133,
+    "rankDiverge": 34,
     "scope": "core"
   },
   {
@@ -936,15 +945,6 @@
     "scope": "core"
   },
   {
-    "character": "Richard",
-    "episodeCount": 12,
-    "totalWords": 685,
-    "rankPresence": 99,
-    "rankVolume": 78,
-    "rankDiverge": 21,
-    "scope": "core"
-  },
-  {
     "character": "Girls",
     "episodeCount": 11,
     "totalWords": 81,
@@ -963,12 +963,12 @@
     "scope": "recurring"
   },
   {
-    "character": "Man 8",
+    "character": "Agent 1",
     "episodeCount": 11,
-    "totalWords": 111,
+    "totalWords": 194,
     "rankPresence": 106,
-    "rankVolume": 150,
-    "rankDiverge": 44,
+    "rankVolume": 132,
+    "rankDiverge": 26,
     "scope": "recurring"
   },
   {
@@ -990,21 +990,66 @@
     "scope": "recurring"
   },
   {
-    "character": "Agent 1",
+    "character": "Man 8",
     "episodeCount": 11,
-    "totalWords": 194,
+    "totalWords": 111,
     "rankPresence": 106,
-    "rankVolume": 132,
-    "rankDiverge": 26,
+    "rankVolume": 150,
+    "rankDiverge": 44,
     "scope": "recurring"
   },
   {
-    "character": "Agent",
+    "character": "Priest Maxi",
     "episodeCount": 10,
-    "totalWords": 619,
+    "totalWords": 1641,
     "rankPresence": 112,
-    "rankVolume": 83,
-    "rankDiverge": 29,
+    "rankVolume": 48,
+    "rankDiverge": 64,
+    "scope": "recurring"
+  },
+  {
+    "character": "Scott",
+    "episodeCount": 10,
+    "totalWords": 2141,
+    "rankPresence": 112,
+    "rankVolume": 37,
+    "rankDiverge": 75,
+    "scope": "recurring"
+  },
+  {
+    "character": "A Boy",
+    "episodeCount": 10,
+    "totalWords": 141,
+    "rankPresence": 112,
+    "rankVolume": 145,
+    "rankDiverge": 33,
+    "scope": "recurring"
+  },
+  {
+    "character": "Worker 2",
+    "episodeCount": 10,
+    "totalWords": 180,
+    "rankPresence": 112,
+    "rankVolume": 137,
+    "rankDiverge": 25,
+    "scope": "recurring"
+  },
+  {
+    "character": "General",
+    "episodeCount": 10,
+    "totalWords": 1756,
+    "rankPresence": 112,
+    "rankVolume": 45,
+    "rankDiverge": 67,
+    "scope": "recurring"
+  },
+  {
+    "character": "Jason",
+    "episodeCount": 10,
+    "totalWords": 275,
+    "rankPresence": 112,
+    "rankVolume": 121,
+    "rankDiverge": 9,
     "scope": "recurring"
   },
   {
@@ -1017,12 +1062,39 @@
     "scope": "recurring"
   },
   {
-    "character": "A Boy",
+    "character": "Pete",
     "episodeCount": 10,
-    "totalWords": 141,
+    "totalWords": 1303,
     "rankPresence": 112,
-    "rankVolume": 145,
-    "rankDiverge": 33,
+    "rankVolume": 55,
+    "rankDiverge": 57,
+    "scope": "recurring"
+  },
+  {
+    "character": "Agent",
+    "episodeCount": 10,
+    "totalWords": 619,
+    "rankPresence": 112,
+    "rankVolume": 83,
+    "rankDiverge": 29,
+    "scope": "recurring"
+  },
+  {
+    "character": "Officer 4",
+    "episodeCount": 10,
+    "totalWords": 101,
+    "rankPresence": 112,
+    "rankVolume": 154,
+    "rankDiverge": 42,
+    "scope": "recurring"
+  },
+  {
+    "character": "Man 9",
+    "episodeCount": 10,
+    "totalWords": 81,
+    "rankPresence": 112,
+    "rankVolume": 158,
+    "rankDiverge": 46,
     "scope": "recurring"
   },
   {
@@ -1053,66 +1125,12 @@
     "scope": "recurring"
   },
   {
-    "character": "Mephesto",
-    "episodeCount": 10,
-    "totalWords": 1965,
-    "rankPresence": 112,
-    "rankVolume": 40,
-    "rankDiverge": 72,
-    "scope": "recurring"
-  },
-  {
-    "character": "Man 9",
-    "episodeCount": 10,
-    "totalWords": 81,
-    "rankPresence": 112,
-    "rankVolume": 158,
-    "rankDiverge": 46,
-    "scope": "recurring"
-  },
-  {
-    "character": "Priest Maxi",
-    "episodeCount": 10,
-    "totalWords": 1641,
-    "rankPresence": 112,
-    "rankVolume": 48,
-    "rankDiverge": 64,
-    "scope": "recurring"
-  },
-  {
-    "character": "Scott",
-    "episodeCount": 10,
-    "totalWords": 2141,
-    "rankPresence": 112,
-    "rankVolume": 37,
-    "rankDiverge": 75,
-    "scope": "recurring"
-  },
-  {
     "character": "Blonde",
     "episodeCount": 10,
     "totalWords": 285,
     "rankPresence": 112,
     "rankVolume": 118,
     "rankDiverge": 6,
-    "scope": "recurring"
-  },
-  {
-    "character": "Jason",
-    "episodeCount": 10,
-    "totalWords": 275,
-    "rankPresence": 112,
-    "rankVolume": 121,
-    "rankDiverge": 9,
-    "scope": "recurring"
-  },
-  {
-    "character": "General",
-    "episodeCount": 10,
-    "totalWords": 1756,
-    "rankPresence": 112,
-    "rankVolume": 45,
-    "rankDiverge": 67,
     "scope": "recurring"
   },
   {
@@ -1125,33 +1143,6 @@
     "scope": "recurring"
   },
   {
-    "character": "Officer 4",
-    "episodeCount": 10,
-    "totalWords": 101,
-    "rankPresence": 112,
-    "rankVolume": 154,
-    "rankDiverge": 42,
-    "scope": "recurring"
-  },
-  {
-    "character": "Pete",
-    "episodeCount": 10,
-    "totalWords": 1303,
-    "rankPresence": 112,
-    "rankVolume": 55,
-    "rankDiverge": 57,
-    "scope": "recurring"
-  },
-  {
-    "character": "Worker 2",
-    "episodeCount": 10,
-    "totalWords": 180,
-    "rankPresence": 112,
-    "rankVolume": 137,
-    "rankDiverge": 25,
-    "scope": "recurring"
-  },
-  {
     "character": "Manager",
     "episodeCount": 10,
     "totalWords": 835,
@@ -1161,12 +1152,12 @@
     "scope": "recurring"
   },
   {
-    "character": "Wife",
-    "episodeCount": 9,
-    "totalWords": 157,
-    "rankPresence": 130,
-    "rankVolume": 143,
-    "rankDiverge": 13,
+    "character": "Mephesto",
+    "episodeCount": 10,
+    "totalWords": 1965,
+    "rankPresence": 112,
+    "rankVolume": 40,
+    "rankDiverge": 72,
     "scope": "recurring"
   },
   {
@@ -1176,6 +1167,60 @@
     "rankPresence": 130,
     "rankVolume": 95,
     "rankDiverge": 35,
+    "scope": "recurring"
+  },
+  {
+    "character": "Steve",
+    "episodeCount": 9,
+    "totalWords": 1138,
+    "rankPresence": 130,
+    "rankVolume": 62,
+    "rankDiverge": 68,
+    "scope": "recurring"
+  },
+  {
+    "character": "Elderly Woman",
+    "episodeCount": 9,
+    "totalWords": 170,
+    "rankPresence": 130,
+    "rankVolume": 138,
+    "rankDiverge": 8,
+    "scope": "recurring"
+  },
+  {
+    "character": "Johnson",
+    "episodeCount": 9,
+    "totalWords": 105,
+    "rankPresence": 130,
+    "rankVolume": 151,
+    "rankDiverge": 21,
+    "scope": "recurring"
+  },
+  {
+    "character": "Father",
+    "episodeCount": 9,
+    "totalWords": 317,
+    "rankPresence": 130,
+    "rankVolume": 114,
+    "rankDiverge": 16,
+    "scope": "recurring"
+  },
+  {
+    "character": "Soldier 2",
+    "episodeCount": 9,
+    "totalWords": 63,
+    "rankPresence": 130,
+    "rankVolume": 161,
+    "rankDiverge": 31,
+    "scope": "recurring"
+  },
+  {
+    "character": "Men",
+    "episodeCount": 9,
+    "totalWords": 62,
+    "rankPresence": 130,
+    "rankVolume": 162,
+    "rankDiverge": 32,
     "scope": "recurring"
   },
   {
@@ -1197,42 +1242,6 @@
     "scope": "recurring"
   },
   {
-    "character": "Father",
-    "episodeCount": 9,
-    "totalWords": 317,
-    "rankPresence": 130,
-    "rankVolume": 114,
-    "rankDiverge": 16,
-    "scope": "recurring"
-  },
-  {
-    "character": "Waitress",
-    "episodeCount": 9,
-    "totalWords": 213,
-    "rankPresence": 130,
-    "rankVolume": 127,
-    "rankDiverge": 3,
-    "scope": "recurring"
-  },
-  {
-    "character": "Worker 1",
-    "episodeCount": 9,
-    "totalWords": 199,
-    "rankPresence": 130,
-    "rankVolume": 130,
-    "rankDiverge": 0,
-    "scope": "recurring"
-  },
-  {
-    "character": "Steve",
-    "episodeCount": 9,
-    "totalWords": 1138,
-    "rankPresence": 130,
-    "rankVolume": 62,
-    "rankDiverge": 68,
-    "scope": "recurring"
-  },
-  {
     "character": "Mother",
     "episodeCount": 9,
     "totalWords": 112,
@@ -1242,30 +1251,12 @@
     "scope": "recurring"
   },
   {
-    "character": "Men",
+    "character": "Wife",
     "episodeCount": 9,
-    "totalWords": 62,
+    "totalWords": 157,
     "rankPresence": 130,
-    "rankVolume": 162,
-    "rankDiverge": 32,
-    "scope": "recurring"
-  },
-  {
-    "character": "Elderly Woman",
-    "episodeCount": 9,
-    "totalWords": 170,
-    "rankPresence": 130,
-    "rankVolume": 138,
-    "rankDiverge": 8,
-    "scope": "recurring"
-  },
-  {
-    "character": "Soldier 2",
-    "episodeCount": 9,
-    "totalWords": 63,
-    "rankPresence": 130,
-    "rankVolume": 161,
-    "rankDiverge": 31,
+    "rankVolume": 143,
+    "rankDiverge": 13,
     "scope": "recurring"
   },
   {
@@ -1278,12 +1269,30 @@
     "scope": "recurring"
   },
   {
-    "character": "Johnson",
+    "character": "Worker 1",
     "episodeCount": 9,
-    "totalWords": 105,
+    "totalWords": 199,
     "rankPresence": 130,
-    "rankVolume": 151,
-    "rankDiverge": 21,
+    "rankVolume": 130,
+    "rankDiverge": 0,
+    "scope": "recurring"
+  },
+  {
+    "character": "Waitress",
+    "episodeCount": 9,
+    "totalWords": 213,
+    "rankPresence": 130,
+    "rankVolume": 127,
+    "rankDiverge": 3,
+    "scope": "recurring"
+  },
+  {
+    "character": "Waiter",
+    "episodeCount": 8,
+    "totalWords": 82,
+    "rankPresence": 144,
+    "rankVolume": 157,
+    "rankDiverge": 13,
     "scope": "recurring"
   },
   {
@@ -1296,75 +1305,12 @@
     "scope": "recurring"
   },
   {
-    "character": "Girl 1",
+    "character": "Thomas",
     "episodeCount": 8,
-    "totalWords": 105,
+    "totalWords": 1228,
     "rankPresence": 144,
-    "rankVolume": 151,
-    "rankDiverge": 7,
-    "scope": "recurring"
-  },
-  {
-    "character": "Judge",
-    "episodeCount": 8,
-    "totalWords": 725,
-    "rankPresence": 144,
-    "rankVolume": 76,
-    "rankDiverge": 68,
-    "scope": "recurring"
-  },
-  {
-    "character": "Jenny",
-    "episodeCount": 8,
-    "totalWords": 182,
-    "rankPresence": 144,
-    "rankVolume": 135,
-    "rankDiverge": 9,
-    "scope": "recurring"
-  },
-  {
-    "character": "Leader",
-    "episodeCount": 8,
-    "totalWords": 368,
-    "rankPresence": 144,
-    "rankVolume": 100,
-    "rankDiverge": 44,
-    "scope": "recurring"
-  },
-  {
-    "character": "Kid 1",
-    "episodeCount": 8,
-    "totalWords": 57,
-    "rankPresence": 144,
-    "rankVolume": 163,
-    "rankDiverge": 19,
-    "scope": "recurring"
-  },
-  {
-    "character": "Nelson",
-    "episodeCount": 8,
-    "totalWords": 336,
-    "rankPresence": 144,
-    "rankVolume": 105,
-    "rankDiverge": 39,
-    "scope": "recurring"
-  },
-  {
-    "character": "Mark",
-    "episodeCount": 8,
-    "totalWords": 1300,
-    "rankPresence": 144,
-    "rankVolume": 56,
-    "rankDiverge": 88,
-    "scope": "recurring"
-  },
-  {
-    "character": "Man 10",
-    "episodeCount": 8,
-    "totalWords": 105,
-    "rankPresence": 144,
-    "rankVolume": 151,
-    "rankDiverge": 7,
+    "rankVolume": 58,
+    "rankDiverge": 86,
     "scope": "recurring"
   },
   {
@@ -1374,6 +1320,33 @@
     "rankPresence": 144,
     "rankVolume": 94,
     "rankDiverge": 50,
+    "scope": "recurring"
+  },
+  {
+    "character": "Priest",
+    "episodeCount": 8,
+    "totalWords": 342,
+    "rankPresence": 144,
+    "rankVolume": 102,
+    "rankDiverge": 42,
+    "scope": "recurring"
+  },
+  {
+    "character": "Girl 1",
+    "episodeCount": 8,
+    "totalWords": 105,
+    "rankPresence": 144,
+    "rankVolume": 151,
+    "rankDiverge": 7,
+    "scope": "recurring"
+  },
+  {
+    "character": "Satan",
+    "episodeCount": 8,
+    "totalWords": 2851,
+    "rankPresence": 144,
+    "rankVolume": 27,
+    "rankDiverge": 117,
     "scope": "recurring"
   },
   {
@@ -1395,39 +1368,12 @@
     "scope": "recurring"
   },
   {
-    "character": "Priest",
+    "character": "Officer 5",
     "episodeCount": 8,
-    "totalWords": 342,
+    "totalWords": 81,
     "rankPresence": 144,
-    "rankVolume": 102,
-    "rankDiverge": 42,
-    "scope": "recurring"
-  },
-  {
-    "character": "Rancher",
-    "episodeCount": 8,
-    "totalWords": 380,
-    "rankPresence": 144,
-    "rankVolume": 99,
-    "rankDiverge": 45,
-    "scope": "recurring"
-  },
-  {
-    "character": "Satan",
-    "episodeCount": 8,
-    "totalWords": 2851,
-    "rankPresence": 144,
-    "rankVolume": 27,
-    "rankDiverge": 117,
-    "scope": "recurring"
-  },
-  {
-    "character": "Rick",
-    "episodeCount": 8,
-    "totalWords": 860,
-    "rankPresence": 144,
-    "rankVolume": 70,
-    "rankDiverge": 74,
+    "rankVolume": 158,
+    "rankDiverge": 14,
     "scope": "recurring"
   },
   {
@@ -1440,30 +1386,57 @@
     "scope": "recurring"
   },
   {
-    "character": "Officer 5",
+    "character": "Nelson",
     "episodeCount": 8,
-    "totalWords": 81,
+    "totalWords": 336,
     "rankPresence": 144,
-    "rankVolume": 158,
-    "rankDiverge": 14,
+    "rankVolume": 105,
+    "rankDiverge": 39,
     "scope": "recurring"
   },
   {
-    "character": "Thomas",
+    "character": "Rick",
     "episodeCount": 8,
-    "totalWords": 1228,
+    "totalWords": 860,
     "rankPresence": 144,
-    "rankVolume": 58,
-    "rankDiverge": 86,
+    "rankVolume": 70,
+    "rankDiverge": 74,
     "scope": "recurring"
   },
   {
-    "character": "Stan, Kyle, Cartman",
+    "character": "Mark",
     "episodeCount": 8,
-    "totalWords": 24,
+    "totalWords": 1300,
     "rankPresence": 144,
-    "rankVolume": 165,
-    "rankDiverge": 21,
+    "rankVolume": 56,
+    "rankDiverge": 88,
+    "scope": "recurring"
+  },
+  {
+    "character": "Jenny",
+    "episodeCount": 8,
+    "totalWords": 182,
+    "rankPresence": 144,
+    "rankVolume": 135,
+    "rankDiverge": 9,
+    "scope": "recurring"
+  },
+  {
+    "character": "Man 10",
+    "episodeCount": 8,
+    "totalWords": 105,
+    "rankPresence": 144,
+    "rankVolume": 151,
+    "rankDiverge": 7,
+    "scope": "recurring"
+  },
+  {
+    "character": "Leader",
+    "episodeCount": 8,
+    "totalWords": 368,
+    "rankPresence": 144,
+    "rankVolume": 100,
+    "rankDiverge": 44,
     "scope": "recurring"
   },
   {
@@ -1476,12 +1449,39 @@
     "scope": "recurring"
   },
   {
-    "character": "Waiter",
+    "character": "Kid 1",
     "episodeCount": 8,
-    "totalWords": 82,
+    "totalWords": 57,
     "rankPresence": 144,
-    "rankVolume": 157,
-    "rankDiverge": 13,
+    "rankVolume": 163,
+    "rankDiverge": 19,
+    "scope": "recurring"
+  },
+  {
+    "character": "Judge",
+    "episodeCount": 8,
+    "totalWords": 725,
+    "rankPresence": 144,
+    "rankVolume": 76,
+    "rankDiverge": 68,
+    "scope": "recurring"
+  },
+  {
+    "character": "Rancher",
+    "episodeCount": 8,
+    "totalWords": 380,
+    "rankPresence": 144,
+    "rankVolume": 99,
+    "rankDiverge": 45,
+    "scope": "recurring"
+  },
+  {
+    "character": "Stan, Kyle, Cartman",
+    "episodeCount": 8,
+    "totalWords": 24,
+    "rankPresence": 144,
+    "rankVolume": 165,
+    "rankDiverge": 21,
     "scope": "recurring"
   }
 ]

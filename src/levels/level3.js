@@ -1,8 +1,23 @@
 import * as d3 from 'd3';
-import { charColor } from '../shared/chart-helpers.js';
+import {
+  charColor,
+  fmt,
+  hideTooltip,
+  positionTooltip,
+  showTooltip,
+} from '../shared/chart-helpers.js';
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
+}
 
 const LEVEL3_TEMPLATE = `
-  <section id="level-3-network" class="level-shell">
+  <section id="level-3-intro" class="level-shell">
     <div class="section-inner level-hero">
       <div class="level-hero__copy">
         <span class="level-hero__eyebrow">Level 3</span>
@@ -27,14 +42,25 @@ const LEVEL3_TEMPLATE = `
         </p>
       </div>
     </div>
+  </section>
 
-    <div class="chart-area chart-area--network" id="chart-network" aria-label="Chord diagram: character relationships">
-      <div class="chart-loading">Loading…</div>
-    </div>
-
-    <div class="chart-note">
-      <strong>Chord diagram</strong> — ribbons represent interactions between characters (consecutive dialogue turns).
-      Hover over ribbons to see interaction counts.
+  <section id="level-3-network" class="page-section">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title">Interaction network</h2>
+        <p class="section-lede">
+          Outer arcs group dialogue-linked turns by character; ribbons connect pairs. Thicker ribbons mean more
+          consecutive exchanges in the selected scope.
+        </p>
+      </div>
+      <div class="chart-area chart-area--network" id="chart-network" aria-label="Chord diagram: character relationships">
+        <div class="chart-loading">Loading…</div>
+      </div>
+      <p class="chart-note chart-note--level3">
+        <strong>How to read</strong> — Hover arcs for each character’s total linked turns in this view.
+        Hover ribbons for counts between two characters (including aggregated “Other”). Metric = consecutive dialogue turns in the same scene.
+      </p>
     </div>
   </section>
 `;
@@ -66,40 +92,6 @@ export const level3View = {
       hierarchyData = hierarchy;
       drawChart();
     });
-
-    chartEl.style.position = 'relative';
-
-    function positionTooltip(event) {
-      const tooltipNode = tooltip.node();
-      const tooltipRect = tooltipNode.getBoundingClientRect();
-      const chartRect = chartEl.getBoundingClientRect();
-      const chartWidth = chartEl.clientWidth;
-      const chartHeight = chartEl.clientHeight;
-      const offset = 12;
-      const margin = 8;
-      const tooltipWidth = tooltipRect.width || tooltipNode.offsetWidth;
-      const tooltipHeight = tooltipRect.height || tooltipNode.offsetHeight;
-      const mouseX = event.clientX - chartRect.left;
-      const mouseY = event.clientY - chartRect.top;
-      let x = mouseX + offset;
-      let y = mouseY + offset;
-
-      if (x + tooltipWidth > chartWidth - margin) {
-        x = mouseX - tooltipWidth - offset;
-      }
-      if (y + tooltipHeight > chartHeight - margin) {
-        y = mouseY - tooltipHeight - offset;
-      }
-      if (x + tooltipWidth > chartWidth - margin) {
-        x = chartWidth - tooltipWidth - margin;
-      }
-      if (y + tooltipHeight > chartHeight - margin) {
-        y = chartHeight - tooltipHeight - margin;
-      }
-      if (x < margin) x = margin;
-      if (y < margin) y = margin;
-      tooltip.style('left', `${x}px`).style('top', `${y}px`);
-    }
 
     // Season selection
     seasonBtns.forEach(btn => {
@@ -189,6 +181,40 @@ export const level3View = {
         matrix[link.source][link.target] = link.value;
       });
 
+      function scopeLabel() {
+        return currentSeason === 'all' ? 'All seasons' : `Season ${currentSeason}`;
+      }
+
+      function arcTooltipHtml(d) {
+        const name = processedData.nodes[d.index];
+        return `
+    <strong>${escapeHtml(name)}</strong>
+    <div class="t-row"><span class="t-label">Total linked turns</span><span class="t-val">${fmt(d.value)}</span></div>
+    <div class="t-row"><span class="t-label">Scope</span><span class="t-val">${escapeHtml(scopeLabel())}</span></div>
+    <p class="t-caption">Sum of directed dialogue-linked turns with others in this view.</p>`;
+      }
+
+      function ribbonTooltipHtml(d) {
+        const a = processedData.nodes[d.source.index];
+        const b = processedData.nodes[d.target.index];
+        const forward = d.source.value;
+        const reverse = matrix[d.target.index][d.source.index];
+        let rowHtml;
+        if (reverse > 0 && reverse !== forward) {
+          rowHtml = `
+    <div class="t-row"><span class="t-label">${escapeHtml(a)} → ${escapeHtml(b)}</span><span class="t-val">${fmt(forward)}</span></div>
+    <div class="t-row"><span class="t-label">${escapeHtml(b)} → ${escapeHtml(a)}</span><span class="t-val">${fmt(reverse)}</span></div>`;
+        } else {
+          rowHtml = `
+    <div class="t-row"><span class="t-label">Interactions</span><span class="t-val">${fmt(forward)}</span></div>`;
+        }
+        return `
+    <strong>${escapeHtml(a)} ↔ ${escapeHtml(b)}</strong>
+    ${rowHtml}
+    <div class="t-row"><span class="t-label">Scope</span><span class="t-val">${escapeHtml(scopeLabel())}</span></div>
+    <p class="t-caption">Directed counts between nodes; minor speakers are grouped under Other.</p>`;
+      }
+
       const chords = chord(matrix);
 
       const arc = d3.arc()
@@ -217,17 +243,17 @@ export const level3View = {
         .attr('fill', d => colorFor(processedData.nodes[d.index]))
         .attr('d', arc)
         .on('mouseover', function(event, d) {
-          tooltip.style('visibility', 'visible')
-            .text(`${processedData.nodes[d.index]}: ${d.value} total interactions`);
+          showTooltip(arcTooltipHtml(d), event);
         })
         .on('mousemove', function(event) {
           positionTooltip(event);
         })
-        .on('mouseout', function(event) {
-          tooltip.style('visibility', 'hidden');
+        .on('mouseout', function() {
+          hideTooltip();
         });
 
       group.append('text')
+        .attr('class', 'chord-sector-label')
         .each(d => { d.angle = (d.startAngle + d.endAngle) / 2; })
         .attr('dy', '.35em')
         .attr('transform', d => `
@@ -236,11 +262,11 @@ export const level3View = {
           ${d.angle > Math.PI ? 'rotate(180)' : ''}
         `)
         .attr('text-anchor', d => d.angle > Math.PI ? 'end' : null)
-        .text(d => processedData.nodes[d.index])
-        .style('font-size', '10px');
+        .text(d => processedData.nodes[d.index]);
 
       // Ribbons
       svg.append('g')
+        .attr('class', 'chord-ribbon-layer')
         .attr('fill-opacity', 0.67)
         .selectAll('path')
         .data(chords)
@@ -250,32 +276,20 @@ export const level3View = {
         .attr('fill', d => colorFor(processedData.nodes[d.source.index]))
         .attr('stroke', d => d3.rgb(colorFor(processedData.nodes[d.source.index])).darker());
 
-      // Tooltip
-      const tooltip = d3.select(chartEl)
-        .append('div')
-        .style('position', 'absolute')
-        .style('visibility', 'hidden')
-        .style('pointer-events', 'none')
-        .style('background', 'rgba(0,0,0,0.8)')
-        .style('color', 'white')
-        .style('padding', '5px')
-        .style('border-radius', '3px')
-        .style('font-size', '12px');
-
       svg.selectAll('.chord-ribbon')
         .on('mouseover', function(event, d) {
-          tooltip.style('visibility', 'visible')
-            .text(`${processedData.nodes[d.source.index]} ↔ ${processedData.nodes[d.target.index]}: ${d.source.value} interactions`);
+          showTooltip(ribbonTooltipHtml(d), event);
         })
         .on('mousemove', function(event) {
           positionTooltip(event);
         })
         .on('mouseout', function() {
-          tooltip.style('visibility', 'hidden');
+          hideTooltip();
         });
     }
   },
   destroy(ctx) {
+    hideTooltip();
     ctx.container.innerHTML = '';
   },
 };

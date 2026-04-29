@@ -309,7 +309,9 @@ a:hover { color: var(--color-primary-hover); }
   padding: 0 var(--page-gutter);
   /* Deep sign blue — stronger identity */
   background: var(--color-primary);
-  color: var(--color-text-inverse);
+  /* Always light text on this strip (primary blue). Not --color-text-inverse:
+     in dark theme that token is dark body text and clashes with this mid blue. */
+  color: #fff;
   border-bottom: 4px solid var(--sign-post);
   min-height: 3.25rem;
   /* Mountain skyline in header — taller, more visible */
@@ -317,6 +319,20 @@ a:hover { color: var(--color-primary-hover); }
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100% 100%;
+}
+
+/* Block global `a { color: var(--color-primary) }` — same hue as this bar, unreadable */
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex-shrink: 0;
+  color: inherit;
+  text-decoration: none;
+}
+.logo-link:hover {
+  color: #fff;
+  opacity: 0.92;
 }
 
 .logo-sign {
@@ -767,6 +783,31 @@ a:hover { color: var(--color-primary-hover); }
 .chart-area--network svg {
   display: block;
   margin-inline: auto;
+}
+
+.chart-area--network .chord-sector-label {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  fill: var(--color-text-muted);
+}
+
+.chart-area--network .chord-arc {
+  cursor: pointer;
+  transition: filter var(--t-fast);
+}
+
+.chart-area--network .chord-arc:hover {
+  filter: brightness(1.1);
+}
+
+.chart-area--network .chord-ribbon {
+  cursor: pointer;
+  transition: fill-opacity var(--t-fast);
+}
+
+.chart-area--network .chord-ribbon:hover {
+  fill-opacity: 1 !important;
 }
 
 .phrase-list,
@@ -1572,6 +1613,18 @@ a:hover { color: var(--color-primary-hover); }
 .tooltip .t-row { display: flex; justify-content: space-between; gap: var(--sp-4); }
 .tooltip .t-label { color: var(--color-text-muted); font-size: var(--text-xs); }
 .tooltip .t-val   { font-weight: 600; font-variant-numeric: tabular-nums; }
+.tooltip .t-caption {
+  margin: var(--sp-2) 0 0;
+  padding: 0;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  line-height: 1.45;
+  max-width: 260px;
+}
+
+.chart-note--level3 {
+  max-width: 72ch;
+}
 
 /* ── 10. D3 CHART INTERNALS ────────────────────────────────────────────── */
 

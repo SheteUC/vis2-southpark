@@ -2,7 +2,7 @@ const LEVEL_DATASETS = {
   overview: ['meta'],
   'level-1': ['meta', 'overview', 'hierarchy', 'seasonal-share', 'episode-runs', 'rank-divergence', 'episode-share', 'ensemble'],
   'level-2': ['character-text'],
-  'level-3': ['network'],
+  'level-3': ['network', 'hierarchy'],
   'level-4': ['pair-dialogue', 'character-text', 'episode-timing', 'kenny-deaths'],
 };
 
@@ -28,7 +28,6 @@ export function createDataLoader() {
 
   async function loadLevelData(levelId) {
     const names = LEVEL_DATASETS[levelId] || [];
-    // Level 4 includes optional datasets (e.g. kenny-deaths): one 404 must not block pair-dialogue.
     if (levelId === 'level-4') {
       const settled = await Promise.allSettled(names.map((name) => loadDataset(name)));
       const loaded = {};

@@ -309,11 +309,38 @@ function renderPairStats(pair) {
   }
 }
 
+function chartWordFieldPrefix(name) {
+  return String(name || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+}
+
+/** JSON may use charARate/charBRate or per-name keys (e.g. cartmanRate, kyleRate). */
+function normalizeChartWordRow(pair, row) {
+  if (row.charARate != null && row.charBRate != null) {
+    return row;
+  }
+  const [charA, charB] = pair.characters;
+  const preA = chartWordFieldPrefix(charA);
+  const preB = chartWordFieldPrefix(charB);
+  return {
+    ...row,
+    charACount: row[`${preA}Count`],
+    charBCount: row[`${preB}Count`],
+    charARate:  row[`${preA}Rate`],
+    charBRate:  row[`${preB}Rate`],
+  };
+}
+
 function buildDisplayWords(pair) {
   const [charA, charB] = pair.characters;
   return [
-    ...pair.chartWords.filter((r) => r.dominantSpeaker === charA).slice(0, 6).map((r) => ({ ...r, rowSide: charA })),
-    ...pair.chartWords.filter((r) => r.dominantSpeaker === charB).slice(0, 6).map((r) => ({ ...r, rowSide: charB })),
+    ...pair.chartWords
+      .filter((r) => r.dominantSpeaker === charA)
+      .slice(0, 6)
+      .map((r) => ({ ...normalizeChartWordRow(pair, r), rowSide: charA })),
+    ...pair.chartWords
+      .filter((r) => r.dominantSpeaker === charB)
+      .slice(0, 6)
+      .map((r) => ({ ...normalizeChartWordRow(pair, r), rowSide: charB })),
   ];
 }
 
