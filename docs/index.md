@@ -8,8 +8,8 @@
 
 | Resource | Link |
 |----------|------|
-| This documentation (GitHub Pages) | *Link Here* |
-| Live application | *Vercel deployment URL* |
+| This documentation (GitHub Pages) | [sheteuc.github.io/vis2-southpark](https://sheteuc.github.io/vis2-southpark/) |
+| Live application | [vis2-southpark.vercel.app](https://vis2-southpark.vercel.app) |
 | Source code | [github.com/SheteUC/vis2-southpark](https://github.com/SheteUC/vis2-southpark) |
 | Demo video | *YouTube or hosted file* |
 

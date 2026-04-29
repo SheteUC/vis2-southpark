@@ -5,7 +5,8 @@ The full project write-up lives in [`docs/index.md`](docs/index.md).
 
 ## Links
 
-- **Documentation:** [`docs/index.md`](docs/index.md)
+- **Documentation (write-up):** [`docs/index.md`](docs/index.md) — published at [sheteuc.github.io/vis2-southpark](https://sheteuc.github.io/vis2-southpark/)
+- **Live app:** [vis2-southpark.vercel.app](https://vis2-southpark.vercel.app)
 - **Repository:** [SheteUC/vis2-southpark](https://github.com/SheteUC/vis2-southpark)
 - **Dataset:** [yaylinda/south-park-dialog](https://github.com/yaylinda/south-park-dialog)
 
