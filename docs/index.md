@@ -232,13 +232,6 @@ Requires **Node 18+** and **Python 3** with `pandas` and `numpy`.
 
 ---
 
-## Demo video
-
-> **To add:** link to YouTube, Google Drive, or your portfolio page.
-
-
----
-
 ## Team contributions
 
 - **Atharv** —> Level 1  
